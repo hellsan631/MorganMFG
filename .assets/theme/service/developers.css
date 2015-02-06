@@ -1,0 +1,208 @@
+.section.kuchyne-a-jidelny .wrap .point:nth-of-type(1) {left:73%; top:55%;}
+.section.kuchyne-a-jidelny .wrap .point:nth-of-type(2) {left:54%; top:47%;}
+.section.kuchyne-a-jidelny .wrap .point:nth-of-type(3) {left:25%; top:67%;}
+
+.section.obyvaci-pokoje .wrap .point:nth-of-type(1) {left:34%; top:68%;}
+.section.obyvaci-pokoje .wrap .point:nth-of-type(2) {left:59%; top:55%;}
+.section.obyvaci-pokoje .wrap .point:nth-of-type(3) {left:50%; top:72%;}
+.section.obyvaci-pokoje .wrap .point:nth-of-type(4) {left:20%; top:46%;}
+
+.section.loznice-a-satny .wrap .point:nth-of-type(1) {left:85%; top:70%;}
+.section.loznice-a-satny .wrap .point:nth-of-type(2) {left:50%; top:50%;}
+
+.section.koupelny-a-podlahy .wrap .point:nth-of-type(1) {left:50%; top:40%;}
+.section.koupelny-a-podlahy .wrap .point:nth-of-type(2) {left:47%; top:75%;}
+
+.section.textil .wrap .point:nth-of-type(1) {left:55%; top:70%;}
+.section.textil .wrap .point:nth-of-type(2) {left:49%; top:30%;}
+.section.textil .wrap .point:nth-of-type(3) {left:23%; top:30%;}
+
+.section.terasy .wrap .point:nth-of-type(1) {left:55%; top:63%;}
+
+/* backend */
+#back .main a.white {color:#666}
+#back .main a.white:hover {color:#fff}
+
+
+/* temp sluzby video */
+.crossroad-services .img .item.video { margin-top:-3%; margin-left:-10%; width:120%; height:120%; }
+.crossroad-services .img .item.video .play {display:none !important;}
+.crossroad-services .img .item.video .stop {display:none !important;}
+
+
+/* kontakt sirka buttonu */
+.crossroad-category.extend .link .btn, .crossroad-category2.extend .link .btn  {width:220px; margin-left:-30px;}
+
+/* schovat architekty */
+#front .menu-main .arrow {display:block;}
+
+/* schovat langs */
+#footer .menu-lang {display:block;}
+#footer .menu-lang .menu .en {display:block;}
+
+
+.box-outlet h2 {width:315px;}
+
+/* MOBILE */
+
+.mobile .box-contact h2 {margin:0; font-size:16px; line-height:20px;}
+.mobile .box-contact .separator {display:none;}
+
+/* sortiment rozcestnik zesvetleni obrazku */
+.crossroad-sortiment img {
+	opacity: .8;
+}
+
+/* SK obyvaci pokoje */
+.sk .section.obyvaci-pokoje .wrap .point:nth-of-type(1) {left:65%; top:58%;}
+.sk .section.obyvaci-pokoje .wrap .point:nth-of-type(2) {left:19%; top:79%;}
+.sk .section.obyvaci-pokoje .wrap .point:nth-of-type(3) {left:56%; top:76%;}
+.sk .section.obyvaci-pokoje .wrap .point:nth-of-type(4) {left:79%; top:93%;}
+
+/* SK pracovny (koupelny a podlahy) */
+.section.pracovne .wrap .point:nth-of-type(1) {left:58%; top:40%;}
+.section.pracovne .wrap .point:nth-of-type(2) {left:27%; top:75%;}
+
+/* magazin over fix */
+.box-magazin .btn:after{color:#000;background: #fff;}
+
+
+/* optimalizovany rozcestniky (sortiment/sluzby) */
+.section{width:100%;height:100%;position:relative;overflow:hidden;}
+.vhide{position:absolute;height:1px;width:1px;overflow:hidden;border:0;clip:rect(0 0 0 0);margin:-1px;padding:0}
+
+.crossroad-category, .crossroad-category2 {height:100%; background:#000;}
+.crossroad-category ul, .crossroad-category2 ul{width:100%;height:100%;display:table;}
+.crossroad-category li, .crossroad-category2 li{position:absolute; height:100%;display:block; float:left;width:13.3%;	}
+.crossroad-category li:hover .img{}
+.crossroad-category li > a, .crossroad-category2 li > a{display:block;height:100%; width:100%; text-decoration:none;color:#fff;position:absolute;text-align:center;font-size:30px;line-height:40px;text-transform:uppercase;font-weight:bold}
+.crossroad-category.condensed .name, .crossroad-category2 .condensed .name{display:inline-block;vertical-align:middle;max-width:80%;width:80%;position:absolute; top:50%; left:50%; transform:translateX(-50%); -webkit-transform:translateX(-50%); text-align:center; z-index:10}
+.crossroad-category .overlay, .crossroad-category2 .overlay{display:block; position:absolute; left:0px; top:0px; width:100%; height:100%; background:rgba(0,0,0,.6); position:absolute;	}
+.no-opacity .crossroad-category .overlay, .no-opacity .crossroad-category2 .overlay {display:none;}
+.crossroad-category .img, .crossroad-category2 img{display:block; opacity:1 !important; width:100%; height:100%; background:50% 50% no-repeat;-webkit-background-size:auto 100%;-moz-background-size:auto 100%;background-size:auto 100%;opacity:.4;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";filter:alpha(opacity=40);}
+
+.crossroad-category.condensed li, .crossroad-category2.condensed li{width:14.25%;}
+.crossroad-category.condensed li > a, .crossroad-category2.condensed li> a{font-size:20px;line-height:30px}
+
+/* architekti overlay text */
+.crossroad-download .overlay .text {position:absolute; width:360px; left:50%; transform:translateX(-50%); -webkit-transform:translateX(-50%); text-align:center; top:170px;}
+.crossroad-download .overlay {background: rgba(0,0,0,1)}
+#back .main .row-main {text-align:center;}
+
+/* architekti registrace */
+.box-twocols .content {width:325px;}
+
+/* architekti zmena fota */
+input[type="button"] {cursor:pointer;}
+
+/* footer logo */
+#footer .creator {padding:10px; margin-left:5px;}
+#footer .creator .logo {height:8px; padding-right:10px;}
+
+/* architekti body color */
+body #back {color:#969696;}
+
+/* architekti - schovani registracniho tlacitka */
+/*.inp-item span:after {display:none;}
+.inp-item span:before {display:none;}
+.inp-item {padding:10px 0 10px 0px;}*/
+
+/* shortflash */
+.shortflash {opacity:0; visibility:hidden;}
+
+/* mainLogo */
+.mainLogo{position:absolute;left:20px;top:0; width:113px; height:60px; font:100%/60px "futura-pt",Arial,"Helvetica Neue",Helvetica,sans-serif;margin:0;padding:0;width:113px;height:60px;text-align:center;z-index:5;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-o-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);overflow:hidden;background:#000;}
+.mainLogo a{display:block}
+.mainLogo .dib{display:inline-block;vertical-align:top;line-height:1}
+.mainLogo img{position:absolute;left:23px;padding-top:9px;height:40px;width:87px}
+.mainLogo .claim{display:block;height:14px;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);position:absolute;bottom:16px;width:100%;left:23px;background:url("../img/bg/sprite.png?1401441003833") -454px -323px no-repeat}
+
+/* back main menu */
+#back .menu-main {overflow:visible;}
+#back .menu-main li {overflow:hidden; }
+#back .menu-subpage {overflow:visible; }
+#back .menu-subpage li {overflow:hidden;}
+
+/* back logo */
+#back .section.logged {/*background: url(../img/illust/logoArchSign.png) no-repeat 97% 95% #222;*/}
+
+/* back menu items */
+#back .box-user a {color:#888;}
+#back .menu-subpage .item a, #back .menu-main .item a, #back .menu-subpage .item a span, #back .menu-main .item a span {color:#888;}
+
+
+/* once clicked buttons deactivation */
+.once.clicked {cursor:default; pointer-events:none;}
+
+/* EN a RU architekti zneviditelneni */
+/*body.ru #front .menu-main .arrow, body.en #front .menu-main .arrow {display:none;}*/
+
+/* architekti logout tlacitko */
+#back .user-settings .col-right .btn-expand {position:relative; display:block; top:0px; left:0px; width:200px; float:right; height:60px; background-color:#000; margin-bottom:40px; }
+#back .user-settings .col-right .btn-expand span, #back .user-settings .col-right .btn-expand:after {height:60px; line-height:60px; font-size:18px; color:#fff; background: url("../img/ico/logout.png") 97% 48% no-repeat;}
+#back .user-settings .col-right .btn-expand span {}
+#back .user-settings .col-right .btn-expand:after { background: url("../img/ico/logout.png") 89% 50% no-repeat; background-color:#666;}
+#back .user-settings fieldset {width:100%;}
+
+/* responsive image ve welcome */
+#back .responsive {position:absolute; opacity:.6; height:auto; width:auto; transform:translate(-50%, -50%); -webkit-transform:translate(-50%, -50%); top:50%; left:50%; }
+#back .welcome p {color:#fff;}
+#back .welcome .section-scroll {overflow:hidden;}
+
+/* reference */
+.box-intro.reference .content {width:350px;}
+.box-intro.reference .separator:before, .box-intro.reference .separator:after {width:70px;}
+.js .box-intro.reference .content > * {opacity:1; color:#fff; left:0px;}
+.box-intro.reference .content .btn {margin-top:40px;}
+.box-intro.reference .bg.responsive.dark {opacity:.6}
+.home_footer{
+    margin-top: 640px !important; width: 100% !important; position: relative !important; z-index: 99999999 !important;
+}
+.content_page{margin-top: 10%;}
+.separator, hr{
+    background: #000;
+    margin: 15px auto 20px;
+    width: 6px;
+    height: 6px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    font: 0/0 a;
+    color: transparent;
+    text-decoration: none;
+}
+.separator:before, hr:before {
+    right: 13px;
+}
+.separator:after, hr:after {
+    left: 13px;
+}
+.content_left{
+    width: 65%;
+    float: left;
+    overflow: hidden;
+}
+.content_left img{
+    width: 102%;
+    height: 100%;
+}
+.content_right{
+    width: 35%;
+    float: left;
+}
+.content_right .content{
+    padding: 20px 70px;
+    text-align: center;
+}
+.content_right .content p{
+    display: block;
+    text-align: center;
+}
+.content_right h1.title{
+    font-size: 30px;
+    line-height: 40px;
+    color: #000;
+    display: block;
+    text-align: center;
+    margin-top:  30px;
+}

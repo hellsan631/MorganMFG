@@ -28,17 +28,19 @@ class Slider extends CI_Controller {
 	public function add(){
 		 if(admin_login_in()===FALSE)
 			redirect('login');		
-		// $this->form_validation->set_rules('headline', 'heading', 'required');				
-		// $this->form_validation->set_rules('sub_headline', 'sub heading', 'required');						
-		//$this->form_validation->set_rules('btn_link', 'button link', 'required');						
-		//$this->form_validation->set_rules('btn_txt', 'button text', 'required');
+		$this->form_validation->set_rules('headline', 'headline', 'trim');							
+		$this->form_validation->set_rules('sub_headline', 'sub_headline', 'trim');							
+		$this->form_validation->set_rules('btn_link', 'btn_link', 'trim');							
+		$this->form_validation->set_rules('btn_txt', 'btn_txt', 'trim');							
+		$this->form_validation->set_rules('content', 'content', 'trim');							
 		$this->form_validation->set_rules('order', 'order', 'required');							
 		if ($this->form_validation->run() == TRUE){			
 			$data=array(								
 				'headline'=>$this->input->post('headline'),				
 				'sub_headline'=>$this->input->post('sub_headline'),				
-				//'btn_link'=>$this->input->post('btn_link'),				
-				//'btn_txt'=>$this->input->post('btn_txt'),			
+				'btn_link'=>$this->input->post('btn_link'),				
+				'btn_txt'=>$this->input->post('btn_txt'),			
+				'content'=>$this->input->post('content'),			
 				'order'=>$this->input->post('order'),			
 				'created' => date('Y-m-d H:i:s')		
 			);
@@ -74,11 +76,13 @@ class Slider extends CI_Controller {
 		if(admin_login_in()===FALSE)
 			redirect('login');
 
-		// $this->form_validation->set_rules('headline', 'heading', 'required');				
-		// $this->form_validation->set_rules('sub_headline', 'sub heading', 'required');						
-		//$this->form_validation->set_rules('btn_link', 'button link', 'required');						
-		//$this->form_validation->set_rules('btn_txt', 'button text', 'required');						
-		$this->form_validation->set_rules('order', 'order', 'required');						
+		$this->form_validation->set_rules('headline', 'headline', 'trim');							
+		$this->form_validation->set_rules('sub_headline', 'sub_headline', 'trim');							
+		$this->form_validation->set_rules('btn_link', 'btn_link', 'trim');							
+		$this->form_validation->set_rules('btn_txt', 'btn_txt', 'trim');							
+		$this->form_validation->set_rules('content', 'content', 'trim');							
+		$this->form_validation->set_rules('order', 'order', 'required');							
+
 		$data['slider'] = $this->admin_model->get_row('slider', array('id'=> $id));
 
 		if (empty($data['slider'])) {
@@ -90,9 +94,10 @@ class Slider extends CI_Controller {
 			$updatedata=array(
 				'headline'=>$this->input->post('headline'),				
 				'sub_headline'=>$this->input->post('sub_headline'),				
-				//'btn_link'=>$this->input->post('btn_link'),				
-				'order'=>$this->input->post('order'),				
-				//'btn_txt'=>$this->input->post('btn_txt')				
+				'btn_link'=>$this->input->post('btn_link'),				
+				'btn_txt'=>$this->input->post('btn_txt'),			
+				'content'=>$this->input->post('content'),			
+				'order'=>$this->input->post('order'),			
 			);
 
 			if($_FILES['userfile']['name']!=''){

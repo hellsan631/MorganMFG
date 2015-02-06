@@ -1,0 +1,17 @@
+.navbar{
+    background: #1B171C;
+    border-bottom: solid 2px #735768;
+    height: 140px !important;
+}
+.navbar-brand{
+    margin-top: 0px !important;
+}
+#main-nav{
+    
+}
+#front{
+    height: 670px !important;    
+}
+footer#footer{
+    padding: 0px !important;
+}

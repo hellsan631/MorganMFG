@@ -1,0 +1,239 @@
+.social_menu {
+	list-style-type:none;
+	margin:0 0 0 0;
+	padding:0;
+	display:inline-block;
+	overflow:hidden
+}
+
+.social_menu li {
+	display:inline;
+	float:left;
+	margin:0 10px 0 0;
+	padding:0;
+	width:auto
+}
+
+.social_menu li a {
+	overflow:hidden;
+	display:block;
+	float:left;
+	height:28px;
+	width:28px;
+	text-indent:-9999px;
+	margin:0;
+	padding:0;
+	-webkit-transition:all .25s ease 0s;
+	-moz-transition:all .25s ease 0s;
+	-o-transition:all .25s ease 0s
+}
+
+.social_menu li a span.inner {
+	overflow:hidden;
+	background-image:url(../img/social_icons_sprite.png);
+	background-repeat:no-repeat;
+	width:28px;
+	height:28px;
+	position:relative;
+	display:block;
+	-webkit-transition:all .25s ease 0s;
+	-moz-transition:all .25s ease 0s;
+	-o-transition:all .25s ease 0s
+}
+
+.social_menu.dark li a span.inner {
+	background-image:url(../img/social_icons_sprite_black.png)
+}
+
+.social_menu li.twitter a .inner {
+	background-position:0 0
+}
+
+.social_menu li.facebook a .inner {
+	background-position:-28px 0
+}
+
+.social_menu li.pinterest a .inner {
+	background-position:-56px 0
+}
+
+.social_menu li.forrst a .inner {
+	background-position:-84px 0
+}
+
+.social_menu li.dribbble a .inner {
+	background-position:-112px 0
+}
+
+.social_menu li.flickr a .inner {
+	background-position:-140px 0
+}
+
+.social_menu li.linkedin a .inner {
+	background-position:-169px 0
+}
+
+.social_menu li.lastfm a .inner {
+	background-position:-196px 0
+}
+
+.social_menu li.vimeo a .inner {
+	background-position:-224px 0
+}
+
+.social_menu li.yahoo a .inner {
+	background-position:-252px 0
+}
+
+.social_menu li.tumblr a .inner {
+	background-position:-280px 0
+}
+
+.social_menu li.apple a .inner {
+	background-position:-309px 0
+}
+
+.social_menu li.blogger a .inner {
+	background-position:-337px 0
+}
+
+.social_menu li.wordpress a .inner {
+	background-position:-365px 0
+}
+
+.social_menu li.windows a .inner {
+	background-position:-394px 0
+}
+
+.social_menu li.youtube a .inner {
+	background-position:-422px 0
+}
+
+.social_menu li.rss a .inner {
+	background-position:-448px 0
+}
+
+.social_menu li.instagram a .inner {
+	background-position:-477px 0
+}
+
+.social_menu li.google a .inner {
+	background-position:-505px 0
+}
+
+.social_menu li.bechance a .inner {
+	background-position:-532px 0
+}
+
+.social_menu li.android a .inner {
+	background-position:-558px 0
+}
+
+.social_menu li.skype a .inner {
+	background-position:-586px 0
+}
+
+.social_menu li.digg a .inner {
+	background-position:-614px 0
+}
+
+.social_menu li.soundcloud a .inner {
+	background-position:-642px 0
+}
+
+.social_menu li.twitter a:hover .inner {
+	background-position:0 -29px
+}
+
+.social_menu li.facebook a:hover .inner {
+	background-position:-28px -29px
+}
+
+.social_menu li.pinterest a:hover .inner {
+	background-position:-56px -29px
+}
+
+.social_menu li.forrst a:hover .inner {
+	background-position:-84px -29px
+}
+
+.social_menu li.dribbble a:hover .inner {
+	background-position:-112px -29px
+}
+
+.social_menu li.flickr a:hover .inner {
+	background-position:-140px -29px
+}
+
+.social_menu li.linkedin a:hover .inner {
+	background-position:-169px -29px
+}
+
+.social_menu li.lastfm a:hover .inner {
+	background-position:-196px -29px
+}
+
+.social_menu li.vimeo a:hover .inner {
+	background-position:-224px -29px
+}
+
+.social_menu li.yahoo a:hover .inner {
+	background-position:-252px -29px
+}
+
+.social_menu li.tumblr a:hover .inner {
+	background-position:-280px -29px
+}
+
+.social_menu li.apple a:hover .inner {
+	background-position:-309px -29px
+}
+
+.social_menu li.blogger a:hover .inner {
+	background-position:-337px -29px
+}
+
+.social_menu li.wordpress a:hover .inner {
+	background-position:-365px -29px
+}
+
+.social_menu li.windows a:hover .inner {
+	background-position:-394px -29px
+}
+
+.social_menu li.youtube a:hover .inner {
+	background-position:-422px -29px
+}
+
+.social_menu li.rss a:hover .inner {
+	background-position:-448px -29px
+}
+
+.social_menu li.instagram a:hover .inner {
+	background-position:-477px -29px
+}
+
+.social_menu li.google a:hover .inner {
+	background-position:-505px -29px
+}
+
+.social_menu li.bechance a:hover .inner {
+	background-position:-532px -29px
+}
+
+.social_menu li.android a:hover .inner {
+	background-position:-558px -29px
+}
+
+.social_menu li.skype a:hover .inner {
+	background-position:-586px -29px
+}
+
+.social_menu li.digg a:hover .inner {
+	background-position:-614px -29px
+}
+
+.social_menu li.soundcloud a:hover .inner {
+	background-position:-642px -29px
+}
+

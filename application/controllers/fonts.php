@@ -200,6 +200,18 @@ class Fonts extends CI_Controller {
 		$this->common(15, 'form_field');
 	}
 
+	public function about(){
+		$this->common(16, 'about');
+	}
+
+	public function call_to_action(){
+		$this->common(17, 'call_to_action');
+	}
+
+	public function gallery(){
+		$this->common(18, 'gallery');
+	}
+
 	public function get_font_weights($id){
 		if($id != ''){
 			$fontvar = get_font_var($id);
@@ -318,6 +330,24 @@ class Fonts extends CI_Controller {
 				@unlink('./assets/dynamic_css/form_field.css');
 				$url = base_url().'fonts/form_field';
 				write_file('./assets/dynamic_css/form_field.css', ' /* NO CSS */ ');
+				break;
+
+			case '16':
+				@unlink('./assets/dynamic_css/about.css');
+				$url = base_url().'fonts/about';
+				write_file('./assets/dynamic_css/about.css', ' /* NO CSS */ ');
+				break;
+
+			case '17':
+				@unlink('./assets/dynamic_css/call_to_action.css');
+				$url = base_url().'fonts/call_to_action';
+				write_file('./assets/dynamic_css/call_to_action.css', ' /* NO CSS */ ');
+				break;
+				
+			case '18':
+				@unlink('./assets/dynamic_css/gallery.css');
+				$url = base_url().'fonts/gallery';
+				write_file('./assets/dynamic_css/gallery.css', ' /* NO CSS */ ');
 				break;
 			
 			default:

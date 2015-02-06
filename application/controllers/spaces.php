@@ -28,6 +28,11 @@ class Spaces extends CI_Controller {
 		{
 			redirect('spaces');
 		}
+         
+
+		$data['previus'] = $this->admin_model->get_neighbour_row('space', $data['space']->id,'previus');
+		$data['next'] = $this->admin_model->get_neighbour_row('space', $data['space']->id,'next');
+
 		//$data['member'] = $this->admin_model->get_row('team', array('slug'=>$slug));
 		$data['template'] = 'space/detail';
 		$this->load->view('templates/home_template', $data);		

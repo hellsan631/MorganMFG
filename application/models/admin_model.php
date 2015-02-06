@@ -250,5 +250,28 @@ class Admin_model extends CI_Model {
 	// 			else
 	// 				return FALSE;
 	// }
+
+
+	public function get_neighbour_row($table_name='', $id="",$type=""){
+		if($type=="previus"){
+			$this->db->where('id <=',$id);
+			$this->db->order_by('id','desc');
+		}
+
+		if($type=="next"){
+			$this->db->where('id >=',$id);
+			$this->db->order_by('id','asc');
+		}
+		
+		$this->db->where('id !=',$id);
+        $this->db->limit('1');
+
+		$query=$this->db->get($table_name);
+		if($query->num_rows()>0)
+			return $query->row();
+		else
+			return FALSE;
+	}
+
 	
 }	

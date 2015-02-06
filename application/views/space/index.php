@@ -126,7 +126,5 @@
 .serv-page .navbar-statica .navbar-nav{
     margin-top: 160px;
 }
-.navbar-statica .navbar-header .navbar-brand {
-    margin-top:30px !important;
-}
+
 </style>

@@ -546,15 +546,15 @@ function create_thumb($file = '', $path = './assets/uploads/' ){
 
 	$thumbpath = $path.'thumbs/';
 
-	if (!is_writable($thumbpath)) {
+	// if (!is_writable($thumbpath)) {
 
-        if (!chmod($thumbpath, 0777)) {
+ //        if (!chmod($thumbpath, 0777)) {
 
-            return FALSE;
+ //            return FALSE;
 
-        }
+ //        }
 
-    }
+ //    }
 
     $CI =& get_instance();
 
@@ -1386,6 +1386,9 @@ if(!function_exists('add_dynamic_css')){
     $css .= '<link rel="stylesheet" type="text/css" href="'.base_url().'assets/dynamic_css/contact.css">';
     $css .= '<link rel="stylesheet" type="text/css" href="'.base_url().'assets/dynamic_css/footer.css">';
     $css .= '<link rel="stylesheet" type="text/css" href="'.base_url().'assets/dynamic_css/form_field.css">';
+    $css .= '<link rel="stylesheet" type="text/css" href="'.base_url().'assets/dynamic_css/about.css">';
+    $css .= '<link rel="stylesheet" type="text/css" href="'.base_url().'assets/dynamic_css/call_to_action.css">';
+    $css .= '<link rel="stylesheet" type="text/css" href="'.base_url().'assets/dynamic_css/gallery.css">';
     echo $css;
   }
 }
@@ -1434,4 +1437,36 @@ function is_gallery_empty($id){
     }else{
         return 1;
     }
+}
+
+
+function get_post($limit=0){
+  $CI =& get_instance();
+  $CI->db->where('status', 1);
+  $CI->db->order_by('id', 'desc');
+  $CI->db->limit(4);
+  $query = $CI->db->get('posts');
+  if($query->num_rows() > 0){
+        return $query->result();
+    }else{
+        return FALSE;
+    }
+}
+
+
+function cms_current_url() { 
+    $CI =& get_instance();
+    return base_url()._INDEX.$CI->uri->uri_string();
+}
+
+
+function get_gallery_images($id){
+  $CI =& get_instance();
+  $CI->db->where('gallery_id', $id);
+  $query = $CI->db->get('gallery_images');
+  if($query->num_rows > 0){    
+    return $query->result();
+  }else{
+    return FALSE;
+  }
 }

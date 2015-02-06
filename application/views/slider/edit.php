@@ -77,7 +77,38 @@
 
                     <span class="error"><?php echo form_error('sub_headline'); ?></span>
 
-                  </div>               
+                  </div>   
+
+
+                  <div class="form-group">
+
+                    <label for="exampleInputEmail1">Content</label> 
+
+                    <textarea type="text" class="form-control" name="content" id="" ><?php echo $slider->content; ?></textarea>
+
+                    <span class="error"><?php echo form_error('content'); ?></span>
+
+                  </div>              
+
+                  <div class="form-group">
+
+                    <label for="exampleInputEmail1">Button Text</label> 
+
+                    <input type="text" class="form-control" name="btn_txt" id="" value="<?php echo $slider->btn_txt; ?>">
+
+                    <span class="error"><?php echo form_error('btn_txt'); ?></span>
+
+                  </div>              
+
+                  <div class="form-group">
+
+                    <label for="exampleInputEmail1">Button Link</label> 
+
+                    <input type="text" class="form-control" name="btn_link" id="" value="<?php echo $slider->btn_link; ?>">
+
+                    <span class="error"><?php echo form_error('btn_link'); ?></span>
+
+                  </div>              
 
 
 

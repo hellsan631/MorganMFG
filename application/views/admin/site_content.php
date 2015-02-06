@@ -63,9 +63,10 @@
 
 
                   <div class="form-group">
-                    <label class="" for="">Logo Image <span style="font-size:12px">size 140 x 100 in px</span></label>                  
+                    <label class="" for="">Logo Image <span style="font-size:12px">Size (65x48)</span></label>                  
                       <input type="file" name="userfile">
                       <?php if (!empty($site_content->logo)): ?>
+                      	 <br>
                           <img src="<?php echo base_url() ?>assets/uploads/home/<?php echo $site_content->logo; ?>" style="border:1px solid #000">
                       <?php endif ?>
                     <span style="color:red"><?php echo form_error('userfile'); ?></span>
@@ -148,6 +149,18 @@
                         <input  style="width:30%" id="timepicker4" class="form-control " type="text" name="contact_friday_end" value="<?php if(set_value('contact_friday_end')) echo set_value('contact_friday_end') ; elseif(!empty($site_content->contact_friday_end)) echo  $site_content->contact_friday_end; ?>">                  
                         <span style="color:red"><?php echo form_error('contact_friday_end') ?></span>
                   </div>
+
+                  <div class="form-group">
+                    <label class="" for="">Tour button text</label>                  
+                      <input  class="form-control" type="text" name="tour_btn_text" value="<?php if(set_value('tour_btn_text')) echo set_value('tour_btn_text') ; elseif(!empty($site_content->tour_btn_text)) echo  $site_content->tour_btn_text; ?>">                  
+                    <span style="color:red"><?php echo form_error('tour_btn_text') ?></span>
+                  </div>                 
+
+                  <div class="form-group">
+                    <label class="" for="">Tour button Link</label>                  
+                      <input  class="form-control" type="text" name="tour_btn_link" value="<?php if(set_value('tour_btn_link')) echo set_value('tour_btn_link') ; elseif(!empty($site_content->tour_btn_link)) echo  $site_content->tour_btn_link; ?>">                  
+                    <span style="color:red"><?php echo form_error('tour_btn_link') ?></span>
+                  </div>                 
 
 
                   <br>

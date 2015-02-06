@@ -79,9 +79,6 @@
         color : #FFF !important;
     }
 
-    .page-heading{
-        margin-top: 220px;
-    }
 
     @media(min-width: 200px) and (max-width: 768px){
         .page-heading{

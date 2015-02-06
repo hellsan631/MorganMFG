@@ -32,6 +32,8 @@ class Admin extends CI_Controller {
 		$this->form_validation->set_rules('instagram', 'instagram', 'required');			
 		$this->form_validation->set_rules('googleplus', 'googleplus', 'required');			
 		$this->form_validation->set_rules('twitter_username', 'twitter username', 'required');					
+		$this->form_validation->set_rules('linkedin', 'linkedin', 'required');			
+		$this->form_validation->set_rules('pinterest', 'pinterest', 'required');					
 		if ($this->form_validation->run() == TRUE){
 			$data = array(
 				'facebook' => $this->input->post('facebook'),
@@ -39,6 +41,8 @@ class Admin extends CI_Controller {
 				'instagram' => $this->input->post('instagram'),
 				'googleplus' => $this->input->post('googleplus'),
 				'twitter_username' => $this->input->post('twitter_username'),				
+				'linkedin' => $this->input->post('linkedin'),				
+				'pinterest' => $this->input->post('pinterest'),				
 				);
 			$this->admin_model->update('social_links',$data);		
 			$this->session->set_flashdata('success_msg',"Updated");
@@ -136,6 +140,8 @@ class Admin extends CI_Controller {
 								'contact_mon_to_thursday_end' => $this->input->post('contact_mon_to_thursday_end'),				
 								'contact_friday_start' => $this->input->post('contact_friday_start'),				
 								'contact_friday_end' => $this->input->post('contact_friday_end'),				
+								'tour_btn_link' => $this->input->post('tour_btn_link'),				
+								'tour_btn_text' => $this->input->post('tour_btn_text'),				
 								);
 				$this->admin_model->insert('site_content',$insert);		
 				$this->session->set_flashdata('success_msg',"Content Added");
@@ -156,6 +162,8 @@ class Admin extends CI_Controller {
 								'contact_mon_to_thursday_end' => $this->input->post('contact_mon_to_thursday_end'),				
 								'contact_friday_start' => $this->input->post('contact_friday_start'),				
 								'contact_friday_end' => $this->input->post('contact_friday_end'),				
+								'tour_btn_link' => $this->input->post('tour_btn_link'),				
+								'tour_btn_text' => $this->input->post('tour_btn_text'),				
 								);
 
 				if($_FILES['userfile']['name']!=''){

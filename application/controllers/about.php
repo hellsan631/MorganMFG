@@ -26,6 +26,8 @@ class About extends CI_Controller {
 		// $data['team'] = $this->admin_model->get_result('team');
 		$this->db->order_by('order','asc');
 		$data['content'] = $this->admin_model->get_result('about');
+		$this->db->order_by('order','asc');
+		$data['event'] = $this->admin_model->get_result('event');
 		$data['template'] = 'about/index';
 
 		$this->load->view('templates/home_template', $data);

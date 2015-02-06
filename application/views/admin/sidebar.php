@@ -9,6 +9,7 @@
       <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Home </a>
       <ul id="collapseOne" class="panel-collapse collapse ">        
         <li><a href="<?php echo base_url() ?>slider/all">Image Slider</a></li>        
+        <li><a href="<?php echo base_url() ?>home/intro_content">Intro Content</a></li>        
       </ul>
     </li>
     <hr> 
@@ -18,7 +19,7 @@
       <ul id="collapseTwo" class="panel-collapse collapse ">        
         <li><a href="<?php echo base_url() ?>page/header/gallery">Gallery</a></li>        
         <li><a href="<?php echo base_url() ?>page/header/team">Team</a></li>        
-        <li><a href="<?php echo base_url() ?>page/header/profile">Profile</a></li>        
+        <li><a href="<?php echo base_url() ?>page/header/profile">About</a></li>        
         <li style="display:none;"><a href="<?php echo base_url() ?>page/header/team">Team</a></li>        
         <li><a href="<?php echo base_url() ?>page/header/catering">Catering</a></li>        
         <li><a href="<?php echo base_url() ?>page/header/catering_partners">Catering Partners</a></li>        
@@ -32,6 +33,8 @@
     <li>
       <a data-toggle="collapse" data-parent="#accordion" href="#collapseNinetyNine">Set Fonts</a>
       <ul id="collapseNinetyNine" class="panel-collapse collapse ">        
+        <li><a href="<?php echo base_url() ?>fonts/about">About Fonts</a></li>        
+        <li><a href="<?php echo base_url() ?>fonts/call_to_action">Call to Action</a></li>        
         <li><a href="<?php echo base_url() ?>fonts/navigation">Navigation Bar</a></li>        
         <li><a href="<?php echo base_url() ?>fonts/home_slider">Home Slider</a></li>        
         <li><a href="<?php echo base_url() ?>fonts/section">Section Fonts</a></li>        
@@ -42,6 +45,7 @@
         <li><a href="<?php echo base_url() ?>fonts/news">News Fonts</a></li>        
         <li><a href="<?php echo base_url() ?>fonts/news_detail">News Detail Fonts</a></li>        
         <li><a href="<?php echo base_url() ?>fonts/contact">Contact Fonts</a></li>        
+        <li><a href="<?php echo base_url() ?>fonts/gallery">Gallery</a></li>        
         <li><a href="<?php echo base_url() ?>fonts/footer_inquire">Footer Inquire Form</a></li>        
         <li><a href="<?php echo base_url() ?>fonts/footer_connect_container">Footer Connect</a></li>        
         <li><a href="<?php echo base_url() ?>fonts/footer">Footer</a></li>        
@@ -50,6 +54,9 @@
     <hr> 
 
     <li><a href="<?php echo base_url() ?>about/all">About</a></li>
+    <hr> 
+
+    <li><a href="<?php echo base_url() ?>event/all">Events</a></li>
     <!--hr>
     <li><a href="<?php echo base_url() ?>appointments/all">Appointments</a></li-->
     <hr>
@@ -71,8 +78,17 @@
     <hr>
     <li><a href="<?php echo base_url() ?>newsletter/all">News Letter</a></li>  
     <hr>
-    <li><a href="<?php echo base_url() ?>gallery/all">Gallery</a></li>  
     <hr>
+    
+    <li>
+      <a data-toggle="collapse" data-parent="#accordion" href="#collapseoneNinetyNine">Gallery</a>
+      <ul id="collapseoneNinetyNine" class="panel-collapse collapse ">        
+	    <li><a href="<?php echo base_url() ?>gallery/all">All</a></li>  
+        <li><a href="<?php echo base_url() ?>gallery/page">Update</a></li>        
+      </ul>
+    </li>
+    <hr> 
+
     <li><a href="<?php echo base_url() ?>team/all">Team</a></li>  
     <hr>
     <!--li><a href="<?php echo base_url() ?>admin/change_fonts">Change Fonts</a></li>
@@ -108,6 +124,9 @@
       </ul>
     </li>
     <hr>
+
+    <li><a href="<?php echo base_url() ?>admin/social_links">Social Links</a></li>
+    <hr> 
 
     <!--<li><a href="<?php echo base_url() ?>page_content/all">Page Content</a></li>
     <hr>-->    

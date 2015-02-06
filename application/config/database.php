@@ -56,15 +56,15 @@ $active_record = TRUE;
 // $db['default']['database'] = 'morgan';
 
 //server
-$db['default']['hostname'] = 'mysql51-078.wc1.ord1.stabletransit.com';
-$db['default']['username'] = '918576_morganmfg';
-$db['default']['password'] = 'Iamlama/6/';
-$db['default']['database'] = '918576_morganmfg';
-
-// $db['default']['hostname'] = 'mysql51-112.wc2.dfw1.stabletransit.com';
-// $db['default']['username'] = '869210_morgan';
+$db['default']['hostname'] = '127.0.0.1';
+// $db['default']['username'] = '918576_morganmfg';
 // $db['default']['password'] = 'Iamlama/6/';
-// $db['default']['database'] = '869210_morgan';
+// $db['default']['database'] = '918576_morganmfg';
+
+//$db['default']['hostname'] = 'mysql51-112.wc2.dfw1.stabletransit.com';
+$db['default']['username'] = '869210_morgan';
+$db['default']['password'] = 'Iamlama/6/';
+$db['default']['database'] = '869210_morgan';
 
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';

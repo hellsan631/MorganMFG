@@ -38,6 +38,7 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 
 define('PROJECT_NAME',		'Morgan Manufacturing');
+define('_INDEX','');
 
 
 /* End of file constants.php */

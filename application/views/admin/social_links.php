@@ -56,6 +56,18 @@
                   <span style="color:red"><?php echo form_error('twitter_username') ?></span>
                   </div>  
 
+                  <div class="form-group">
+                  <label class="control-label" for="">Pinterest</label>                  
+                    <input  class="form-control" type="text" name="pinterest" value="<?php if(!empty($link->pinterest)) echo  $link->pinterest; ?>">                  
+                  <span style="color:red"><?php echo form_error('pinterest') ?></span>
+                  </div>  
+
+                  <div class="form-group">
+                  <label class="control-label" for="">Linkedin</label>                  
+                    <input  class="form-control" type="text" name="linkedin" value="<?php if(!empty($link->linkedin)) echo  $link->linkedin; ?>">                  
+                  <span style="color:red"><?php echo form_error('linkedin') ?></span>
+                  </div>  
+
                   <br>
                   <input type="submit" class="btn btn-primary" value="Update">
 

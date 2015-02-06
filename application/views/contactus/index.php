@@ -82,34 +82,26 @@
             </div>
         </section>
 
-        <div class="scroll-top tofade p-70"> 
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <a href="#" class="btn btn-light scroll-top">TOP</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
 
-            <?php $sections = get_sections() ?>
-            <?php if($sections):?>
-                <section class="row-1 padder-cont">
-                    <div class="row">
-                       <?php foreach($sections as $row): ?>
-                            <div class="col-sm-6">
-                                <div  style="background: url('<?php echo base_url() ?>assets/uploads/sections/image/<?php echo $row->image ?>') no-repeat center center ;background-size:cover" class="half-block tofade bg_image">
-                                    <div class="inner p-90">
-                                        <img style="width:60px;height:60px;" src="<?php echo base_url() ?>assets/uploads/sections/icon/<?php echo $row->icon ?>" alt="">
-                                        <h4><small> <?php echo $row->heading ?> </small> <?php echo $row->sub_heading ?></h4>
-                                        <p><a href="<?php echo $row->button_link ?>" class="btn btn-light"><?php echo $row->button_text ?></a></p>
-                                    </div>
-                                </div>        
+       	<?php $sections = get_sections() ?>
+        <?php if($sections):?>
+        <section class="row-1 padder-cont">
+            <div class="row">
+               <?php foreach($sections as $row): ?>
+                    <div class="col-sm-6">
+                        <div  style="background: url('<?php echo base_url() ?>assets/uploads/sections/image/<?php echo $row->image ?>') no-repeat center center ;background-size:cover" class="half-block tofade bg_image">
+                            <div class="inner p-90">
+                                <h3  class="call-to-action-heading page-title"  ><?php echo $row->heading ?></h3>
+                                <p class="call-to-action-subheading  whttxt"><?php echo $row->sub_heading ?></p>
+                                <p><a href="<?php echo $row->button_link ?>" class="btn btn-light btn-new "><?php echo $row->button_text ?></a></p>
                             </div>
-                        <?php endforeach; ?>
+                        </div>        
                     </div>
-                </section>
-            <?php endif; ?>
+                <?php endforeach; ?>
+            </div>
+        </section>
+        <?php endif; ?>
 
 <style>
 .light_brown{

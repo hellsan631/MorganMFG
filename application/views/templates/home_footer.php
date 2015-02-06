@@ -6,26 +6,12 @@
 <?php endif; ?>    
 
 
-<style>
-.light{
-    font-family: 'Josefin Sans',sans-serif !important;
-    text-align: center !important;
-}
-.light::-moz-placeholder{
-    color: #fff;
-    opacity: 1;
-}
-.light::-webkit-input-placeholder{
-    color: #fff;
-    opacity: 1;
-}
-</style>
-<?php /* ?>
+
 <section id="trace" class="tofade" style="">
     <div class="inner p-70">
         <!-- <img src="<?php echo base_url() ?>assets/theme/img/ico-search.png" alt=""> -->
-        <h4>INQUIRE</h4>
-        <p>Give us a little more information about yourself or company:</p>
+        <h4>INQUIRE ABOUT <br> US OR YOUR EVENTS</h4>
+        <p></p>
     
         <form class="tracking-form" id="event_form" onsubmit="return false;">
             <fieldset>
@@ -62,7 +48,7 @@
                                 &nbsp;
                                 <div class="row">
                                     <div class="col-sm-12 result">
-                                        <input class="btn btn-large btn-block btn-light" onclick="event_form_submit()" type="submit" value="<?php echo $btnText; ?>">
+                                        <input class="btn btn-light btn-new" onclick="event_form_submit()" type="submit" value="<?php echo $btnText; ?>">
                                     </div>
                                 </div>
                         </div>
@@ -72,7 +58,7 @@
         </form>
     </div>
 </section>
-<?php */ ?>
+
 <?php endif ?>
 
 
@@ -93,83 +79,58 @@
                         </ul>
                     </div>
         <?php endif; ?>
-        <?php /**/ ?>
-            <div class="prima p-70 <?php if(isset($footspaces)){ echo "home_footer0"; } ?>">
+
+            <div class="prima p-30 <?php if(isset($footspaces)){ echo "home_footer0"; } ?>">
                 <!-- <img src="<?php echo base_url() ?>assets/theme/img/ico-newsletter.png" alt=""> -->
-               <!--  <h4><small>CONNECT</small>SUBSCRIBE TO OUR NEWSLETTER</h4>
+                <h4 class="newh4">SUBSCRIBE TO <br> OUR NEWSLETTER</h4>
+                <p class="spacer"></p>
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+                        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 ">
                             <form id="newsletter-form" class="newsletter-form" >
                                 <fieldset>
                                     <div class="form-group input-wrapper">
-                                        <input type="text" class="form-control light"  name="newsletter_email" placeholder="Enter your email and hit enter">
+                                        <input type="text" class="form-control light"  name="newsletter_email" placeholder="Email">
                                         <p id="result"></p>
                                     </div>
-                                    <div class="col-sm-12 result">
+                                    <div class="form-group result">
                                          <div id="n_error_msg" class="alert alert-danger" style="display:none;font-size:14px;"></div>
                                          <div id="n_success_msg" class="alert alert-success" style="display:none;font-size:14px;"></div>
                                     </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 result">
+                                            <input class="btn btn-light btn-new" type="submit" value="SUBMIT">
+                                        </div>
+                                    </div>
+                                    
                                 </fieldset>
                             </form>
-                        </div>
-                    </div>
-                </div> -->
-
-                <!-- <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4" style="margin-top: -3%;margin-bottom: 3%;">
-                            <div class="row">
-                                <div class="col-sm-2 col-xs-2 col-sm-offset-1 col-xs-offset-1">
-                                    <a href="https://www.facebook.com/morganmfg" title="Facebook" style="font-size:28px;" target="_blank">
-                                        <i class="fa fa-facebook-square"></i>
-                                    </a>
-                                </div>
-                                <div class="col-sm-2 col-xs-2">
-                                    <a href="https://twitter.com/401morganmfg" title="Twitter" style="font-size:28px;" target="_blank">
-                                        <i class="fa fa-twitter-square"></i>
-                                    </a>
-                                </div>
-                                <div class="col-sm-2 col-xs-2">
-                                    <a href="http://instagram.com/401morganmfg" title="Instagram" style="font-size:28px;" target="_blank">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </div>
-                                <div class="col-sm-2 col-xs-2">
-                                    <a href="https://plus.google.com/u/0/105999476516487205199/about" title="Google+" style="font-size:28px;" target="_blank">
-                                        <i class="fa fa-google-plus-square"></i>
-                                    </a>
-                                </div>
-                                <div class="col-sm-2 col-xs-2">
-                                    <a href="http://www.linkedin.com/company/morgan-mfg-" title="Linkedin" style="font-size:28px;" target="_blank">
-                                        <i class="fa fa-linkedin-square"></i>
-                                    </a>
-                                </div>
+                            <?php /* $logo = getlogo(); if($logo){ ?>
+                                    <div style="float:left; width:110px"><img src="<?php echo base_url() ?>assets/uploads/home/<?php echo $logo; ?>" alt="Morgan" class="limg" style="width:100px"></div>
+                                <?php }*/ ?>
+                                    <div style="float:left; width:110px"><img src="<?php echo base_url() ?>assets/theme/img/mlogo0.png" alt="Morgan" class="limg" style="width:100px"></div>
+                                
+                            <div style="float:left; width:80%"><!-- Site Content starts -->
+                            <?php $site_content_phone = ''; ?>
+                            <?php $site_content = get_row('site_content',array('slug'=>'site_content')); ?>
+                            <?php if(!empty($site_content)): ?>             
+                                <?php $site_content_phone = $site_content->phone; ?>
+                                <p><?php echo $site_content->heading ?>
+                                <br><?php echo $site_content->address ?> &middot; 
+                                <?php echo $site_content->city ?>,
+                                 <?php echo $site_content->zipcode ?>  &middot; 
+                                <a href="tel:<?php echo $site_content->phone ?>"><?php echo $site_content->phone ?></a> <br>
+                                <a href="mailto:info@morganmanufacturing.com">INFO@MORGANMANUFACTURING.COM </a>&middot; &copy; MORGAN MFG INNOVATION LAB
+                                <!-- Fax <?php echo $site_content->fax ?> -  -->
+                                <!-- <?php echo $site_content->country ?> -->
+                                </p>
+                            <?php endif; ?>
                             </div>
                         </div>
                     </div>
-                </div> -->
-
-                <?php $logo = getlogo(); if($logo){ ?>
-                    <p><img src="<?php echo base_url() ?>assets/uploads/home/<?php echo $logo; ?>" alt="Morgan" class="limg"></p>
-                <?php } ?>
-                
-            <!-- Site Content starts -->
-            <?php $site_content_phone = ''; ?>
-            <?php $site_content = get_row('site_content',array('slug'=>'site_content')); ?>
-            <?php if(!empty($site_content)): ?>             
-                <?php $site_content_phone = $site_content->phone; ?>
-                <p><?php echo $site_content->heading ?>
-                <br><?php echo $site_content->address ?> - 
-                <?php echo $site_content->city ?>,
-                 <?php echo $site_content->zipcode ?>  - 
-                <a href="tel:<?php echo $site_content->phone ?>">Ph. <?php echo $site_content->phone ?></a> - <a href="mailto:info@401morganmfg.com">info@401morganmfg.com</a> 
-                <!-- Fax <?php echo $site_content->fax ?> -  -->
-                <!-- <?php echo $site_content->country ?> -->
-                </p>
-            <?php endif; ?>
+                </div>               
             
-            <?php $social_links = get_row('social_links',array('id'=>1)); ?>
+            <?php  $social_links = get_row('social_links',array('id'=>1)); ?>
                 <ul class="social_menu light" style='display:none;'>
                     <li class="facebook"><a href="<?php echo $social_links->facebook ?>" target="_blank"><span class="inner">facebook</span></a></li>
                     <li class="twitter"><a href="<?php echo $social_links->twitter ?>" target="_blank"><span class="inner">twitter</span></a></li>   
@@ -179,15 +140,10 @@
                <!-- Site Content Ends -->
 
             </div>
-       <?php /**/ ?>
 
-        <?php  $site_content_phone = ''; ?>
-            <?php $site_content = get_row('site_content',array('slug'=>'site_content')); ?>
-             <?php $site_content_phone = $site_content->phone; ?>
-
+            <?php /**/ /* ?>
             <div class="seconda p-50">
-                <p>&copy; <?php echo date('Y') ?> Morgan Manufacturing<!--  - <a href="tel:<?php echo $site_content_phone ?>"><?php echo $site_content_phone ?></a>  -->
-                <div style="height:25px"></div>
+                <p>&copy; Morgan Manufacturing - <a href="tel:<?php echo $site_content_phone ?>"><?php echo $site_content_phone ?></a> - <a href="mailto:info@morganmanufacturing.com">info@morganmanufacturing.com</a> 
                     <span class="qtrans_language_chooser" id="qtranslate-chooser">
                        <!--
                         <span class="lang-it">
@@ -203,12 +159,9 @@
                     </span>--> 
                     <!-- <a href="#" target="_blank">CREDITS</a></p> -->
             </div>
+            */ ?>
 
-            <style type="text/css">
-                .limg{
-                    width: 160px;
-                }
-            </style>
+           
 
         </footer>
 
@@ -222,10 +175,8 @@
         <script src="<?php echo base_url() ?>assets/theme/js/plugin.min.js"></script>
         <script src="<?php echo base_url() ?>assets/theme/js/core.min.js"></script>
 
-        <?php add_dynamic_css(); ?>
 
-    </body>
-</html>
+    
 
 <script type="text/javascript">
 function event_form_submit()
@@ -334,3 +285,5 @@ function newsletter_form_submit()
 }
 </script>
 
+</body>
+</html>

@@ -44,10 +44,10 @@ class Sections extends CI_Controller {
 		$this->form_validation->set_rules('button_text', 'Button Text', 'required');				
 		$this->form_validation->set_rules('button_link', 'Button Link', 'required');				
 	
-		if(isset($_FILES['icon']['name']) && $_FILES['icon']['name']=="")
-		{
- 			$this->form_validation->set_rules('icon', 'Icon', 'required');				
-		}
+		// if(isset($_FILES['icon']['name']) && $_FILES['icon']['name']=="")
+		// {
+ 	// 		$this->form_validation->set_rules('icon', 'Icon', 'required');				
+		// }
 		if(isset($_FILES['image']['name']) && $_FILES['image']['name']=="")
 		{
 			$this->form_validation->set_rules('image', 'Image', 'required');				

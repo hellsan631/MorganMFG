@@ -57,7 +57,7 @@
                <?php }elseif($header_content->slug=="team"){ ?>
               <h3> Team  </h3>
                <?php }elseif($header_content->slug=="profile"){ ?>
-              <h3> Profile </h3>
+              <h3> About </h3>
                <?php }elseif($header_content->slug=="catering_detail"){ ?>
               <h3> Catering Detail </h3>
                <?php }elseif($header_content->slug=="catering"){ ?>

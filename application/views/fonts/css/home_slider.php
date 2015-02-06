@@ -1,10 +1,10 @@
 <?php
 
 $classes = array(
-	'f' => '.home-slider .carousel-caption h2',
-	's' => '.home-slider .carousel-caption p',
-	't' => FALSE,
-	'fo' => FALSE,
+	'f' => '.home-slider-heading',
+	's' => '.home-slider-subheading',
+	't' => '.home-slider-content',
+	'fo' => '.home-slider-button',
 	'fi' => FALSE
 );
 

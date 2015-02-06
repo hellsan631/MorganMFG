@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<title>Easy Video Background Documentation</title>
+
+		<!-- Css imports -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- Javascript imports -->
+    	<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+     
+	</head>
+
+	<body data-spy="scroll" data-target=".navbar">
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" href="#">Easy Video Background documentation</a>
+					<ul class="nav">
+						<li><a href="#folder_sctructure">Folder Structure</a></li>
+						<li><a href="#installation">Installation</a></li>
+						<li><a href="#functions">Script api</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<h1 class="text-center" style="padding-bottom: 40px; padding-top: 90px;">Essenza Wordpress Theme</h1>
+
+			<div class="row-fluid" style="border-top: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC;">
+				<div class="span3" style="padding: 25px;">    
+					<address>
+					    <strong>Created: 24/03/2014</strong><br>
+					    <strong>Version: 1.0</strong><br>
+					    <strong>By: Plusquare Team</strong>
+				    </address>
+					     
+				    <address>
+					    Follow us on Facebook or Twitter to keep updated with our latest releases and upcoming files. Don't miss a thing!
+				    </address>
+				</div>
+			  	<div class="span9" style="padding: 25px; border-left: 1px solid #CCCCCC;">
+			  		<p><strong>Hi there! First of all thanks for purchasing our theme! :-) </strong><br/>
+					If you have any questions that are beyond the scope of this help file, please feel free to ask your question at the support ticket system at <a href="http://plusquare.ticksy.com">ticksy</a>.</p>
+
+					<p>This file serves to help you get started and master Easy Video Background's script so you can add native and youtube videos as background anywhere in a matter of seconds</p>
+
+					<p>We hope you like the script and make the best use of it! Best Regards <br/>
+						<strong>Plusquare Team</strong></p>
+			  	</div>
+			</div>
+
+
+			<!-- Folder Structure -->
+			<div class="row-fluid" style="margin-top: 50px;">
+				<div class="span12">
+					<h2 id="folder_sctructure">1. Folder Structure</h2>
+					<p>
+						I'll start to explain what your download package comes with, and what you should look at and upload to your project. The downloaded package comes with some examples of how to get video in a site very quickly, you also have the scripts you'll need to import so you have the following:
+					</p>
+					<p>
+
+					<ul>
+						<li><strong>Flash folder</strong> - This is where the flash files are located for the flash video fallback</li>
+						<li><strong>Js folder</strong> - This folder contains the scripts you need to import for the script to work</li>
+						<li><strong>Videos folder</strong> - This folder is just there for example purposes and you do not need to upload this to your project for it to work</li>
+					</ul>
+					</p>
+
+					<p>
+						You then have the html files which are examples on how to implement and call the script easily. In resume you should take to your project only the folders "flash" and "js", the rest will be modifications to your project's html or php file depending on which technologie you're using.
+					</p>
+				</div>
+			</div>
+			<p>&nbsp;</p>
+
+
+			<!-- Instalation -->
+			<div class="row-fluid" style="margin-top: 50px;">
+				<div class="span12" id="installation">
+					<h2>2. Installation</h2>
+
+					<p>
+						In this chapter I'll gonna explain and demonstrate how you can include video background to your site in a matter of a few minutes.
+					</p>
+					<p>&nbsp;</p>
+
+					<h3>2.1 Make sure your doctype is for html5</h3>
+					<p>
+						The first thing you have to do is making sure your html has the html5 doctype so that the video tag can work, the following image shows what it should look like:
+					</p>
+					<img src="img/1.jpg"/>
+					<p>&nbsp;</p>
+					<p>So the first two lines of your html should look exactly like the first two lines of the image above, and that's it you have html5 set to your document.</p>
+
+					<p>&nbsp;</p>
+
+					<h3>2.2 Import Scripts</h3>
+					<p>You now have to import the scripts that easy video background will need to work correctly, assuming you've already uploaded the js and flash folder to your project you just have to import the four javascript files in your head section, like the following:</p>
+
+
+					<img src="img/2.jpg"/>
+					<p>&nbsp;</p>
+
+					<p>And that's it, you know can use the easy video background script as you want :-). We'll explain how to use it in the following chapter.</p>
+
+					<p>&nbsp;</p>
+
+					<h3>2.3 Using the script</h3>
+					<p>If you followed all the scripts above, you can now use the script to add video to where you want, we've provided some usage examples in the download package:</p>
+					<p>
+						<ul>
+							<li><strong>full_example</strong> - This demonstrates how to use the script to add native video as background to your whole site</li>
+							<li><strong>full_yt_example</strong> - This demonstrates how to use the script to add youtube video as background to your whole site</li>
+							<li><strong>div_example</strong> - This demonstrates how to use the script to add youtube video as background to a div</li>
+							<li><strong>div_control_example</strong> - This demonstrates how to use the script to add native video as background to a div and use the script api to control the video</li>
+						</ul>
+					</p>
+					<p>The above examples should be pretty self explanatory and have some comments to guide you through it, but the basic notions are to create a script tag just before the close of your page body tag and wait for document to be ready with jquery, then you can call the video script, so you should have the following as basis:</p>
+					<img src="img/3.jpg"/>
+					<p>&nbsp;</p>
+					<p>Inside this you can now create the video call, like this (all options are shown for example purposes and have the default values, some options don't need to be set when others are, for example if you're setting up a youtube video you don't have to set the mp4, flv.. options):</p>
+					<img src="img/4.jpg"/>
+					<p>&nbsp;</p>
+					<p>So you call the script with the call video_background($jquery_object, options), in this case we're adding background to the whole page so to the body tag, but you can select any div.</p>
+					<p>So you have a lot of options to customize how your video functions, let's view what each one does:</p>
+					<p>
+						<ul>
+							<li><strong>position</strong> - The position css value for the video object to be created, make it "absolute" or "fixed", being that the latest makes it scroll with the page (used for fullpage backgrounds usually)</li>
+							<li><strong>z-index</strong> - The z-index css property for the background video, usually set it to "-1" or "0", being that -1 will put it behind absolutely everything, even the background-color itself</li>
+							<li><strong>video_ratio</strong> - If you want your video to fill all the available area (will crop some parts of the video potencially but looks terrific) set here the value resulting from the calculation width_of_the_video/height_of_the_video</li>
+							
+							<li><strong>loop</strong> - Set to true or false depending if you want the video to loop or not when it reaches the end</li>
+							<li><strong>autoplay</strong> - Set to true or false depending if you want the video to start to play immediately or not</li>
+							<li><strong>muted</strong> - Set to true or false depending if you want the video to start muted or not</li>
+
+							<li><strong>mp4</strong> - The path to the mp4 video format</li>
+							<li><strong>webm</strong> - The path to the webm video format</li>
+							<li><strong>ogg</strong> - The path to the mp4 video format</li>
+							<li><strong>flv</strong> - The path to the mp4 video format</li>
+
+							<li><strong>youtube</strong> - The id of the youtube video</li>
+							<li><strong>start</strong> - Available for youtube videos only, sets the time in seconds you want the video to start at</li>
+
+							<li><strong>fallback_image</strong> - The image to fallback to on mobile devices</li>
+							<li><strong>sizing</strong> - The sizing you want the fallback image to have. Choose between "fill" or "adjust"</li>
+
+							<li><strong>priority</strong> - Accepts "html5" or "flash", the choosen one will be given priority to use and fallback to the other if not available</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+
+
+			<!-- Configuration -->
+			<div class="row-fluid" style="margin-top: 50px;">
+				<div class="span12">
+					<h2>3. Script Api</h2>
+
+					<p>
+						You have a lot of control functions you can call through the video_background you've created:
+					</p>
+					<p>
+						<ul>
+							<li>
+								<strong>play()</strong> - Plays the video</li>
+							<li>
+								<strong>pause()</strong> - Pauses the video</li>
+							<li>
+								<strong>toggle_play()</strong> - Plays/Pauses the video according to it&#39;s state</li>
+							<li>
+								<strong>mute()</strong> - Mutes the video</li>
+							<li>
+								<strong>unmute() </strong>- Unmutes the video</li>
+							<li>
+								<strong>toggle_mute()</strong> - Mutes/Unmutes the video according to it&#39;s state</li>
+							<li>
+								<strong>hide() </strong>- Hides the video</li>
+							<li>
+								<strong>show()</strong> - Shows the video</li>
+							<li>
+								<strong>toggle_hide()</strong> - Hides/Shows the video according to it&#39;s state</li>
+							<li>
+								<strong>rewind()</strong> - Rewinds the video to the start</li>
+						</ul>
+					</p>
+
+					<p>
+						You can call any of these functions using the video background object, on a click event for example:
+					</p>
+
+					<img src="img/5.jpg"/>
+					<p>&nbsp;</p>
+				</div>
+			</div>
+
+
+		</div>
+	</body>
+</html>

@@ -38,6 +38,28 @@ class Gallery extends CI_Controller
 	}
 
 
+	public function page(){
+		if(admin_login_in()===FALSE){
+			redirect('login');
+		}
+		$where = array('slug' => 'gallery');
+		$data['row'] = $this->admin_model->get_row('contents',$where);
+		$this->form_validation->set_rules('headline','Headline','required');						
+		$this->form_validation->set_rules('description','Description','required');						
+		if ($this->form_validation->run() == TRUE){
+			$update = array(
+				'headline' => $this->input->post('headline'),	
+				'description' => $this->input->post('description'),	
+			);		
+			$this->admin_model->update('contents',$update,$where);
+			$this->session->set_flashdata('success_msg','Successfully Updated.');
+			redirect(current_url());
+		}
+		$data['template'] = 'contents/gallery';
+		$this->load->view('templates/admin_template', $data);
+	}
+
+
 	public function all($offset=0)
 	{		
 		if(admin_login_in()===FALSE)

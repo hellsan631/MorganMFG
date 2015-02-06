@@ -36,7 +36,8 @@ module.exports = (grunt)->
           mangle: true
           compress: true
           sourceMap: true
-        files: grunt.file.expandMapping ['.assets/js/*.js', '.assets/theme/**/*.js'], 'assets/',
+        files: grunt.file.expandMapping ['.assets/js/*.js', '.assets/theme/**/*.js'],
+          'assets/',
           rename: (destBase, destPath)->
             destBase+destPath.replace '.js', '.js'
 
@@ -80,10 +81,13 @@ module.exports = (grunt)->
   ############################################################
 
   grunt.registerTask('build', [
-    'imagemin:build' # public
     'coffee' # tmp
     'uglify:build' # public
     'cssmin:build' # public
     'watch'
+  ])
+
+  grunt.registerTask('deploy', [
+    'imagemin:build' # public
   ])
 

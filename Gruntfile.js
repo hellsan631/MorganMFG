@@ -79,7 +79,8 @@
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    return grunt.registerTask('build', ['imagemin:build', 'coffee', 'uglify:build', 'cssmin:build', 'watch']);
+    grunt.registerTask('build', ['coffee', 'uglify:build', 'cssmin:build', 'watch']);
+    return grunt.registerTask('deploy', ['imagemin:build']);
   };
 
 }).call(this);

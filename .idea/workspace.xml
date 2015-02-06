@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c602e6-b2d0-4960-9cf9-3ac291d948ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/theme/css/style.css" afterPath="$PROJECT_DIR$/.assets/theme/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/coffee/grunt.coffee" afterPath="$PROJECT_DIR$/.assets/coffee/grunt.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/coffee/grunt.js.map" afterPath="$PROJECT_DIR$/.assets/coffee/grunt.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/coffee/grunt.js" afterPath="$PROJECT_DIR$/.assets/coffee/grunt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/css/style.css" afterPath="$PROJECT_DIR$/assets/theme/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MorganMFG.iws" />
@@ -50,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grunt.coffee" pinned="false" current-in-tab="false">
+      <file leaf-file-name="grunt.coffee" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.assets/coffee/grunt.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
-              <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.72032905" vertical-offset="832" max-vertical-offset="1683">
+              <caret line="85" column="27" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -70,21 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.03877791" vertical-offset="186" max-vertical-offset="1037">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.assets/theme/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="3712" max-vertical-offset="35819">
-              <caret line="235" column="2" selection-start-line="235" selection-start-column="2" selection-end-line="235" selection-end-column="2" />
+              <caret line="228" column="20" selection-start-line="228" selection-start-column="20" selection-end-line="228" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -107,9 +98,10 @@
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/.assets/theme/css/style.css" />
-        <option value="$PROJECT_DIR$/.assets/coffee/grunt.coffee" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/assets/theme/css/style.css" />
+        <option value="$PROJECT_DIR$/.assets/coffee/grunt.coffee" />
       </list>
     </option>
   </component>
@@ -220,6 +212,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MorganMFG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MorganMFG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -551,18 +565,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.assets/theme/css/style.css">
+    <entry file="file://$PROJECT_DIR$/assets/theme/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3712" max-vertical-offset="35819">
-          <caret line="235" column="2" selection-start-line="235" selection-start-column="2" selection-end-line="235" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.47752127" vertical-offset="34270" max-vertical-offset="35819">
+          <caret line="2039" column="21" selection-start-line="2039" selection-start-column="21" selection-end-line="2039" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.assets/coffee/grunt.coffee">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
-          <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+        <state vertical-scroll-proportion="-0.03877791" vertical-offset="186" max-vertical-offset="1037">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -575,10 +589,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.assets/theme/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.03877791" vertical-offset="186" max-vertical-offset="1037">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3712" max-vertical-offset="35819">
+          <caret line="228" column="20" selection-start-line="228" selection-start-column="20" selection-end-line="228" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.assets/coffee/grunt.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72032905" vertical-offset="832" max-vertical-offset="1683">
+          <caret line="85" column="27" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
           <folding />
         </state>
       </provider>

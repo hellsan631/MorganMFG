@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+     	<title>Easy Video Background - by plusquare</title>
+
+		<script type="text/javascript" src="js/libs/jquery-1.6.2.min.js"></script> 
+		<script type="text/javascript" src="js/libs/swfobject.js"></script> 
+		<script type="text/javascript" src="js/libs/modernizr.video.js"></script> 
+		<script type="text/javascript" src="js/video_background.js"></script> 
+
+		<style>
+			html{
+				margin:0; padding:0;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div id="for_example" style="width: 300px; height: 300px; position: relative;"> <!-- Important to set the position relative or absolute here -->
+
+		</div>
+
+		<script>
+			jQuery(document).ready(function($) {
+				var Video_back = new video_background($("#for_example"), { 
+					"position": "absolute",	//Stick within the div
+					"z-index": "-1",		//Behind everything
+
+					"loop": true, 			//Loop when it reaches the end
+					"autoplay": true,		//Autoplay at start
+					"muted": true,			//Muted at start
+
+					"youtube": "dNiVB_d_z4k",	//Youtube video id
+					"start": 5,					//Start with 6 seconds offset (to pass the introduction in this case for example)
+					"video_ratio": 1.7778, 		// width/height -> If none provided sizing of the video is set to adjust
+
+					"fallback_image": "videos/main.jpg",	//Fallback image path
+				});
+
+			});
+		</script>
+	</body>
+
+</html>

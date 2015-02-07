@@ -2,663 +2,214 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c602e6-b2d0-4960-9cf9-3ac291d948ec" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\langs\en.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advhr\css\advhr.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advhr\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advhr\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advhr\js\rule.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advhr\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advhr\rule.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advimage\css\advimage.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advimage\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advimage\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advimage\image.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advimage\img\sample.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advimage\js\image.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advimage\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advlink\css\advlink.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advlink\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advlink\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advlink\js\advlink.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advlink\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advlink\link.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advlist\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\advlist\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\autolink\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\autolink\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\autoresize\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\autoresize\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\autosave\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\autosave\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\bbcode\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\bbcode\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\contextmenu\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\contextmenu\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\directionality\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\directionality\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\emotions.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-cool.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-cry.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-embarassed.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-foot-in-mouth.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-frown.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-innocent.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-kiss.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-laughing.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-money-mouth.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-sealed.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-surprised.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-tongue-out.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-undecided.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-wink.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\img\smiley-yell.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\js\emotions.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\emotions\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\example\dialog.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\example\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\example\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\example\img\example.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\example\js\dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\example\langs\en.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\example\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\example_dependency\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\example_dependency\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\fullpage\css\fullpage.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\fullpage\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\fullpage\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\fullpage\fullpage.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\fullpage\js\fullpage.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\fullpage\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\fullscreen\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\fullscreen\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\fullscreen\fullscreen.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\iespell\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\iespell\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\inlinepopups\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\inlinepopups\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\alert.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\button.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\buttons.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\confirm.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\horizontal.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\vertical.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\inlinepopups\skins\clearlooks2\window.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\inlinepopups\template.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\insertdatetime\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\insertdatetime\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\config.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\constants.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\database.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\doctypes.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\foreign_chars.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\hooks.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\migration.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\mimes.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\profiler.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\routes.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\smileys.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\uploader_settings.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\config\user_agents.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\controllers\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\controllers\uploader.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\errors\error_404.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\errors\error_db.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\errors\error_general.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\errors\error_php.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\errors\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\helpers\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\helpers\jbimages_helper.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\language\english\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\language\english\jbstrings_lang.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\language\french\imglib_lang.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\language\french\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\language\french\jbstrings_lang.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\language\french\upload_lang.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\language\russian\imglib_lang.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\language\russian\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\language\russian\jbstrings_lang.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\language\russian\upload_lang.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\views\ajax_upload_result.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\views\blank.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\application\views\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\Benchmark.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\CodeIgniter.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\Common.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\Config.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\Controller.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\Exceptions.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\Hooks.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\Input.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\Lang.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\Loader.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\Model.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\Output.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\Router.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\Security.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\URI.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\Utf8.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\core\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\helpers\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\helpers\language_helper.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\language\english\imglib_lang.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\language\english\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\language\english\upload_lang.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\language\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\libraries\Image_lib.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\libraries\Upload.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\ci\system\libraries\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\config.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\css\dialog-v4.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\css\dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\dialog-v4.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\dialog.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\img\jbimages-bw.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\img\spinner.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\is_allowed.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\js\dialog-v4.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\js\dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\langs\en.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\langs\fr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\langs\fr_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\langs\ru.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\langs\ru_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\jbimages\readme" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\layer\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\layer\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\legacyoutput\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\legacyoutput\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\lists\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\lists\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\media\css\media.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\media\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\media\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\media\js\embed.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\media\js\media.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\media\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\media\media.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\media\moxieplayer.swf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\nonbreaking\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\nonbreaking\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\noneditable\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\noneditable\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\00plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\bootstrap\css\bootstrap-image-gallery.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\bootstrap\css\bootstrap-image-gallery.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\bootstrap\css\bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\bootstrap\css\bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\bootstrap\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\bootstrap\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\bootstrap\img\glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\bootstrap\img\glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\bootstrap\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\bootstrap\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\css\bootstrap-image-gallery.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\css\jquery.fileupload-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\img\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\bootstrap-image-gallery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\cors\jquery.postmessage-transport.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\cors\jquery.xdr-transport.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\hideshow.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\jquery-1.5.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\jquery.equalHeight.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\jquery.fileupload-fp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\jquery.fileupload-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\jquery.fileupload.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\jquery.iframe-transport.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\jquery.tablesorter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\locale.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\tristatecheck.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\vendor\bootstrap-image-gallery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\vendor\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\vendor\bootstrapbkp.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\vendor\canvas-to-blob.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\vendor\jquery.ui.widget.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\vendor\load-image.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\fileupload\js\vendor\tmpl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\assets\img\icon.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\encodeexplorer.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\langs\en.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\php\ajax.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\php\error_log" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\php\fileactions.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\openmanager\php\functions.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\pagebreak\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\pagebreak\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\paste\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\paste\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\paste\js\pastetext.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\paste\js\pasteword.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\paste\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\paste\pastetext.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\paste\pasteword.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\preview\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\preview\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\preview\example.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\preview\jscripts\embed.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\preview\preview.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\print\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\print\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\save\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\save\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\searchreplace\css\searchreplace.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\searchreplace\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\searchreplace\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\searchreplace\js\searchreplace.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\searchreplace\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\searchreplace\searchreplace.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\spellchecker\css\content.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\spellchecker\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\spellchecker\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\spellchecker\img\wline.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\style\css\props.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\style\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\style\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\style\js\props.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\style\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\style\props.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\style\readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\tabfocus\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\tabfocus\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\table\cell.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\table\css\cell.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\table\css\row.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\table\css\table.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\table\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\table\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\table\js\cell.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\table\js\merge_cells.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\table\js\row.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\table\js\table.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\table\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\table\merge_cells.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\table\row.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\table\table.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\template\blank.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\template\css\template.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\template\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\template\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\template\js\template.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\template\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\template\template.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\visualblocks\css\visualblocks.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\visualblocks\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\visualblocks\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\visualchars\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\visualchars\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\wordcount\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\wordcount\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\abbr.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\acronym.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\attributes.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\cite.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\css\attributes.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\css\popup.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\del.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\ins.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\js\abbr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\js\acronym.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\js\attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\js\cite.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\js\del.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\js\element_common.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\js\ins.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\plugins\xhtmlxtras\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\about.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\anchor.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\charmap.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\color_picker.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\editor_template.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\editor_template_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\image.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\img\colorpicker.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\img\flash.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\img\icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\img\iframe.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\img\pagebreak.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\img\quicktime.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\img\realmedia.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\img\shockwave.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\img\trans.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\img\video.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\img\windowsmedia.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\js\about.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\js\anchor.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\js\charmap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\js\color_picker.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\js\image.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\js\link.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\js\source_editor.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\langs\en.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\link.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\shortcuts.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\default\content.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\default\dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\default\img\buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\default\img\items.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\default\img\menu_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\default\img\menu_check.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\default\img\progress.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\default\img\tabs.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\default\ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\highcontrast\content.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\highcontrast\dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\highcontrast\ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\o2k7\content.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\o2k7\dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\o2k7\img\button_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\o2k7\img\button_bg_black.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\o2k7\img\button_bg_silver.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\o2k7\ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\o2k7\ui_black.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\skins\o2k7\ui_silver.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced - Copy\source_editor.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\about.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\anchor.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\charmap.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\color_picker.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\editor_template.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\editor_template_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\image.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\img\colorpicker.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\img\flash.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\img\icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\img\iframe.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\img\pagebreak.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\img\quicktime.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\img\realmedia.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\img\shockwave.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\img\trans.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\img\video.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\img\windowsmedia.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\js\about.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\js\anchor.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\js\charmap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\js\color_picker.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\js\image.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\js\link.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\js\source_editor.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\langs\en.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\langs\en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\link.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\shortcuts.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\default\content.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\default\dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\default\img\buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\default\img\items.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\default\img\menu_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\default\img\menu_check.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\default\img\progress.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\default\img\tabs.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\default\ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\highcontrast\content.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\highcontrast\dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\highcontrast\ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\o2k7\content.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\o2k7\dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\o2k7\img\button_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\o2k7\img\button_bg_black.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\o2k7\img\button_bg_silver.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\o2k7\ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\o2k7\ui_black.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\skins\o2k7\ui_silver.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\advanced\source_editor.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple - Copy\editor_template.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple - Copy\editor_template_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple - Copy\img\icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple - Copy\langs\en.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple - Copy\skins\default\content.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple - Copy\skins\default\ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple - Copy\skins\o2k7\content.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple - Copy\skins\o2k7\img\button_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple - Copy\skins\o2k7\ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple\editor_template.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple\editor_template_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple\img\icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple\langs\en.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple\skins\default\content.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple\skins\default\ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple\skins\o2k7\content.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple\skins\o2k7\img\button_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\themes\simple\skins\o2k7\ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\tiny_mce.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\tiny_mce_popup.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\tiny_mce_src.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\utils\editable_selects.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\utils\form_utils.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\utils\mctabs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\HellsAn631\Zend\workspaces\MorganMFG\.assets\tiny_mce\utils\validate.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/01_antipasti_p077-420x520-360x240.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/01_antipasti_p077-420x520-360x240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/img/1.jpg" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/img/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/gallery/1.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/gallery/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/gallery/10.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/gallery/10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/1088_z_Involtini_Tacchino_Pere-360x240.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/1088_z_Involtini_Tacchino_Pere-360x240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/gallery/11.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/gallery/11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/gallery/12.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/gallery/12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/gallery/13.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/gallery/13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/gallery/14.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/gallery/14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/home_sq/1_acrobat_half.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/home_sq/1_acrobat_half.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/img/2.jpg" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/img/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/gallery/2.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/gallery/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/home_sq/2_halfblock_history.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/home_sq/2_halfblock_history.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/img/3.jpg" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/img/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/gallery/3.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/gallery/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/home_sq/3_halfblock_building.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/home_sq/3_halfblock_building.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/img/4.jpg" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/img/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/home_sq/4_halfblock_ragout.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/home_sq/4_halfblock_ragout.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/img/5.jpg" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/img/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/gallery/5.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/gallery/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/gallery/6.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/gallery/6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/gallery/7.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/gallery/7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/gallery/8.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/gallery/8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/gallery/9.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/gallery/9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/Arista-alle-Prugne-1-360x240.jpg" afterPath="$PROJECT_DIR$/assets/images/Arista-alle-Prugne-1-360x240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/Arista-alle-Prugne-1-360x240.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/Arista-alle-Prugne-1-360x240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/new/ChefForProfile.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/new/ChefForProfile.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/new/Contact_LadiesRoom.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/new/Contact_LadiesRoom.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/new/EventForProfile.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/new/EventForProfile.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/new/FreshFoodForProfile.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/new/FreshFoodForProfile.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/Jcrop/css/Jcrop.gif" afterPath="$PROJECT_DIR$/assets/plugins/Jcrop/css/Jcrop.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/sliderhome/MAT_0535.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/sliderhome/MAT_0535.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/sliderhome/MAT_0719.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/sliderhome/MAT_0719.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/MC_settembre_2010_p107_775-420x520-360x240.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/MC_settembre_2010_p107_775-420x520-360x240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/sliderhome/SIL_4605.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/sliderhome/SIL_4605.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/sliderhome/SIL_4615.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/sliderhome/SIL_4615.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/sliderhome/SIL_4805.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/sliderhome/SIL_4805.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/sliderhome/SIL_4890.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/sliderhome/SIL_4890.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/arr.png" afterPath="$PROJECT_DIR$/assets/images/arr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/arr.png" afterPath="$PROJECT_DIR$/assets/theme/img/arr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/autor.png" afterPath="$PROJECT_DIR$/assets/theme/img/autor.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/baccala-360x240.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/baccala-360x240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/bg-journal-wrapper.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/bg-journal-wrapper.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/bg-qualitycycle-wrapper.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/bg-qualitycycle-wrapper.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/bg-qualitymap-wrapper.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/bg-qualitymap-wrapper.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/bg-recipes-wrapper.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/bg-recipes-wrapper.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/bg-tracking-wrapper.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/bg-tracking-wrapper.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/bistecchina-di-maiale-con-cipolle-caramellate-e-prugne-360x240.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/bistecchina-di-maiale-con-cipolle-caramellate-e-prugne-360x240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/blank.gif" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/blank.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/blog-detail.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/blog-detail.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/blog1.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/blog1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/blog2.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/blog2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/blog3.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/blog3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/blog4.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/blog4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/blog5.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/blog5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/blog6.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/blog6.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/uploads/news/thumbs/blog_4.png" afterPath="$PROJECT_DIR$/assets/uploads/news/thumbs/blog_4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_background.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_background.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_hex.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_hex.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_hsb_b.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_hsb_b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_hsb_h.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_hsb_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_hsb_s.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_hsb_s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_indic.gif" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_indic.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_overlay.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_overlay.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_rgb_b.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_rgb_b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_rgb_g.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_rgb_g.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_rgb_r.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_rgb_r.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_select.gif" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/colorpicker_select.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/coniglio-360x240.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/coniglio-360x240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/crop-icon.png" afterPath="$PROJECT_DIR$/assets/theme/img/crop-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_background.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_background.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_hex.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_hex.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_hsb_b.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_hsb_b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_hsb_h.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_hsb_h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_hsb_s.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_hsb_s.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_indic.gif" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_indic.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_rgb_b.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_rgb_b.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_rgb_g.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_rgb_g.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_rgb_r.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_rgb_r.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_submit.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/custom_submit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/socialicon/fb.png" afterPath="$PROJECT_DIR$/assets/theme/socialicon/fb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/socialicon/fb_hover.png" afterPath="$PROJECT_DIR$/assets/theme/socialicon/fb_hover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/flan-360x240.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/flan-360x240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/form_bg.png" afterPath="$PROJECT_DIR$/assets/theme/img/form_bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/new/formheader.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/new/formheader.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/timepicker/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/assets/timepicker/glyphicons-halflings.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/socialicon/gplus.png" afterPath="$PROJECT_DIR$/assets/theme/socialicon/gplus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/socialicon/gplus_hover.png" afterPath="$PROJECT_DIR$/assets/theme/socialicon/gplus_hover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/header-1.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/header-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/header-17.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/header-17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/header-24.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/header-24.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/header-26.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/header-26.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/header-28.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/header-28.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/header-29.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/header-29.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/header-30.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/header-30.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/header-5.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/header-5.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/uploads/amenities/thumbs/header_amenties3.png" afterPath="$PROJECT_DIR$/assets/uploads/amenities/thumbs/header_amenties3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/uploads/amenities/thumbs/header_amenties31.png" afterPath="$PROJECT_DIR$/assets/uploads/amenities/thumbs/header_amenties31.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/uploads/space/thumbs/header_amenties31.png" afterPath="$PROJECT_DIR$/assets/uploads/space/thumbs/header_amenties31.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/sliderhome/header_bartender.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/sliderhome/header_bartender.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/sliderhome/header_drinks.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/sliderhome/header_drinks.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/sliderhome/header_salmon.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/sliderhome/header_salmon.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/new/header_template_industrial.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/new/header_template_industrial.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/new/header_template_vintage_history.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/new/header_template_vintage_history.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/home_banner.jpg" afterPath="$PROJECT_DIR$/assets/home_banner.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/hv.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/hv.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/ico-check.png" afterPath="$PROJECT_DIR$/assets/theme/img/ico-check.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/ico-journal.png" afterPath="$PROJECT_DIR$/assets/theme/img/ico-journal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/ico-map.png" afterPath="$PROJECT_DIR$/assets/theme/img/ico-map.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/ico-newsletter.png" afterPath="$PROJECT_DIR$/assets/theme/img/ico-newsletter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/ico-recipes.png" afterPath="$PROJECT_DIR$/assets/theme/img/ico-recipes.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/ico-search.png" afterPath="$PROJECT_DIR$/assets/theme/img/ico-search.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/icon-1.png" afterPath="$PROJECT_DIR$/assets/theme/img/icon-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/socialicon/insta.png" afterPath="$PROJECT_DIR$/assets/theme/socialicon/insta.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/socialicon/insta_hover.png" afterPath="$PROJECT_DIR$/assets/theme/socialicon/insta_hover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/sliderhome/interior.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/sliderhome/interior.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/left.png" afterPath="$PROJECT_DIR$/assets/theme/img/left.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/socialicon/linked.png" afterPath="$PROJECT_DIR$/assets/theme/socialicon/linked.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/socialicon/linked_hover.png" afterPath="$PROJECT_DIR$/assets/theme/socialicon/linked_hover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/royal_loader/images/loader.gif" afterPath="$PROJECT_DIR$/assets/plugins/royal_loader/images/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/royal_loader/images/loaders/loader1.gif" afterPath="$PROJECT_DIR$/assets/plugins/royal_loader/images/loaders/loader1.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/royal_loader/images/loaders/loader2.gif" afterPath="$PROJECT_DIR$/assets/plugins/royal_loader/images/loaders/loader2.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/royal_loader/images/loaders/loader3.gif" afterPath="$PROJECT_DIR$/assets/plugins/royal_loader/images/loaders/loader3.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/royal_loader/images/loaders/loader4.gif" afterPath="$PROJECT_DIR$/assets/plugins/royal_loader/images/loaders/loader4.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fresco/css/skins/loading-medium.gif" afterPath="$PROJECT_DIR$/assets/plugins/fresco/css/skins/loading-medium.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fresco/css/skins/loading-small.gif" afterPath="$PROJECT_DIR$/assets/plugins/fresco/css/skins/loading-small.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fresco/css/skins/loading.gif" afterPath="$PROJECT_DIR$/assets/plugins/fresco/css/skins/loading.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/logo-montere-100x80.png" afterPath="$PROJECT_DIR$/assets/theme/img/logo-montere-100x80.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/logo-montere-140x90.png" afterPath="$PROJECT_DIR$/assets/theme/img/logo-montere-140x90.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/logo-montere-45x45.png" afterPath="$PROJECT_DIR$/assets/theme/img/logo-montere-45x45.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/logo-stopka.png" afterPath="$PROJECT_DIR$/assets/theme/service/logo-stopka.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/new/logo.png" afterPath="$PROJECT_DIR$/assets/theme/img/new/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/new/logo1.png" afterPath="$PROJECT_DIR$/assets/theme/img/new/logo1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/new/logo_tiny.png" afterPath="$PROJECT_DIR$/assets/theme/img/new/logo_tiny.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/videos/main.jpg" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/videos/main.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/mlogo0.png" afterPath="$PROJECT_DIR$/assets/theme/img/mlogo0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/pasticceria-visciole_01-360x240.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/pasticceria-visciole_01-360x240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/piatto-servito-terrina-cereali-360x240.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/piatto-servito-terrina-cereali-360x240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/socialicon/pinterest.png" afterPath="$PROJECT_DIR$/assets/theme/socialicon/pinterest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/socialicon/pinterest_hover.png" afterPath="$PROJECT_DIR$/assets/theme/socialicon/pinterest_hover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/points.png" afterPath="$PROJECT_DIR$/assets/images/points.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/points.png" afterPath="$PROJECT_DIR$/assets/theme/img/points.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/new/profileheader.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/new/profileheader.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/new/profileheader2.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/new/profileheader2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/right.png" afterPath="$PROJECT_DIR$/assets/theme/img/right.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/select.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/select.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/select2.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/select2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/images/slider.png" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/images/slider.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/social_icons_sprite.png" afterPath="$PROJECT_DIR$/assets/theme/img/social_icons_sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/social_icons_sprite_black.png" afterPath="$PROJECT_DIR$/assets/theme/img/social_icons_sprite_black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/spacer-20x2-grey.png" afterPath="$PROJECT_DIR$/assets/theme/img/spacer-20x2-grey.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/spacer-30x2-white.png" afterPath="$PROJECT_DIR$/assets/theme/img/spacer-30x2-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/spacer-40x2-grey.png" afterPath="$PROJECT_DIR$/assets/theme/img/spacer-40x2-grey.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/spacer-40x2-white.png" afterPath="$PROJECT_DIR$/assets/theme/img/spacer-40x2-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/spacer-50x2-white.png" afterPath="$PROJECT_DIR$/assets/theme/img/spacer-50x2-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/spacer.png" afterPath="$PROJECT_DIR$/assets/theme/img/spacer.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/spacer_white.png" afterPath="$PROJECT_DIR$/assets/theme/img/spacer_white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fresco/css/skins/IE6/sprite.png" afterPath="$PROJECT_DIR$/assets/plugins/fresco/css/skins/IE6/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fresco/css/skins/fresco/sprite.png" afterPath="$PROJECT_DIR$/assets/plugins/fresco/css/skins/fresco/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fresco/css/skins/fresco/sprite@x2.png" afterPath="$PROJECT_DIR$/assets/plugins/fresco/css/skins/fresco/sprite@x2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/square-25.png" afterPath="$PROJECT_DIR$/assets/theme/img/square-25.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/square-empty-25.png" afterPath="$PROJECT_DIR$/assets/theme/img/square-empty-25.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/strudel-360x240.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/strudel-360x240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/team-fb.png" afterPath="$PROJECT_DIR$/assets/theme/img/team-fb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/team-fbw.png" afterPath="$PROJECT_DIR$/assets/theme/img/team-fbw.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/team-tw.png" afterPath="$PROJECT_DIR$/assets/theme/img/team-tw.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/team-tww.png" afterPath="$PROJECT_DIR$/assets/theme/img/team-tww.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/team1.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/team1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/tean-l1.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/tean-l1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/tean-l10.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/tean-l10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/tean-l11.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/tean-l11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/tean-l12.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/tean-l12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/tean-l2.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/tean-l2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/tean-l3.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/tean-l3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/tean-l4.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/tean-l4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/tean-l5.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/tean-l5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/tean-l6.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/tean-l6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/tean-l7.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/tean-l7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/tean-l8.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/tean-l8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/tean-l9.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/tean-l9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/torta-prugne-e-cocco-360x240.png" afterPath="$PROJECT_DIR$/assets/theme/img/torta-prugne-e-cocco-360x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/torta-ricotta-amarene-360x240.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/torta-ricotta-amarene-360x240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/img/torta-yogurt-e-fragole-360x240.jpg" afterPath="$PROJECT_DIR$/assets/theme/img/torta-yogurt-e-fragole-360x240.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/socialicon/twitter.png" afterPath="$PROJECT_DIR$/assets/theme/socialicon/twitter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/socialicon/twitter_hover.png" afterPath="$PROJECT_DIR$/assets/theme/socialicon/twitter_hover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_glass_75_dadada_1x400.png" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-icons_222222_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-icons_2e83ff_256x240.png" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-icons_2e83ff_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-icons_454545_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-icons_888888_256x240.png" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-icons_888888_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-icons_cd0a0a_256x240.png" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.map" afterPath="$PROJECT_DIR$/Gruntfile.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/abbr.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/abbr.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/dynamic_css/about.css" afterPath="$PROJECT_DIR$/.assets/dynamic_css/about.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/dynamic_css/about.css" afterPath="$PROJECT_DIR$/assets/dynamic_css/about.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/about.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/about.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/about.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/about.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/dynamic_css/about_header.css" afterPath="$PROJECT_DIR$/.assets/dynamic_css/about_header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/dynamic_css/about_header.css" afterPath="$PROJECT_DIR$/assets/dynamic_css/about_header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/acronym.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/acronym.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/js/advlink.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/js/advlink.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/anchor.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/anchor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/anchor.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/anchor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/attributes.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/attributes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/assets/theme/bootstrap/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/js/bootstrap.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/bootstrap/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/cell.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/cell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/charmap.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/charmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/charmap.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/charmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/cite.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/cite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/color_picker.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/color_picker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/color_picker.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/color_picker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/js/colorpicker.js" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/js/colorpicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/del.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/del.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/js/dialog-v4.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/js/dialog-v4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/js/dialog.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/js/dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/js/dialog.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/js/dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/utils/editable_selects.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/utils/editable_selects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlist/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlist/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/autolink/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/autolink/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/autoresize/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/autoresize/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/autosave/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/autosave/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/bbcode/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/bbcode/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/contextmenu/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/contextmenu/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/directionality/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/directionality/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/example_dependency/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/example_dependency/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullscreen/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullscreen/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/iespell/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/iespell/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/inlinepopups/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/inlinepopups/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/insertdatetime/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/insertdatetime/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/layer/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/layer/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/legacyoutput/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/legacyoutput/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/lists/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/lists/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/nonbreaking/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/nonbreaking/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/noneditable/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/noneditable/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/pagebreak/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/pagebreak/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/preview/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/preview/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/print/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/print/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/save/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/save/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/spellchecker/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/spellchecker/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/tabfocus/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/tabfocus/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualblocks/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualblocks/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualchars/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualchars/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/wordcount/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/wordcount/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlist/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlist/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/autolink/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/autolink/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/autoresize/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/autoresize/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/autosave/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/autosave/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/bbcode/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/bbcode/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/contextmenu/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/contextmenu/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/directionality/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/directionality/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/example_dependency/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/example_dependency/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullscreen/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullscreen/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/iespell/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/iespell/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/insertdatetime/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/insertdatetime/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/layer/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/layer/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/legacyoutput/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/legacyoutput/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/lists/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/lists/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/nonbreaking/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/nonbreaking/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/noneditable/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/noneditable/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/pagebreak/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/pagebreak/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/preview/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/preview/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/print/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/print/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/save/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/save/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/spellchecker/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/spellchecker/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/tabfocus/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/tabfocus/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualblocks/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualblocks/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualchars/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualchars/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/wordcount/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/wordcount/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/editor_template.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/editor_template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/editor_template.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/editor_template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/simple - Copy/editor_template.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/simple - Copy/editor_template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/simple/editor_template.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/simple/editor_template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/editor_template_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/editor_template_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/editor_template_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/editor_template_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/simple - Copy/editor_template_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/simple - Copy/editor_template_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/simple/editor_template_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/simple/editor_template_src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/element_common.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/element_common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/js/embed.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/js/embed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/preview/jscripts/embed.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/preview/jscripts/embed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/js/emotions.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/js/emotions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/langs/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/langs/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/langs/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/langs/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/langs/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/simple - Copy/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/simple - Copy/langs/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/simple/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/simple/langs/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/langs/en_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/js/eye.js" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/js/eye.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/utils/form_utils.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/utils/form_utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/fr.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/fr_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/fr_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fresco/js/fresco.js" afterPath="$PROJECT_DIR$/assets/plugins/fresco/js/fresco.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/js/fullpage.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/js/fullpage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/coffee/grunt.coffee" afterPath="$PROJECT_DIR$/.assets/coffee/grunt.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/coffee/grunt.js.map" afterPath="$PROJECT_DIR$/.assets/coffee/grunt.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/coffee/grunt.js" afterPath="$PROJECT_DIR$/.assets/coffee/grunt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/hideshow.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/hideshow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/js/image.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/js/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/image.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/image.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/ins.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/ins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/jquery-ui.js" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/jquery-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery-ui.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/js/jquery.js" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/royal_loader/javascript/jquery.js" afterPath="$PROJECT_DIR$/assets/plugins/royal_loader/javascript/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/js/jquery.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/jscolor.js" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/jscolor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/js/layout.js" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/js/layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/link.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/link.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/locale.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/locale.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/main.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/utils/mctabs.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/utils/mctabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/js/media.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/js/media.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/merge_cells.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/merge_cells.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/js/pastetext.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/js/pastetext.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/js/pasteword.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/js/pasteword.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/js/props.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/js/props.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/row.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/row.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/royal_loader/javascript/royal_preloader.js" afterPath="$PROJECT_DIR$/assets/plugins/royal_loader/javascript/royal_preloader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/ru.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/ru_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/ru_dlg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/js/rule.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/js/rule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/js/searchreplace.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/js/searchreplace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/source_editor.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/source_editor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/source_editor.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/source_editor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/theme/css/style.css" afterPath="$PROJECT_DIR$/.assets/theme/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/css/style.css" afterPath="$PROJECT_DIR$/assets/theme/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/js/libs/swfobject.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/js/libs/swfobject.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/libs/swfobject.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/libs/swfobject.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/table.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/js/template.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/js/template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/timepicker/timepicker.js" afterPath="$PROJECT_DIR$/assets/timepicker/timepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/tiny_mce.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/tiny_mce.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/tiny_mce_popup.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/tiny_mce_popup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/js/utils.js" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/js/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/utils/validate.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/utils/validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/js/video_background.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/js/video_background.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/video_background.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/video_background.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/coffee/grunt.js" afterPath="$PROJECT_DIR$/assets/coffee/grunt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/coffee/grunt.map" afterPath="$PROJECT_DIR$/assets/coffee/grunt.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MorganMFG.iws" />
@@ -684,11 +235,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="grunt.coffee" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grunt.coffee" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.assets/coffee/grunt.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10105758" vertical-offset="186" max-vertical-offset="1955">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.13983549" vertical-offset="0" max-vertical-offset="851">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -717,8 +278,8 @@
       <file leaf-file-name="about.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.assets/dynamic_css/about.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="969">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="662" max-vertical-offset="1513">
+              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -779,7 +340,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -788,9 +348,10 @@
         <option value="$PROJECT_DIR$/.assets/dynamic_css/home_slider.css" />
         <option value="$PROJECT_DIR$/.assets/theme/css/style.css" />
         <option value="$PROJECT_DIR$/.assets/dynamic_css/about_header.css" />
-        <option value="$PROJECT_DIR$/.assets/dynamic_css/about.css" />
         <option value="$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/.assets/coffee/grunt.coffee" />
+        <option value="$PROJECT_DIR$/.assets/dynamic_css/about.css" />
+        <option value="$PROJECT_DIR$/.htaccess" />
       </list>
     </option>
   </component>
@@ -1190,16 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding>
-            <marker date="1423255788970" expanded="true" signature="-1:-1" placeholder="&lt;IfModule mod_rewrite.c&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/theme/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47752127" vertical-offset="34270" max-vertical-offset="35819">
@@ -1277,26 +828,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.assets/dynamic_css/about.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="969">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.assets/theme/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.0" vertical-offset="4350" max-vertical-offset="36227">
           <caret line="274" column="1" selection-start-line="274" selection-start-column="1" selection-end-line="274" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.assets/dynamic_css/home_slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1309,10 +844,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.assets/dynamic_css/home_slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.assets/dynamic_css/about.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="662" max-vertical-offset="1513">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.assets/coffee/grunt.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10105758" vertical-offset="186" max-vertical-offset="1955">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13983549" vertical-offset="0" max-vertical-offset="851">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

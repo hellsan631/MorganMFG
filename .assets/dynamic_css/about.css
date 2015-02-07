@@ -27,25 +27,57 @@
 
 .eventsection .col-lg-3 p.hoverdiv{
     -webkit-animation: FadeIn 0.3s linear;
+    -moz-animation: FadeIn 0.3s linear;
+    -o-animation: FadeIn 0.3s linear;
+    animation: FadeIn 0.3s linear;
+
     -webkit-animation-fill-mode:both;
+    -moz-animation-fill-mode:both;
+    -o-animation-fill-mode:both;
+    animation-fill-mode:both;
 }
 
 .eventsection .col-lg-3 span.hoverdiv p{
     -webkit-animation: FadeIn 0.3s linear;
+    -moz-animation: FadeIn 0.3s linear;
+    -o-animation: FadeIn 0.3s linear;
+    animation: FadeIn 0.3s linear;
+
     -webkit-animation-fill-mode:both;
+    -moz-animation-fill-mode:both;
+    -o-animation-fill-mode:both;
+    animation-fill-mode:both;
 }
 
-.eventsection .col-lg-3 p.hoverdiv:nth-child(1){ -webkit-animation-delay: 0.2s }
-.eventsection .col-lg-3 span.hoverdiv p:nth-child(1){ -webkit-animation-delay: 0.4s }
-.eventsection .col-lg-3 span.hoverdiv p:nth-child(2){ -webkit-animation-delay: 0.6s }
-.eventsection .col-lg-3 span.hoverdiv p:nth-child(3){ -webkit-animation-delay: 0.8s }
-.eventsection .col-lg-3 span.hoverdiv p:nth-child(4){ -webkit-animation-delay: 1.0s }
-.eventsection .col-lg-3 span.hoverdiv p:nth-child(5){ -webkit-animation-delay: 1.2s }
-.eventsection .col-lg-3 span.hoverdiv p:nth-child(6){ -webkit-animation-delay: 1.4s }
+.eventsection .col-lg-3 p.hoverdiv:nth-child(1){ -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; -o-animation-delay: 0.2s; animation-delay: 0.2s;}
+.eventsection .col-lg-3 span.hoverdiv p:nth-child(1){ -webkit-animation-delay: 0.4s; -moz-animation-delay: 0.4s; -o-animation-delay: 0.4s; animation-delay: 0.4s;}
+.eventsection .col-lg-3 span.hoverdiv p:nth-child(2){ -webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; -o-animation-delay: 0.6s; animation-delay: 0.6s;}
+.eventsection .col-lg-3 span.hoverdiv p:nth-child(3){ -webkit-animation-delay: 0.8s; -moz-animation-delay: 0.8s; -o-animation-delay: 0.8s; animation-delay: 0.8s;}
+.eventsection .col-lg-3 span.hoverdiv p:nth-child(4){ -webkit-animation-delay: 1.0s; -moz-animation-delay: 1.0s; -o-animation-delay: 1.0s; animation-delay: 1.0s;}
+.eventsection .col-lg-3 span.hoverdiv p:nth-child(5){ -webkit-animation-delay: 1.2s; -moz-animation-delay: 1.2s; -o-animation-delay: 1.2s; animation-delay: 1.2s;}
+.eventsection .col-lg-3 span.hoverdiv p:nth-child(6){ -webkit-animation-delay: 1.4s; -moz-animation-delay: 1.4s; -o-animation-delay: 1.4s; animation-delay: 1.4s;}
 
 @-webkit-keyframes FadeIn {
     0% { opacity:0; -webkit-transform:scale(.5);}
     85% {opacity:1; -webkit-transform:scale(1.05);}
     100% {-webkit-transform:scale(1); }
+}
+
+@-moz-keyframes FadeIn {
+    0% { opacity:0; -moz-transform:scale(.5);}
+    85% {opacity:1; -moz-transform:scale(1.05);}
+    100% {-moz-transform:scale(1); }
+}
+
+@-o-keyframes FadeIn {
+    0% { opacity:0; -o-transform:scale(.5);}
+    85% {opacity:1; -o-transform:scale(1.05);}
+    100% {-o-transform:scale(1); }
+}
+
+@keyframes FadeIn {
+    0% { opacity:0; transform:scale(.5);}
+    85% {opacity:1; transform:scale(1.05);}
+    100% {transform:scale(1); }
 }
 

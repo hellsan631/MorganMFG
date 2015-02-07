@@ -8,7 +8,7 @@
       imagemin: {
         build: {
           options: {
-            optimizationLevel: 3
+            optimizationLevel: 5
           },
           files: [
             {
@@ -38,11 +38,15 @@
             compress: true,
             sourceMap: true
           },
-          files: grunt.file.expandMapping(['.assets/js/*.js', '.assets/theme/**/*.js'], 'assets/', {
-            rename: function(destBase, destPath) {
-              return destBase + destPath.replace('.js', '.js');
+          files: [
+            {
+              expand: true,
+              cwd: '.assets/theme/',
+              src: ['**/*.js', '!**/*.min.js'],
+              dest: 'assets/theme/',
+              ext: '.js'
             }
-          })
+          ]
         }
       },
       cssmin: {
@@ -50,9 +54,9 @@
           files: [
             {
               expand: true,
-              cwd: '.assets/theme/css',
-              src: ['*.css', '!*.min.css'],
-              dest: 'assets/theme/css'
+              cwd: '.assets/',
+              src: ['*.css', '!*.min.css', '**/*.css', '!**/*.min.css', '**/**/*.css', '!**/**/*.min.css', '**/**/**/*.css', '!**/**/**/*.min.css'],
+              dest: 'assets/'
             }
           ]
         }
@@ -61,10 +65,6 @@
         scripts: {
           files: '.assets/coffee/*.coffee',
           tasks: ['coffee']
-        },
-        assets: {
-          files: '.assets/uploads/**/*',
-          tasks: ['imagemin:build']
         },
         configFiles: {
           files: 'Gruntfile.js',
@@ -79,8 +79,8 @@
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.registerTask('build', ['coffee', 'uglify:build', 'cssmin:build', 'watch']);
-    return grunt.registerTask('deploy', ['imagemin:build']);
+    grunt.registerTask('build', ['coffee', 'uglify:build', 'cssmin:build']);
+    return grunt.registerTask('deploy', ['imagemin:build', 'coffee', 'uglify:build', 'cssmin:build']);
   };
 
 }).call(this);

@@ -1,16 +1,1 @@
-.home-slider-heading {
-	color:#FFFFFF !important;
-}
-
-.home-slider-subheading {
-	color:#FFFFFF !important;
-}
-
-.home-slider-content {
-	color:#FFFFFF !important;
-}
-
-.home-slider-button {
-	color:#FFFFFF !important;
-}
-
+.home-slider-button,.home-slider-content,.home-slider-heading,.home-slider-subheading{color:#FFF}

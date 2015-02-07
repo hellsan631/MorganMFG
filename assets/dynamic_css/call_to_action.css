@@ -1,8 +1,1 @@
-h3.call-to-action-heading {
-	color:#FFFFFF !important;
-}
-
-.call-to-action-subheading {
-	color:#FFFFFF !important;
-}
-
+.call-to-action-subheading,h3.call-to-action-heading{color:#FFF!important}

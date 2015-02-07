@@ -1,16 +1,1 @@
-.blog-list ul li .info h1, .blog-detail h1 {
-	color:#000000 !important;
-}
-
-.blog-list ul li .info p {
-	color:#000000 !important;
-}
-
-.blog-list ul li .info span {
-	color:#000000 !important;
-}
-
-.blog-list ul li .info a {
-	color:#000000 !important;
-}
-
+.blog-detail h1,.blog-list ul li .info a,.blog-list ul li .info h1,.blog-list ul li .info p,.blog-list ul li .info span{color:#000!important}

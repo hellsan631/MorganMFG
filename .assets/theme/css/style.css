@@ -262,10 +262,10 @@ strong {
 }
 
 a {
-	transition-property:color;
-	transition-duration:.1s;
-	-webkit-transition-property:color;
-	-webkit-transition-duration:.1s;
+    -webkit-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -moz-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -o-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
 	color:#9e6335;
 	outline:none
 }
@@ -424,6 +424,10 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 #team-detail .carousel-control:hover {
 	color: #fff;
 	background: #5f3827;
+    -webkit-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -moz-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -o-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
 }
 
 #team-detail a.back {
@@ -441,7 +445,11 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 #team-detail a.back:hover {
 	background: #fff;
-	color: #5f3827;	
+	color: #5f3827;
+    -webkit-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -moz-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -o-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
 }
 
 #team-detail .carousel-inner {
@@ -522,10 +530,10 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	bottom: 0;
 	background: rgba(66,53,61,.9);
 	opacity: 0;
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    -o-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -moz-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -o-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
 }
 
 .team-list .half-block:hover .inner {opacity: 1} 
@@ -745,16 +753,28 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .navbar-scroll .navbar-nav .active a,.navbar-scroll .navbar-nav .active a:hover,.navbar-scroll .navbar-nav .active a:focus {
 	background:transparent;
-	color:#fff
+	color:#fff;
+    -webkit-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -moz-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -o-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
 }
 
 .navbar-scroll .navbar-nav .active a .line,.navbar-scroll .navbar-nav .active a:hover .line,.navbar-scroll .navbar-nav .active a:focus .line {
-	border-bottom:2px solid #fff
+	border-bottom:2px solid #fff;
+    -webkit-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -moz-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -o-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
 }
 
 .navbar-scroll .navbar-nav .open > a,.navbar-scroll .navbar-nav .open > a:hover,.navbar-scroll .navbar-nav .open > a:focus {
 	background-color:transparent;
-	color:#fff
+	color:#fff;
+    -webkit-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -moz-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -o-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
 }
 
 .navbar-scroll .navbar-brand {
@@ -779,7 +799,11 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .navbar-scroll .dropdown .dropdown-menu li.active a .line {
-	border-bottom:2px solid #fff
+	border-bottom:2px solid #fff;
+    -webkit-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -moz-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -o-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
 }
 
 .navbar-scroll .dropdown.open .dropdown-menu,.navbar-scroll .dropdown:hover .dropdown-menu,.navbar-scroll .dropdown:focus .dropdown-menu {
@@ -792,7 +816,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	-webkit-box-shadow:none;
 	box-shadow:none;
 	border:2px solid #fff;
-	padding:15px
+	padding:15px;
 }
 
 .navbar-scroll .dropdown.open .dropdown-menu a,.navbar-scroll .dropdown:hover .dropdown-menu a,.navbar-scroll .dropdown:focus .dropdown-menu a {
@@ -1277,7 +1301,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	transition-property:all;
 	transition-duration:.2s;
 	-webkit-transition-property:all;
-	-webkit-transition-duration:.2s
+	-webkit-transition-duration:.2s;
 }
 
 .home-slider .carousel-indicators li.active {

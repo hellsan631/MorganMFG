@@ -14,7 +14,7 @@ module.exports = (grunt)->
     imagemin:
       build:
         options:
-          optimizationLevel: 3
+          optimizationLevel: 5
         files: [
           expand: true
           cwd: '.assets/uploads/'
@@ -36,18 +36,26 @@ module.exports = (grunt)->
           mangle: true
           compress: true
           sourceMap: true
-        files: grunt.file.expandMapping ['.assets/js/*.js', '.assets/theme/**/*.js'],
-          'assets/',
-          rename: (destBase, destPath)->
-            destBase+destPath.replace '.js', '.js'
+        files: [
+          expand: true
+          cwd: '.assets/theme/'
+          src: ['**/*.js', '!**/*.min.js']
+          dest: 'assets/theme/'
+          ext: '.js'
+        ]
 
     cssmin:
       build:
         files: [
           expand: true
-          cwd: '.assets/theme/css'
-          src: ['*.css', '!*.min.css']
-          dest: 'assets/theme/css'
+          cwd: '.assets/'
+          src: [
+            '*.css', '!*.min.css',
+            '**/*.css', '!**/*.min.css',
+            '**/**/*.css', '!**/**/*.min.css',
+            '**/**/**/*.css', '!**/**/**/*.min.css'
+          ]
+          dest: 'assets/'
         ]
 
   ##############################################################
@@ -58,9 +66,6 @@ module.exports = (grunt)->
       scripts:
         files: '.assets/coffee/*.coffee'
         tasks: ['coffee']
-      assets:
-        files: '.assets/uploads/**/*'
-        tasks: ['imagemin:build']
       configFiles:
         files: 'Gruntfile.js'
         options:
@@ -84,10 +89,12 @@ module.exports = (grunt)->
     'coffee' # tmp
     'uglify:build' # public
     'cssmin:build' # public
-    'watch'
   ])
 
   grunt.registerTask('deploy', [
     'imagemin:build' # public
+    'coffee' # tmp
+    'uglify:build' # public
+    'cssmin:build' # public
   ])
 

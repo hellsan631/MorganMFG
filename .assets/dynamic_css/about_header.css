@@ -24,3 +24,7 @@
 	color:#FFFFFF !important;
 }
 
+.eventsection .col-lg-3:hover{
+    background-color:rgba(#1f1206, 0.8);
+}
+

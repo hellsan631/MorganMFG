@@ -8,7 +8,7 @@
       imagemin: {
         build: {
           options: {
-            optimizationLevel: 5
+            optimizationLevel: 3
           },
           files: [
             {
@@ -41,9 +41,9 @@
           files: [
             {
               expand: true,
-              cwd: '.assets/theme/',
-              src: ['**/*.js', '!**/*.min.js'],
-              dest: 'assets/theme/',
+              cwd: '.assets/',
+              src: ['*.js', '!*.min.js', '**/*.js', '!**/*.min.js', '**/**/*.js', '!**/**/*.min.js', '**/**/**/*.js', '!**/**/**/*.min.js'],
+              dest: 'assets/',
               ext: '.js'
             }
           ]
@@ -80,6 +80,7 @@
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.registerTask('build', ['coffee', 'uglify:build', 'cssmin:build']);
+    grunt.registerTask('css', ['cssmin:build']);
     return grunt.registerTask('deploy', ['imagemin:build', 'coffee', 'uglify:build', 'cssmin:build']);
   };
 

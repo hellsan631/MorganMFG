@@ -262,10 +262,10 @@ strong {
 }
 
 a {
-    -webkit-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
-    -moz-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
-    -o-transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
-    transition: all 0.25s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -webkit-transition: all 0.15s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -moz-transition: all 0.15s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    -o-transition: all 0.15s cubic-bezier(0.620, -0.005, 0.260, 0.995);
+    transition: all 0.15s cubic-bezier(0.620, -0.005, 0.260, 0.995);
 	color:#9e6335;
 	outline:none
 }

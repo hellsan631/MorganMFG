@@ -5438,8 +5438,8 @@ button.close {
 .carousel-inner > .item {
   position: relative;
   display: none;
-  -webkit-transition: 0.9s cubic-bezier(0.620, -0.005, 0.260, 0.995) left;
-          transition: 0.9s cubic-bezier(0.620, -0.005, 0.260, 0.995) left;
+  -webkit-transition: all 1.1s cubic-bezier(0.620, -0.015, 0.260, 0.995);
+          transition: all 1.1s cubic-bezier(0.620, -0.015, 0.260, 0.995);
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {

@@ -14,7 +14,7 @@ module.exports = (grunt)->
     imagemin:
       build:
         options:
-          optimizationLevel: 5
+          optimizationLevel: 3
         files: [
           expand: true
           cwd: '.assets/uploads/'
@@ -38,9 +38,14 @@ module.exports = (grunt)->
           sourceMap: true
         files: [
           expand: true
-          cwd: '.assets/theme/'
-          src: ['**/*.js', '!**/*.min.js']
-          dest: 'assets/theme/'
+          cwd: '.assets/'
+          src: [
+            '*.js', '!*.min.js',
+            '**/*.js', '!**/*.min.js',
+            '**/**/*.js', '!**/**/*.min.js',
+            '**/**/**/*.js', '!**/**/**/*.min.js'
+          ]
+          dest: 'assets/'
           ext: '.js'
         ]
 
@@ -88,6 +93,10 @@ module.exports = (grunt)->
   grunt.registerTask('build', [
     'coffee' # tmp
     'uglify:build' # public
+    'cssmin:build' # public
+  ])
+
+  grunt.registerTask('css', [
     'cssmin:build' # public
   ])
 

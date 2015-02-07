@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     imagemin: {
       build: {
         options: {
-          optimizationLevel: 5
+          optimizationLevel: 3
         },
         files: [
           {
@@ -40,9 +40,9 @@ module.exports = function(grunt) {
         files: [
           {
             expand: true,
-            cwd: '.assets/theme/',
-            src: ['**/*.js', '!**/*.min.js'],
-            dest: 'assets/theme/',
+            cwd: '.assets/',
+            src: ['*.js', '!*.min.js', '**/*.js', '!**/*.min.js', '**/**/*.js', '!**/**/*.min.js', '**/**/**/*.js', '!**/**/**/*.min.js'],
+            dest: 'assets/',
             ext: '.js'
           }
         ]
@@ -79,5 +79,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.registerTask('build', ['coffee', 'uglify:build', 'cssmin:build']);
+  grunt.registerTask('css', ['cssmin:build']);
   return grunt.registerTask('deploy', ['imagemin:build', 'coffee', 'uglify:build', 'cssmin:build']);
 };

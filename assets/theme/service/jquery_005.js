@@ -1,2 +1,1 @@
 !function(a,b,c){"$:nomunge";a.scrollbarWidth=function(){var d,e;return c===b&&(d=a('<div style="width:50px;height:50px;overflow:auto"><div/></div>').appendTo("body"),e=d.children(),c=e.innerWidth()-e.height(99).innerWidth(),d.remove()),c}}(jQuery);
-//# sourceMappingURL=jquery_005.map

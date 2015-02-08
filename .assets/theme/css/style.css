@@ -378,7 +378,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	color: #5f3827;
 	font-size: 45px;
 	font-weight: 300;
-	font-family: 'Roboto' sans-serif;
+	font-family: 'Roboto';
 	border-bottom: 1px solid #5f3827;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
@@ -388,15 +388,15 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 #team-detail h3 {
 	color: #5f3827;
-	font-family: 'Roboto' sans-serif;
+	font-family: 'Roboto';
 	margin-top: 0;
 	font-size: 26px;
 }
 
 #team-detail p {
 	color: #5f3827;
-	font-family: 'Roboto' sans-serif;
-	font-size: 20px;	
+	font-family: 'Roboto';
+	font-size: 20px;
 	margin-bottom: 20px;
 	line-height: 35px;
 	text-align: left;
@@ -409,7 +409,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	border: 2px solid #5f3827;
 	border-radius: 2px;
 	color: #5f3827;
-	font-family: 'Roboto' sans-serif;
+	font-family: 'Roboto';
 	font-weight: 700;
 	text-shadow:none;
 	font-size: 16px;
@@ -430,7 +430,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 #team-detail a.back {
 	font-size: 16px;
-	font-family: 'Roboto' sans-serif;
+	font-family: 'Roboto';
 	font-weight: 700;
 	text-decoration: none;
 	padding: 8px 27px;
@@ -455,13 +455,13 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 #team-detail .item p + a {
-	padding: 8px 27px;	
+	padding: 8px 27px;
 	background: #5f3827;
 	color: #fff;
 	border-radius: 2px;
 	display: inline-block;
 	font-size: 16px;
-	font-family: 'Roboto' sans-serif;
+	font-family: 'Roboto';
 	font-weight: 700;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -485,13 +485,13 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .incididunt h1 {
 	margin-top: 0;
-	font-family: 'Roboto' sans-serif;
+	font-family: 'Roboto';
 	font-size: 36px;
 	color: #fff;
 }
 
 .incididunt h2 {
-	font-family: 'Roboto' sans-serif;
+	font-family: 'Roboto';
 	font-size: 26px;
 	color: #fff;
 }
@@ -503,7 +503,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	border-radius: 2px;
 	display: inline-block;
 	padding: 10px 0;
-	font-family: 'Roboto' sans-serif;
+	font-family: 'Roboto';
 	font-size: 16px;
 	margin-top: 15px;
 	text-transform: uppercase;
@@ -534,7 +534,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     transition: all 0.25s ease-in-out;
 }
 
-.team-list .half-block:hover .inner {opacity: 1} 
+.team-list .half-block:hover .inner {opacity: 1}
 
 #team1.half-block {background-image: url(../img/tean-l1.jpg);}
 
@@ -851,7 +851,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	z-index:100;
 	border:0;
 	background:transparent;
-	
+
 	height:220px;
 	border-radius: 0;
 	border-bottom: solid 1px #FFF;
@@ -1162,7 +1162,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 26px;
-	color: #1b171c;	
+	color: #1b171c;
 	margin-bottom: 35px;
 }
 
@@ -1952,7 +1952,7 @@ footer#footer .qtrans_language_chooser .active {
 }
 
 .services {padding-top: 140px;}
- 
+
 .services .serv-bl {
     width: 33%;
     float: left;
@@ -1961,13 +1961,13 @@ footer#footer .qtrans_language_chooser .active {
     -o-transition: all 0.15s ease-out;
     transition: all 0.15s ease-out;
 }
- 
+
 .services .row:hover .serv-bl {width: 30%;}
- 
+
 .services .row:hover .serv-bl:hover {width: 40%;}
- 
+
 .services .half-block {margin: 0;}
- 
+
 .services .serv-bl .text {
     display: table-cell;
     font-size: 30px;
@@ -1984,27 +1984,27 @@ footer#footer .qtrans_language_chooser .active {
     /*font-family: 'brandon_grotesquebold';*/
     font-family: 'Josefin Sans', sans-serif;
 }
- 
+
 .services .inner {
     display: table;
     width: 100%;
 }
- 
+
 .services .half-block .inner:hover {background: transparent;}
- 
+
 .services .serv-bl {text-decoration: none;}
- 
+
 .serv-page .navbar-statica {
     background: #1b171c;
     border-bottom: solid 2px #744430;
     height: 140px !important;
 }
- 
+
 .serv-page .navbar-statica .navbar-brand {
     margin-top: 0;
     padding-top: 10px;
 }
- 
+
 .serv-page .navbar-statica .navbar-nav {margin-top: 75px;}
 
 .navbar-nav > li > a{

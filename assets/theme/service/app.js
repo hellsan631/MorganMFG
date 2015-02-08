@@ -1,2 +1,1 @@
 !function(a,b,c){b.Images={replace:function(a,d){a.find(d).each(function(){var a=c(this),d=a.data(),e=d["image"+b.MQ.params.width];e&&("img"===a[0].tagName.toLowerCase()?a.attr("src",e):a.css("background-image","url("+e+")"))})},resize:function(a){c(a).each(function(){var a=c(this),d=a.data(),e=d["image"+b.MQ.params.width];e&&c("<img />").on("load",function(){"img"===a[0].tagName.toLowerCase()?a.attr("src",e):a.css("background-image","url("+e+")")}).attr("src",e)})}}}(sk,App,jQuery);
-//# sourceMappingURL=app.map

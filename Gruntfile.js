@@ -20,9 +20,7 @@
       uglify: {
         build: {
           options: {
-            mangle: true,
-            compress: true,
-            sourceMap: true
+            mangle: true
           },
           files: [
             {
@@ -37,11 +35,6 @@
       },
       cssmin: {
         build: {
-          options: {
-            advanced: false,
-            compatibility: true,
-            processImport: false
-          },
           files: [
             {
               expand: true,

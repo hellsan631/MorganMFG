@@ -6,11 +6,6 @@ module.exports = (grunt)->
 
   grunt.initConfig
 
-    cfg:
-      gruntFiles:[
-        '.assets/coffee/grunt.coffee' #gruntfile
-      ]
-
     imagemin:
       build:
         options:
@@ -25,14 +20,6 @@ module.exports = (grunt)->
           ]
           dest: 'assets/'
         ]
-
-    coffee:
-      options:
-        bare: true
-        sourceMap: true
-      build:
-        files:
-          'Gruntfile.js': '.assets/coffee/grunt.coffee'
 
     uglify:
       build:
@@ -55,6 +42,10 @@ module.exports = (grunt)->
 
     cssmin:
       build:
+        options:
+          advanced: false
+          compatibility: true
+          processImport: false
         files: [
           expand: true
           cwd: '.assets/'
@@ -72,9 +63,6 @@ module.exports = (grunt)->
   ###############################################################
 
     watch:
-      scripts:
-        files: '.assets/coffee/*.coffee'
-        tasks: ['coffee']
       configFiles:
         files: 'Gruntfile.js'
         options:
@@ -84,7 +72,6 @@ module.exports = (grunt)->
   # Dependencies
   ###############################################################
 
-  grunt.loadNpmTasks('grunt-contrib-coffee')
   grunt.loadNpmTasks('grunt-contrib-cssmin')
   grunt.loadNpmTasks('grunt-contrib-imagemin')
   grunt.loadNpmTasks('grunt-contrib-uglify')
@@ -95,7 +82,6 @@ module.exports = (grunt)->
   ############################################################
 
   grunt.registerTask('build', [
-    'coffee' # tmp
     'uglify:build' # public
     'cssmin:build' # public
   ])
@@ -106,7 +92,6 @@ module.exports = (grunt)->
 
   grunt.registerTask('deploy', [
     'imagemin:build' # public
-    'coffee' # tmp
     'uglify:build' # public
     'cssmin:build' # public
   ])

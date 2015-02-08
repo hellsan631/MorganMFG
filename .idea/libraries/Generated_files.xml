@@ -3,6 +3,7 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-svgo/node_modules/svgo/node_modules/whet.extend/test/extend_test.js" />
+        <item url="file://$PROJECT_DIR$/Gruntfile.js" />
         <item url="file://$PROJECT_DIR$/node_modules/grunt-contrib-coffee/test/fixtures/coffee1.js" />
         <item url="file://$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-svgo/node_modules/svgo/node_modules/coa/src/cmd.js" />
         <item url="file://$PROJECT_DIR$/.assets/coffee/grunt.js" />
@@ -21,7 +22,9 @@
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/.assets/coffee/grunt.js" />
       <root url="file://$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-svgo/node_modules/svgo/node_modules/whet.extend/test/extend_test.js" />
+      <root url="file://$PROJECT_DIR$/Gruntfile.js" />
       <root url="file://$PROJECT_DIR$/.assets/coffee/grunt.js" />
       <root url="file://$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/node_modules/imagemin/node_modules/imagemin-svgo/node_modules/svgo/node_modules/coa/src/cmd.js" />
       <root url="file://$PROJECT_DIR$/node_modules/grunt-contrib-coffee/test/fixtures/coffee1.js" />

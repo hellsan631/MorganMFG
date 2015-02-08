@@ -35,6 +35,12 @@
       },
       cssmin: {
         build: {
+          options: {
+            advanced: false,
+            compatibility: true,
+            processImport: false,
+            shorthandCompacting: false
+          },
           files: [
             {
               expand: true,

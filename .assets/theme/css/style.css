@@ -2,7 +2,7 @@
 
 @import 'social_sprite.css';
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:500,700,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900);
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
 
 @font-face {
@@ -378,7 +378,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	color: #5f3827;
 	font-size: 45px;
 	font-weight: 300;
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	border-bottom: 1px solid #5f3827;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
@@ -388,15 +388,15 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 #team-detail h3 {
 	color: #5f3827;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	margin-top: 0;
 	font-size: 26px;
 }
 
 #team-detail p {
 	color: #5f3827;
-	font-family: 'Roboto';
-	font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 	margin-bottom: 20px;
 	line-height: 35px;
 	text-align: left;
@@ -409,7 +409,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	border: 2px solid #5f3827;
 	border-radius: 2px;
 	color: #5f3827;
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	text-shadow:none;
 	font-size: 16px;
@@ -430,7 +430,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 #team-detail a.back {
 	font-size: 16px;
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	text-decoration: none;
 	padding: 8px 27px;
@@ -461,7 +461,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	border-radius: 2px;
 	display: inline-block;
 	font-size: 16px;
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -485,13 +485,13 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .incididunt h1 {
 	margin-top: 0;
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-size: 36px;
 	color: #fff;
 }
 
 .incididunt h2 {
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-size: 26px;
 	color: #fff;
 }
@@ -503,7 +503,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	border-radius: 2px;
 	display: inline-block;
 	padding: 10px 0;
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	margin-top: 15px;
 	text-transform: uppercase;
@@ -562,7 +562,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .team-list .half-block .inner h1 {
 	color: #fff;
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 28px;
 }
@@ -577,7 +577,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	color: #fff;
 	margin-top: 10px;
 	padding: 0;
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 }
 
@@ -1055,7 +1055,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .page-heading h2 {
-	font-family:'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-weight:normal;
 	color:#fff;
 	text-transform:uppercase;
@@ -1120,12 +1120,12 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .blog-list ul li .info span {
 	color: #744430;
-	font-family: 'Roboto';
+	ffont-family: 'Roboto', sans-serif;
 	font-size: 19px;
 }
 
 .blog-list ul li .info h1, .blog-detail h1 {
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	color: #1b171c;
 	font-size: 35px;
@@ -1142,7 +1142,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .blog-list ul li .info p {
 	color: #744430;
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 	line-height: 26px;
@@ -1150,7 +1150,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .blog-detail h2 {
 	color: #1b171c;
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 25px;
 	line-height: 30px;
@@ -1158,7 +1158,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .blog-detail p {
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 26px;
@@ -1177,7 +1177,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	color: #744430;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	padding: 15px 40px;
@@ -1201,7 +1201,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	border-bottom: 1px solid #744430;
 	color: #744430;
 	display: block;
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 	padding: 10px 0;
@@ -1219,7 +1219,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .autor span {
 	color: #744430;
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	margin-bottom: 25px;
 	display: inline-block;
@@ -1236,7 +1236,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 .autor a {
 	text-decoration: none;
 	color: #1b171c;
-	font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
 }

@@ -2,121 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c602e6-b2d0-4960-9cf9-3ac291d948ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.coffee" afterPath="$PROJECT_DIR$/Gruntfile.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js.map" afterPath="$PROJECT_DIR$/Gruntfile.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/flash/Player.as" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/flash/Player.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/ScrollToPlugin.js" afterPath="$PROJECT_DIR$/assets/theme/service/ScrollToPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/TweenMax.js" afterPath="$PROJECT_DIR$/assets/theme/service/TweenMax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_core.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_fixed-width.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_icons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_larger.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_list.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_path.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_spinning.scss" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_spinning.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_stacked.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/app.js" afterPath="$PROJECT_DIR$/assets/theme/service/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/app_002.js" afterPath="$PROJECT_DIR$/assets/theme/service/app_002.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/app_003.js" afterPath="$PROJECT_DIR$/assets/theme/service/app_003.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/app_003_old.js" afterPath="$PROJECT_DIR$/assets/theme/service/app_003_old.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/app_004.js" afterPath="$PROJECT_DIR$/assets/theme/service/app_004.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/app_005.js" afterPath="$PROJECT_DIR$/assets/theme/service/app_005.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/app_006.js" afterPath="$PROJECT_DIR$/assets/theme/service/app_006.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/app_007.js" afterPath="$PROJECT_DIR$/assets/theme/service/app_007.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/css/bootstrap-responsive.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/assets/theme/bootstrap/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/js/bootstrap.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/assets/theme/bootstrap/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/bordered-pulled.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/js/colorpicker.js" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/js/colorpicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/conversion.js" afterPath="$PROJECT_DIR$/assets/theme/service/conversion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/core.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/demo.html" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/developers.js" afterPath="$PROJECT_DIR$/assets/theme/service/developers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/div_control_example.html" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/div_control_example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/div_example.html" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/div_example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/js/eye.js" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/js/eye.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/fixed-width.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/font-awesome.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/scss/font-awesome.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/fresco/js/fresco.js" afterPath="$PROJECT_DIR$/assets/plugins/fresco/js/fresco.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/full_example.html" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/full_example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/full_yt_example.html" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/full_yt_example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/ga.js" afterPath="$PROJECT_DIR$/assets/theme/service/ga.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/icons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/index.html" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/index.html" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/js/libs/jquery-1.6.2.min.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/js/libs/jquery-1.6.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/libs/jquery-1.6.2.min.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/libs/jquery-1.6.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/jquery-1.9.1.js" afterPath="$PROJECT_DIR$/assets/js/jquery-1.9.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/jquery-1.js" afterPath="$PROJECT_DIR$/assets/js/jquery-1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/js/jquery-1.js" afterPath="$PROJECT_DIR$/assets/theme/js/jquery-1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/js/jquery-migrate-1.js" afterPath="$PROJECT_DIR$/assets/theme/js/jquery-migrate-1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/datepicker/jquery-ui.js" afterPath="$PROJECT_DIR$/assets/plugins/datepicker/jquery-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/Jcrop/js/jquery.Jcrop.js" afterPath="$PROJECT_DIR$/assets/plugins/Jcrop/js/jquery.Jcrop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/Jcrop/css/jquery.Jcrop.min.css" afterPath="$PROJECT_DIR$/assets/plugins/Jcrop/css/jquery.Jcrop.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/Jcrop/js/jquery.Jcrop.min.js" afterPath="$PROJECT_DIR$/assets/plugins/Jcrop/js/jquery.Jcrop.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/Jcrop/js/jquery.color.js" afterPath="$PROJECT_DIR$/assets/plugins/Jcrop/js/jquery.color.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorbox/jquery.colorbox.js" afterPath="$PROJECT_DIR$/assets/plugins/colorbox/jquery.colorbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/Jcrop/js/jquery.js" afterPath="$PROJECT_DIR$/assets/plugins/Jcrop/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorbox/jquery.js" afterPath="$PROJECT_DIR$/assets/plugins/colorbox/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/js/jquery.js" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/royal_loader/javascript/jquery.js" afterPath="$PROJECT_DIR$/assets/plugins/royal_loader/javascript/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/js/jquery.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/_documentation/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/jquery.js" afterPath="$PROJECT_DIR$/assets/theme/service/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/Jcrop/js/jquery.min.js" afterPath="$PROJECT_DIR$/assets/plugins/Jcrop/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/jquery_002.js" afterPath="$PROJECT_DIR$/assets/theme/service/jquery_002.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/jquery_003.js" afterPath="$PROJECT_DIR$/assets/theme/service/jquery_003.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/jquery_004.js" afterPath="$PROJECT_DIR$/assets/theme/service/jquery_004.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/jquery_005.js" afterPath="$PROJECT_DIR$/assets/theme/service/jquery_005.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/jquery_006.js" afterPath="$PROJECT_DIR$/assets/theme/service/jquery_006.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/jquery_007.js" afterPath="$PROJECT_DIR$/assets/theme/service/jquery_007.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/jquery_008.js" afterPath="$PROJECT_DIR$/assets/theme/service/jquery_008.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/jscolor.js" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/jscolor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/json3.js" afterPath="$PROJECT_DIR$/assets/theme/service/json3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/larger.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/js/layout.js" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/js/layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/list.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/js/libs/modernizr.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/js/libs/modernizr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/libs/modernizr.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/libs/modernizr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/modernizr.js" afterPath="$PROJECT_DIR$/assets/theme/service/modernizr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/js/libs/modernizr.video.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/js/libs/modernizr.video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/libs/modernizr.video.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/libs/modernizr.video.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/newstyle.css" afterPath="$PROJECT_DIR$/assets/theme/service/newstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/path.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/rotated-flipped.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/royal_loader/javascript/royal_preloader.js" afterPath="$PROJECT_DIR$/assets/plugins/royal_loader/javascript/royal_preloader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/royal_loader/javascript/royal_preloader.min.js" afterPath="$PROJECT_DIR$/assets/plugins/royal_loader/javascript/royal_preloader.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/sk.js" afterPath="$PROJECT_DIR$/assets/theme/service/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/spinning.less" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/spinning.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/stacked.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/theme/css/style.css" afterPath="$PROJECT_DIR$/.assets/theme/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/css/style.css" afterPath="$PROJECT_DIR$/assets/theme/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/js/libs/swfobject.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/js/libs/swfobject.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/libs/swfobject.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/libs/swfobject.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/timepicker/timepicker.js" afterPath="$PROJECT_DIR$/assets/timepicker/timepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorpicker/js/utils.js" afterPath="$PROJECT_DIR$/assets/plugins/colorpicker/js/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/assets/plugins/font-awesome/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/js/video_background.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/js/video_background.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/video_background.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/video_background.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MorganMFG.iws" />
@@ -155,8 +48,8 @@
       <file leaf-file-name="Gruntfile.coffee" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19953051" vertical-offset="272" max-vertical-offset="1666">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.3415493" vertical-offset="491" max-vertical-offset="1751">
+              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -165,8 +58,8 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1360">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -215,8 +108,8 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.25" vertical-offset="92210" max-vertical-offset="98702">
-              <caret line="5441" column="68" selection-start-line="5441" selection-start-column="68" selection-end-line="5441" selection-end-column="68" />
+            <state vertical-scroll-proportion="-9.642858" vertical-offset="92261" max-vertical-offset="98702">
+              <caret line="5443" column="5" selection-start-line="5443" selection-start-column="3" selection-end-line="5443" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -225,8 +118,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.assets/theme/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.178572" vertical-offset="6594" max-vertical-offset="36193">
-              <caret line="403" column="0" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.0" vertical-offset="6186" max-vertical-offset="36193">
+              <caret line="382" column="25" selection-start-line="382" selection-start-column="25" selection-end-line="382" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -265,8 +158,8 @@
         <option value="$PROJECT_DIR$/.assets/dynamic_css/about.css" />
         <option value="$PROJECT_DIR$/.assets/coffee/grunt.coffee" />
         <option value="$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/.assets/theme/css/style.css" />
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/.assets/theme/css/style.css" />
         <option value="$PROJECT_DIR$/Gruntfile.coffee" />
       </list>
     </option>
@@ -571,7 +464,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="175831">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -637,7 +530,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="175831">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -809,7 +702,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="175831">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -861,14 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.assets/theme/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.178572" vertical-offset="6594" max-vertical-offset="36193">
-          <caret line="403" column="0" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
@@ -877,26 +762,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.25" vertical-offset="92210" max-vertical-offset="98702">
-          <caret line="5441" column="68" selection-start-line="5441" selection-start-column="68" selection-end-line="5441" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1360">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.642858" vertical-offset="92261" max-vertical-offset="98702">
+          <caret line="5443" column="5" selection-start-line="5443" selection-start-column="3" selection-end-line="5443" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.assets/theme/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.0" vertical-offset="6186" max-vertical-offset="36193">
+          <caret line="382" column="25" selection-start-line="382" selection-start-column="25" selection-end-line="382" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19953051" vertical-offset="272" max-vertical-offset="1666">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.3415493" vertical-offset="491" max-vertical-offset="1751">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
           <folding />
         </state>
       </provider>

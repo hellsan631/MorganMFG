@@ -40,17 +40,22 @@ module.exports = (grunt)->
 
     cssmin:
       build:
+        options:
+          advanced: false
+          compatibility: true
+          processImport: false
+          shorthandCompacting: false
         files: [
-          expand: true
-          cwd: '.assets/'
-          src: [
-            '*.css', '!*.min.css',
-            '**/*.css', '!**/*.min.css',
-            '**/**/*.css', '!**/**/*.min.css',
-            '**/**/**/*.css', '!**/**/**/*.min.css'
-          ]
-          dest: 'assets/'
-        ]
+              expand: true
+              cwd: '.assets/'
+              src: [
+                '*.css', '!*.min.css',
+                '**/*.css', '!**/*.min.css',
+                '**/**/*.css', '!**/**/*.min.css',
+                '**/**/**/*.css', '!**/**/**/*.min.css'
+              ]
+              dest: 'assets/'
+            ]
 
   ##############################################################
   # Watch Task

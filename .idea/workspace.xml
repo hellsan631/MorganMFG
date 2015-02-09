@@ -5,11 +5,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.coffee" afterPath="$PROJECT_DIR$/Gruntfile.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js.map" afterPath="$PROJECT_DIR$/Gruntfile.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/TweenMax.js" afterPath="$PROJECT_DIR$/assets/theme/service/TweenMax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/theme/css/animate.css" afterPath="$PROJECT_DIR$/.assets/theme/css/animate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/assets/theme/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/developers.js" afterPath="$PROJECT_DIR$/assets/theme/service/developers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorbox/jquery.js" afterPath="$PROJECT_DIR$/assets/plugins/colorbox/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/jquery_007.js" afterPath="$PROJECT_DIR$/assets/theme/service/jquery_007.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/newstyle.css" afterPath="$PROJECT_DIR$/assets/theme/service/newstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/theme/css/style.css" afterPath="$PROJECT_DIR$/.assets/theme/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/service/sk.js" afterPath="$PROJECT_DIR$/assets/theme/service/sk.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/css/style.css" afterPath="$PROJECT_DIR$/assets/theme/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/js/video_background.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/js/video_background.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/video_background.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/video_background.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MorganMFG.iws" />
@@ -38,18 +45,18 @@
       <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+            <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1224">
               <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.coffee" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gruntfile.coffee" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3415493" vertical-offset="491" max-vertical-offset="1751">
-              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="1785">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -58,19 +65,26 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1360">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1496">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1411">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <marker date="1423434817114" expanded="true" signature="47:2052" placeholder="{...}" />
+                <marker date="1423434817114" expanded="true" signature="84:2048" placeholder="{...}" />
+                <marker date="1423434817114" expanded="true" signature="107:1640" placeholder="{...}" />
+                <marker date="1423434817114" expanded="true" signature="488:970" placeholder="{...}" />
+                <marker date="1423434817114" expanded="true" signature="505:962" placeholder="{...}" />
+                <marker date="1423434817114" expanded="true" signature="526:636" placeholder="{&quot;mangle&quot;: true...}" />
+                <marker date="1423434817114" expanded="true" signature="655:952" placeholder="[...]" />
+                <marker date="1423434817114" expanded="true" signature="669:940" placeholder="{&quot;expand&quot;: true...}" />
+                <marker date="1423434817114" expanded="true" signature="986:1486" placeholder="{...}" />
+                <marker date="1423434817114" expanded="true" signature="1003:1478" placeholder="{...}" />
+                <marker date="1423434817114" expanded="true" signature="1024:1170" placeholder="{&quot;advanced&quot;: false...}" />
+                <marker date="1423434817114" expanded="true" signature="1189:1468" placeholder="[...]" />
+                <marker date="1423434817114" expanded="true" signature="1203:1456" placeholder="{&quot;expand&quot;: true...}" />
+                <marker date="1423434817114" expanded="true" signature="1501:1634" placeholder="{...}" />
+                <marker date="1423434817114" expanded="true" signature="1524:1626" placeholder="{&quot;files&quot;: 'Gruntfile.js'...}" />
+                <marker date="1423434817114" expanded="true" signature="1578:1616" placeholder="{&quot;reload&quot;: true...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,8 +122,8 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.642858" vertical-offset="92261" max-vertical-offset="98702">
-              <caret line="5443" column="5" selection-start-line="5443" selection-start-column="3" selection-end-line="5443" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="92261" max-vertical-offset="98889">
+              <caret line="5443" column="4" selection-start-line="5443" selection-start-column="4" selection-end-line="5452" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -118,8 +132,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.assets/theme/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.0" vertical-offset="6186" max-vertical-offset="36193">
-              <caret line="382" column="25" selection-start-line="382" selection-start-column="25" selection-end-line="382" selection-end-column="25" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="36193">
+              <caret line="0" column="16" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animate.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.assets/theme/css/animate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18567961" vertical-offset="0" max-vertical-offset="50320">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -157,10 +181,11 @@
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/.assets/dynamic_css/about.css" />
         <option value="$PROJECT_DIR$/.assets/coffee/grunt.coffee" />
-        <option value="$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/.assets/theme/css/style.css" />
+        <option value="$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/Gruntfile.coffee" />
+        <option value="$PROJECT_DIR$/.assets/theme/css/animate.css" />
       </list>
     </option>
   </component>
@@ -210,7 +235,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,38 +303,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MorganMFG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MorganMFG" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,10 +331,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="af9a55a2-18f6-48da-8fde-8946bfc6a16a" server_name="morgan">
       <method />
     </configuration>
     <list size="0" />
@@ -369,7 +373,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2153518" sideWeight="0.67171717" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21748401" sideWeight="0.67171717" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1485" y="134" width="387" height="231" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -377,8 +381,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277559" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929292" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -463,9 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="175831">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,9 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="175831">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -673,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.assets/theme/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.785714" vertical-offset="25158" max-vertical-offset="50133">
-          <caret line="1496" column="38" selection-start-line="1496" selection-start-column="34" selection-end-line="1496" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/theme/js/jquery-1.map">
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
@@ -701,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="175831">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,32 +752,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1360">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1411">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1423434817114" expanded="true" signature="47:2052" placeholder="{...}" />
+            <marker date="1423434817114" expanded="true" signature="84:2048" placeholder="{...}" />
+            <marker date="1423434817114" expanded="true" signature="107:1640" placeholder="{...}" />
+            <marker date="1423434817114" expanded="true" signature="488:970" placeholder="{...}" />
+            <marker date="1423434817114" expanded="true" signature="505:962" placeholder="{...}" />
+            <marker date="1423434817114" expanded="true" signature="526:636" placeholder="{&quot;mangle&quot;: true...}" />
+            <marker date="1423434817114" expanded="true" signature="655:952" placeholder="[...]" />
+            <marker date="1423434817114" expanded="true" signature="669:940" placeholder="{&quot;expand&quot;: true...}" />
+            <marker date="1423434817114" expanded="true" signature="986:1486" placeholder="{...}" />
+            <marker date="1423434817114" expanded="true" signature="1003:1478" placeholder="{...}" />
+            <marker date="1423434817114" expanded="true" signature="1024:1170" placeholder="{&quot;advanced&quot;: false...}" />
+            <marker date="1423434817114" expanded="true" signature="1189:1468" placeholder="[...]" />
+            <marker date="1423434817114" expanded="true" signature="1203:1456" placeholder="{&quot;expand&quot;: true...}" />
+            <marker date="1423434817114" expanded="true" signature="1501:1634" placeholder="{...}" />
+            <marker date="1423434817114" expanded="true" signature="1524:1626" placeholder="{&quot;files&quot;: 'Gruntfile.js'...}" />
+            <marker date="1423434817114" expanded="true" signature="1578:1616" placeholder="{&quot;reload&quot;: true...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="1785">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.assets/theme/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.642858" vertical-offset="92261" max-vertical-offset="98702">
-          <caret line="5443" column="5" selection-start-line="5443" selection-start-column="3" selection-end-line="5443" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="92261" max-vertical-offset="98889">
+          <caret line="5443" column="4" selection-start-line="5443" selection-start-column="4" selection-end-line="5452" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.assets/theme/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.0" vertical-offset="6186" max-vertical-offset="36193">
-          <caret line="382" column="25" selection-start-line="382" selection-start-column="25" selection-end-line="382" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="36193">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.coffee">
+    <entry file="file://$PROJECT_DIR$/.assets/theme/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3415493" vertical-offset="491" max-vertical-offset="1751">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.18567961" vertical-offset="0" max-vertical-offset="50320">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding />
         </state>
       </provider>

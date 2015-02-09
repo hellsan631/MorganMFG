@@ -5440,6 +5440,17 @@ button.close {
     display: none;
     -webkit-transition: left 1.1s cubic-bezier(0.620, -0.015, 0.260, 0.995);
     transition: left 1.1s cubic-bezier(0.620, -0.015, 0.260, 0.995);
+
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    backface-visibility: hidden;
+    perspective: 1000;
+
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {

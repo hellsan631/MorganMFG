@@ -25,6 +25,8 @@ module.exports = (grunt)->
       build:
         options:
           mangle: true
+          compress:
+            drop_console: true
         files: [
           expand: true
           cwd: '.assets/'
@@ -41,9 +43,9 @@ module.exports = (grunt)->
     cssmin:
       build:
         options:
-          advanced: false
+          advanced: true
           compatibility: true
-          processImport: false
+          processImport: true
           shorthandCompacting: false
         files: [
               expand: true

@@ -20,7 +20,10 @@
       uglify: {
         build: {
           options: {
-            mangle: true
+            mangle: true,
+            compress: {
+              drop_console: true
+            }
           },
           files: [
             {
@@ -36,9 +39,9 @@
       cssmin: {
         build: {
           options: {
-            advanced: false,
+            advanced: true,
             compatibility: true,
-            processImport: false,
+            processImport: true,
             shorthandCompacting: false
           },
           files: [

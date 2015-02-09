@@ -43,9 +43,9 @@ module.exports = (grunt)->
     cssmin:
       build:
         options:
-          advanced: true
+          advanced: false
           compatibility: true
-          processImport: true
+          processImport: false
           shorthandCompacting: false
         files: [
               expand: true

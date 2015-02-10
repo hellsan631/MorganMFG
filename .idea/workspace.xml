@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3c602e6-b2d0-4960-9cf9-3ac291d948ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.coffee" afterPath="$PROJECT_DIR$/Gruntfile.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js.map" afterPath="$PROJECT_DIR$/Gruntfile.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.assets/dynamic_css/catering.css" afterPath="$PROJECT_DIR$/.assets/dynamic_css/catering.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/dynamic_css/catering.css" afterPath="$PROJECT_DIR$/assets/dynamic_css/catering.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/js/jquery-1.11.0.js" afterPath="$PROJECT_DIR$/assets/theme/js/jquery-1.11.0.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/jquery-1.9.1.js" afterPath="$PROJECT_DIR$/assets/js/jquery-1.9.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/js/jquery-migrate-1.2.1.js" afterPath="$PROJECT_DIR$/assets/theme/js/jquery-migrate-1.2.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/Jcrop/js/jquery.Jcrop.js" afterPath="$PROJECT_DIR$/assets/plugins/Jcrop/js/jquery.Jcrop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/Jcrop/js/jquery.color.js" afterPath="$PROJECT_DIR$/assets/plugins/Jcrop/js/jquery.color.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/colorbox/jquery.colorbox.js" afterPath="$PROJECT_DIR$/assets/plugins/colorbox/jquery.colorbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/js/libs/modernizr.video.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/js/libs/modernizr.video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/libs/modernizr.video.js" afterPath="$PROJECT_DIR$/assets/plugins/vBackground/unminified_js/libs/modernizr.video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f3c602e6-b2d0-4960-9cf9-3ac291d948ec" name="Default" comment="" />
     <ignored path="MorganMFG.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -53,8 +38,8 @@
       <file leaf-file-name="Gruntfile.coffee" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52112675" vertical-offset="916" max-vertical-offset="1768">
-              <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+            <state vertical-scroll-proportion="1.2969483" vertical-offset="0" max-vertical-offset="1768">
+              <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -766,8 +751,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52112675" vertical-offset="916" max-vertical-offset="1768">
-          <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+        <state vertical-scroll-proportion="1.2969483" vertical-offset="0" max-vertical-offset="1768">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
           <folding />
         </state>
       </provider>

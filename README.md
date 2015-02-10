@@ -17,7 +17,7 @@ grunt deploy
 There are a few different grunt commands:
 
 ```js
-grunt css //css optimizations only
-grunt build //css and JS optimizations
-grunt deploy //css, images, and JS optimizations
+grunt css       //css optimizations only
+grunt build     //css and JS optimizations
+grunt deploy    //css, images, and JS optimizations
 ```

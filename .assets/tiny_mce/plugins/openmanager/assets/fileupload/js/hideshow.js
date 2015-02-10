@@ -1,0 +1,2 @@
+$(document).ready(function(){var a="Show",b="Hide",c=!1;$(".toggle:visible").prev().append(' <a href="#" class="toggleLink">'+b+"</a>"),$(".toggle:hidden").prev().append(' <a href="#" class="toggleLink">'+a+"</a>"),$("a.toggleLink").click(function(){return c=!c,$(this).text()==a?($(this).text(b),$(this).parent().next(".toggle").slideDown("normal")):($(this).text(a),$(this).parent().next(".toggle").slideUp("normal")),!1})});
+//# sourceMappingURL=hideshow.map

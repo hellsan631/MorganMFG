@@ -1,2 +1,1 @@
 tinymce.PluginManager.add("jbimages",function(a,b){function c(){a.windowManager.open({title:"Upload an image",file:b+"/dialog-v4.htm",width:350,height:135,buttons:[{text:"Upload",classes:"widget btn primary first abs-layout-item",disabled:!0,onclick:"close"},{text:"Close",onclick:"close"}]})}a.addButton("jbimages",{tooltip:"Upload an image",icon:"image",text:"Upload",onclick:c}),a.addMenuItem("jbimages",{text:"Upload image",icon:"image",context:"insert",onclick:c})});
-//# sourceMappingURL=plugin.map

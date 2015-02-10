@@ -3,6 +3,192 @@
   <component name="ChangeListManager">
     <list default="true" id="f3c602e6-b2d0-4960-9cf9-3ac291d948ec" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/abbr.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/abbr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/about.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/about.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/about.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/about.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/acronym.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/acronym.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/js/advlink.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/js/advlink.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/anchor.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/anchor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/anchor.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/anchor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/attributes.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/attributes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/cell.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/cell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/charmap.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/charmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/charmap.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/charmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/cite.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/cite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/color_picker.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/color_picker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/color_picker.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/color_picker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/del.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/del.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/js/dialog-v4.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/js/dialog-v4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/js/dialog.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/js/dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/js/dialog.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/js/dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/utils/editable_selects.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/utils/editable_selects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlist/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlist/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/autolink/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/autolink/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/autoresize/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/autoresize/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/autosave/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/autosave/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/bbcode/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/bbcode/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/contextmenu/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/contextmenu/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/directionality/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/directionality/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/example_dependency/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/example_dependency/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullscreen/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullscreen/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/iespell/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/iespell/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/inlinepopups/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/inlinepopups/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/insertdatetime/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/insertdatetime/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/layer/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/layer/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/legacyoutput/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/legacyoutput/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/lists/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/lists/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/nonbreaking/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/nonbreaking/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/noneditable/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/noneditable/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/pagebreak/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/pagebreak/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/preview/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/preview/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/print/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/print/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/save/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/save/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/spellchecker/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/spellchecker/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/tabfocus/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/tabfocus/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualblocks/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualblocks/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualchars/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualchars/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/wordcount/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/wordcount/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/editor_plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/editor_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlist/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlist/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/autolink/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/autolink/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/autoresize/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/autoresize/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/autosave/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/autosave/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/bbcode/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/bbcode/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/contextmenu/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/contextmenu/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/directionality/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/directionality/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/example_dependency/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/example_dependency/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullscreen/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullscreen/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/iespell/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/iespell/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/insertdatetime/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/insertdatetime/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/layer/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/layer/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/legacyoutput/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/legacyoutput/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/lists/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/lists/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/nonbreaking/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/nonbreaking/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/noneditable/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/noneditable/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/pagebreak/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/pagebreak/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/preview/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/preview/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/print/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/print/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/save/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/save/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/spellchecker/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/spellchecker/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/tabfocus/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/tabfocus/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualblocks/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualblocks/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualchars/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/visualchars/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/wordcount/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/wordcount/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/editor_template.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/editor_template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/editor_template.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/editor_template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/simple - Copy/editor_template.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/simple - Copy/editor_template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/simple/editor_template.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/simple/editor_template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/editor_template_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/editor_template_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/editor_template_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/editor_template_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/simple - Copy/editor_template_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/simple - Copy/editor_template_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/simple/editor_template_src.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/simple/editor_template_src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/element_common.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/element_common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/js/embed.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/js/embed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/preview/jscripts/embed.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/preview/jscripts/embed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/js/emotions.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/js/emotions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/langs/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/langs/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/langs/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/langs/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/langs/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/simple - Copy/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/simple - Copy/langs/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/simple/langs/en.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/simple/langs/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advlink/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/emotions/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/example/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/langs/en_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/langs/en_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/utils/form_utils.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/utils/form_utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/fr.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/fr_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/fr_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/js/fullpage.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/fullpage/js/fullpage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/hideshow.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/hideshow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/js/image.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advimage/js/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/image.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/image.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/ins.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/xhtmlxtras/js/ins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/theme/js/jquery-1.11.0.js" afterPath="$PROJECT_DIR$/assets/theme/js/jquery-1.11.0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/jquery-1.9.1.js" afterPath="$PROJECT_DIR$/assets/js/jquery-1.9.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery-ui.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery-ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery.equalHeight.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery.equalHeight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery.fileupload-fp.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery.fileupload-fp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery.fileupload-ui.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery.fileupload-ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery.fileupload.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery.fileupload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery.iframe-transport.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery.iframe-transport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/cors/jquery.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/cors/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/vendor/jquery.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/vendor/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/cors/jquery.postmessage-transport.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/cors/jquery.postmessage-transport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/vendor/jquery.ui.widget.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/vendor/jquery.ui.widget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/cors/jquery.xdr-transport.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/cors/jquery.xdr-transport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/link.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/link.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/link.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/link.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/locale.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/locale.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/main.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/openmanager/assets/fileupload/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/utils/mctabs.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/utils/mctabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/js/media.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/media/js/media.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/merge_cells.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/merge_cells.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/js/pastetext.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/js/pastetext.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/js/pasteword.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/paste/js/pasteword.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/plugin.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/js/props.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/style/js/props.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/row.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/row.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/ru.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/ru_dlg.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/jbimages/langs/ru_dlg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/js/rule.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/advhr/js/rule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/js/searchreplace.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/searchreplace/js/searchreplace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/source_editor.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced - Copy/js/source_editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/source_editor.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/themes/advanced/js/source_editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/table.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/table/js/table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/js/template.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/plugins/template/js/template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/tiny_mce.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/tiny_mce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/tiny_mce_popup.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/tiny_mce_popup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tiny_mce/utils/validate.js" afterPath="$PROJECT_DIR$/assets/tiny_mce/utils/validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MorganMFG.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,21 +223,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.coffee" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gruntfile.coffee" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
-              <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11971831" vertical-offset="0" max-vertical-offset="852">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state vertical-scroll-proportion="1.4565728" vertical-offset="0" max-vertical-offset="1768">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -744,18 +920,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.coffee">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
-          <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.4190141" vertical-offset="0" max-vertical-offset="852">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/Gruntfile.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11971831" vertical-offset="0" max-vertical-offset="852">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state vertical-scroll-proportion="1.4565728" vertical-offset="0" max-vertical-offset="1768">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>

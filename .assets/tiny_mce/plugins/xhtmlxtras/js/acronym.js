@@ -1,0 +1,2 @@
+function init(){SXE.initElementDialog("acronym"),"update"==SXE.currentAction&&SXE.showRemoveButton()}function insertAcronym(){SXE.insertElement("acronym"),tinyMCEPopup.close()}function removeAcronym(){SXE.removeElement("acronym"),tinyMCEPopup.close()}tinyMCEPopup.onInit.add(init);
+//# sourceMappingURL=acronym.map

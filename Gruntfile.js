@@ -30,8 +30,7 @@
               expand: true,
               cwd: '.assets/',
               src: ['*.js', '!*.min.js', '**/*.js', '!**/*.min.js', '**/**/*.js', '!**/**/*.min.js', '**/**/**/*.js', '!**/**/**/*.min.js'],
-              dest: 'assets/',
-              ext: '.js'
+              dest: 'assets/'
             }
           ]
         }

@@ -37,7 +37,6 @@ module.exports = (grunt)->
             '**/**/**/*.js', '!**/**/**/*.min.js'
           ]
           dest: 'assets/'
-          ext: '.js'
         ]
 
     cssmin:

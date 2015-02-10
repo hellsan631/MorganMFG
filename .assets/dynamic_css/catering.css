@@ -1,1 +1,8 @@
- /* NO CSS */ 
+.team-list .half-block .inner h1 a {
+	color:#FFFFFF !important;
+}
+
+.team-list .half-block .inner p {
+	color:#FFFFFF !important;
+}
+

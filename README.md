@@ -4,10 +4,10 @@ To run optimizations, install Node
 
 ###Grunt Install (incase grunt isn't installed)
 ```
-npm install grunt-cli -g
+npm install -g grunt-cli
 ```
 
-navigate to main project folder
+Navigate to main project folder
 
 ```
 npm install
@@ -16,7 +16,7 @@ grunt deploy
 
 There are a few different grunt commands:
 
-```
+```php
 grunt css //css optimizations only
 grunt build //css and JS optimizations
 grunt deploy //css, images, and JS optimizations

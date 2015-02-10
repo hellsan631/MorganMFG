@@ -28,7 +28,7 @@ a:hover{
                 <tr>                  
                   <th>Name</th>
                   <th>Image</th>
-                  <th>Images</th>
+                  <!-- <th>Images</th> -->
                   <th>Created</th>
                   <th>Action</th>
                 </tr>
@@ -38,6 +38,7 @@ a:hover{
                 <tr>
                   <td><?php echo $row->name ?></td>
                   <td><img style="width:100px;height:100px;" src="<?php echo base_url() ?>assets/uploads/gallery/thumbs/<?php echo $row->image ?>"></td>
+                  <?php /* 
                   <td>
                     <a  href="<?php echo base_url() ?>gallery/all_images/<?php echo $row->slug; ?>">
                         <i class="glyphicon glyphicon-picture"></i>
@@ -54,7 +55,11 @@ a:hover{
                             // }    
                         ?>
                     </a>
-                  </td>                                    
+                  </td> 
+
+                  */ ?>
+
+                                                     
                   <td><?php echo date('Y-m-d',strtotime( $row->created)); ?></td>                                    
                   <td>
                     <a href="<?php echo base_url() ?>gallery/edit/<?php echo $row->slug; ?>"><i class="glyphicon glyphicon-pencil"></i></a>

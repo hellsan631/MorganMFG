@@ -66,6 +66,10 @@
                         text-decoration: none;
                         font-weight: 500;
                     }
+                    .half-block{
+                    	margin: 0px -4px;
+                        background-size: initial;
+                    }
                 </style>
 
                 
@@ -75,7 +79,7 @@
             <div class="row">
                 <?php if ($catering): $i=1; foreach($catering as $row): ?>
                 <div class="col-md-3 col-sm-4">
-                    <div id="team<?php echo $i ?>" class="half-block tofade animated flipInY" style="opacity: 0; background-image:url('<?php echo base_url() ?>assets/uploads/catering/<?php echo $row->member_image; ?>')">
+                    <div id="team<?php echo $i ?>" class="half-block tofade animated flipInY" style="opacity: 0; background-image:url('<?php echo base_url() ?>assets/uploads/catering/<?php echo $row->member_image; ?>');background-repeat:no-repeat">
                         
                         <div class="inner p-90">
                             <h1><a href="<?php echo base_url() ?>catering/detail/<?php echo $row->slug; ?>"><?php echo $row->member_name; ?></a></h1>

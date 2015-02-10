@@ -72,6 +72,19 @@
                     <span style="color:red"><?php echo form_error('userfile'); ?></span>
                   </div>
 
+
+                  <div class="form-group">
+                    <label class="" for="">Floor Plans (PDF File) </label>                  
+                      <input type="file" name="floor_plans">
+                      <?php if (!empty($site_content->floor_plans)): ?>
+                      	 <br>
+                      	 <a target="_blank" href="<?php echo base_url() ?>assets/download/<?php echo $site_content->floor_plans ?>">
+	                      	 See PDF
+                      	 </a>
+                      <?php endif ?>
+                    <span style="color:red"><?php echo form_error('floor_plans'); ?></span>
+                  </div>
+
                   <div class="form-group">
                     <label class="" for="">Heading</label>                  
                       <input  class="form-control" type="text" name="heading" value="<?php if(set_value('heading')) echo set_value('heading') ; elseif(!empty($site_content->heading)) echo  $site_content->heading; ?>">                  

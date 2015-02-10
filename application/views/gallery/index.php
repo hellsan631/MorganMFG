@@ -37,12 +37,15 @@
                                 <h2 class="dynamic_image_heading" style="margin-top:0"><?php echo $row->name; ?></h2>
                                 <?php  $gallery_images = get_gallery_images($row->id); ?>
                                 <?php $i=1; if ($gallery_images): foreach($gallery_images as $gimage){ ?>     
-                                <a class="dynamic_image_button_text" href='<?php echo base_url() ?>assets/uploads/gallery_images/<?php echo $gimage->image ?>' 
-                                    class='fresco serv-bl m-n-p-0 btn btn-light btn-new'  
+                               <?php /* 
+                                <a  href='<?php echo base_url() ?>assets/uploads/gallery_images/<?php echo $gimage->image ?>' 
+                                    class='dynamic_image_button_text fresco serv-bl m-n-p-0 btn btn-light btn-new'  
                                     data-fresco-group='example<?php echo $row->id ?>' 
                                     data-fresco-caption="<?php echo $gimage->name ?>"
                                     style="padding:10px 30px !important; <?php if($i != 1){ echo 'display:none'; } ?>"
-                                    >VIEW MORE</a>
+                                    >VIEW MORE
+                                </a>
+                                */ ?>
                                     
                                 <?php $i++; } endif;  ?>
                             </div>                        

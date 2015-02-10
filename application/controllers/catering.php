@@ -144,9 +144,17 @@ class Catering extends CI_Controller {
 		redirect('catering/all');
 	}
 
-	public function downloadFile($file="140818212921_MORGAN_FLOORPLANS.pdf", $path="./assets/download/")
+	public function downloadFile()
     {
-		downloadFile($file, $path, "MorganMFGfloorplan.pdf");
+    	$file_info = $this->admin_model->get_row('site_content',array('slug'=>'site_content'));
+		if($file_info->floor_plans){
+			$file = $file_info->floor_plans;
+		}
+		else{
+			echo "No File Found. it may be removed.";
+			return false;
+		}
+		downloadFile($file, $path='./assets/download/', "MorganMFGfloorplan.pdf");
     }
 
     public function clickable(){

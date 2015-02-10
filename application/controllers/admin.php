@@ -166,6 +166,27 @@ class Admin extends CI_Controller {
 								'tour_btn_text' => $this->input->post('tour_btn_text'),				
 								);
 
+				if($_FILES['floor_plans']['name']!=''){
+					$config['upload_path'] = './assets/download/';
+					$config['allowed_types'] = 'pdf';
+					$config['max_size']	= '';
+					$config['max_width']  = '';
+					$config['max_height']  = '';
+					$this->load->library('upload', $config);
+					if (! $this->upload->do_upload('floor_plans')){
+						$this->session->set_flashdata('error_msg', $this->upload->display_errors());
+						redirect('admin/site_content');
+					}
+					else{
+						$upload_data = $this->upload->data();			
+						$update['floor_plans']=$upload_data['file_name'];
+						//create_thumb($update['logo'], './assets/uploads/home/');
+						if(!empty($site_content->floor_plans)){
+							@unlink('./assets/download/'.$site_content->floor_plans);
+						}
+					}
+				}
+
 				if($_FILES['userfile']['name']!=''){
 					$config['upload_path'] = './assets/uploads/home/';
 					$config['allowed_types'] = 'gif|jpg|png';

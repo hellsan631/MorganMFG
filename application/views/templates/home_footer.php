@@ -166,14 +166,14 @@
         </footer>
 
 
-
+<script ></script>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->       
-        <script src='<?php echo base_url() ?>assets/theme/js/jquery-migrate-1.2.1.js'></script>
+        <script type="text/javascript" src='<?php echo base_url() ?>assets/theme/js/jquery-migrate-1.2.1.js'></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="<?php echo base_url() ?>assets/theme/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript"  src="<?php echo base_url() ?>assets/theme/bootstrap/js/bootstrap.min.js"></script>
 
-        <script src="<?php echo base_url() ?>assets/theme/js/plugin.min.js"></script>
-        <script src="<?php echo base_url() ?>assets/theme/js/core.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url() ?>assets/theme/js/plugin.min.js"></script>
+        <script type="text/javascript"  src="<?php echo base_url() ?>assets/theme/js/core.min.js"></script>
 
 
     

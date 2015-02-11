@@ -1,2 +1,43 @@
-tinyMCEPopup.requireLangPack();var EmotionsDialog={addKeyboardNavigation:function(){var a,b;a=tinyMCEPopup.dom.select("a.emoticon_link","emoticon_table"),b={root:"emoticon_table",items:a},a[0].tabindex=0,tinyMCEPopup.dom.addClass(a[0],"mceFocus"),tinymce.isGecko?a[0].focus():setTimeout(function(){a[0].focus()},100),tinyMCEPopup.editor.windowManager.createInstance("tinymce.ui.KeyboardNavigation",b,tinyMCEPopup.dom)},init:function(){tinyMCEPopup.resizeToInnerSize(),this.addKeyboardNavigation()},insert:function(a,b){var c=tinyMCEPopup.editor,d=c.dom;tinyMCEPopup.execCommand("mceInsertContent",!1,d.createHTML("img",{src:tinyMCEPopup.getWindowArg("plugin_url")+"/img/"+a,alt:c.getLang(b),title:c.getLang(b),border:0})),tinyMCEPopup.close()}};tinyMCEPopup.onInit.add(EmotionsDialog.init,EmotionsDialog);
-//# sourceMappingURL=emotions.map
+tinyMCEPopup.requireLangPack();
+
+var EmotionsDialog = {
+	addKeyboardNavigation: function(){
+		var tableElm, cells, settings;
+			
+		cells = tinyMCEPopup.dom.select("a.emoticon_link", "emoticon_table");
+			
+		settings ={
+			root: "emoticon_table",
+			items: cells
+		};
+		cells[0].tabindex=0;
+		tinyMCEPopup.dom.addClass(cells[0], "mceFocus");
+		if (tinymce.isGecko) {
+			cells[0].focus();		
+		} else {
+			setTimeout(function(){
+				cells[0].focus();
+			}, 100);
+		}
+		tinyMCEPopup.editor.windowManager.createInstance('tinymce.ui.KeyboardNavigation', settings, tinyMCEPopup.dom);
+	}, 
+	init : function(ed) {
+		tinyMCEPopup.resizeToInnerSize();
+		this.addKeyboardNavigation();
+	},
+
+	insert : function(file, title) {
+		var ed = tinyMCEPopup.editor, dom = ed.dom;
+
+		tinyMCEPopup.execCommand('mceInsertContent', false, dom.createHTML('img', {
+			src : tinyMCEPopup.getWindowArg('plugin_url') + '/img/' + file,
+			alt : ed.getLang(title),
+			title : ed.getLang(title),
+			border : 0
+		}));
+
+		tinyMCEPopup.close();
+	}
+};
+
+tinyMCEPopup.onInit.add(EmotionsDialog.init, EmotionsDialog);

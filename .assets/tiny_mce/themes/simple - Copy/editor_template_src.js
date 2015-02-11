@@ -1,2 +1,84 @@
-!function(){var a=tinymce.DOM;tinymce.ThemeManager.requireLangPack("simple"),tinymce.create("tinymce.themes.SimpleTheme",{init:function(b,c){var d=this,e=["Bold","Italic","Underline","Strikethrough","InsertUnorderedList","InsertOrderedList"],f=b.settings;d.editor=b,b.contentCSS.push(c+"/skins/"+f.skin+"/content.css"),b.onInit.add(function(){b.onNodeChange.add(function(a,b){tinymce.each(e,function(c){b.get(c.toLowerCase()).setActive(a.queryCommandState(c))})})}),a.loadCSS((f.editor_css?b.documentBaseURI.toAbsolute(f.editor_css):"")||c+"/skins/"+f.skin+"/ui.css")},renderUI:function(b){var c,d,e,f=this,g=b.targetNode,h=f.editor,i=h.controlManager;return g=a.insertAfter(a.create("span",{id:h.id+"_container","class":"mceEditor "+h.settings.skin+"SimpleSkin"}),g),g=e=a.add(g,"table",{cellPadding:0,cellSpacing:0,"class":"mceLayout"}),g=d=a.add(g,"tbody"),g=a.add(d,"tr"),g=c=a.add(a.add(g,"td"),"div",{"class":"mceIframeContainer"}),g=a.add(a.add(d,"tr",{"class":"last"}),"td",{"class":"mceToolbar mceLast",align:"center"}),d=f.toolbar=i.createToolbar("tools1"),d.add(i.createButton("bold",{title:"simple.bold_desc",cmd:"Bold"})),d.add(i.createButton("italic",{title:"simple.italic_desc",cmd:"Italic"})),d.add(i.createButton("underline",{title:"simple.underline_desc",cmd:"Underline"})),d.add(i.createButton("strikethrough",{title:"simple.striketrough_desc",cmd:"Strikethrough"})),d.add(i.createSeparator()),d.add(i.createButton("undo",{title:"simple.undo_desc",cmd:"Undo"})),d.add(i.createButton("redo",{title:"simple.redo_desc",cmd:"Redo"})),d.add(i.createSeparator()),d.add(i.createButton("cleanup",{title:"simple.cleanup_desc",cmd:"mceCleanup"})),d.add(i.createSeparator()),d.add(i.createButton("insertunorderedlist",{title:"simple.bullist_desc",cmd:"InsertUnorderedList"})),d.add(i.createButton("insertorderedlist",{title:"simple.numlist_desc",cmd:"InsertOrderedList"})),d.renderTo(g),{iframeContainer:c,editorContainer:h.id+"_container",sizeContainer:e,deltaHeight:-20}},getInfo:function(){return{longname:"Simple theme",author:"Moxiecode Systems AB",authorurl:"http://tinymce.moxiecode.com",version:tinymce.majorVersion+"."+tinymce.minorVersion}}}),tinymce.ThemeManager.add("simple",tinymce.themes.SimpleTheme)}();
-//# sourceMappingURL=editor_template_src.map
+/**
+ * editor_template_src.js
+ *
+ * Copyright 2009, Moxiecode Systems AB
+ * Released under LGPL License.
+ *
+ * License: http://tinymce.moxiecode.com/license
+ * Contributing: http://tinymce.moxiecode.com/contributing
+ */
+
+(function() {
+	var DOM = tinymce.DOM;
+
+	// Tell it to load theme specific language pack(s)
+	tinymce.ThemeManager.requireLangPack('simple');
+
+	tinymce.create('tinymce.themes.SimpleTheme', {
+		init : function(ed, url) {
+			var t = this, states = ['Bold', 'Italic', 'Underline', 'Strikethrough', 'InsertUnorderedList', 'InsertOrderedList'], s = ed.settings;
+
+			t.editor = ed;
+			ed.contentCSS.push(url + "/skins/" + s.skin + "/content.css");
+
+			ed.onInit.add(function() {
+				ed.onNodeChange.add(function(ed, cm) {
+					tinymce.each(states, function(c) {
+						cm.get(c.toLowerCase()).setActive(ed.queryCommandState(c));
+					});
+				});
+			});
+
+			DOM.loadCSS((s.editor_css ? ed.documentBaseURI.toAbsolute(s.editor_css) : '') || url + "/skins/" + s.skin + "/ui.css");
+		},
+
+		renderUI : function(o) {
+			var t = this, n = o.targetNode, ic, tb, ed = t.editor, cf = ed.controlManager, sc;
+
+			n = DOM.insertAfter(DOM.create('span', {id : ed.id + '_container', 'class' : 'mceEditor ' + ed.settings.skin + 'SimpleSkin'}), n);
+			n = sc = DOM.add(n, 'table', {cellPadding : 0, cellSpacing : 0, 'class' : 'mceLayout'});
+			n = tb = DOM.add(n, 'tbody');
+
+			// Create iframe container
+			n = DOM.add(tb, 'tr');
+			n = ic = DOM.add(DOM.add(n, 'td'), 'div', {'class' : 'mceIframeContainer'});
+
+			// Create toolbar container
+			n = DOM.add(DOM.add(tb, 'tr', {'class' : 'last'}), 'td', {'class' : 'mceToolbar mceLast', align : 'center'});
+
+			// Create toolbar
+			tb = t.toolbar = cf.createToolbar("tools1");
+			tb.add(cf.createButton('bold', {title : 'simple.bold_desc', cmd : 'Bold'}));
+			tb.add(cf.createButton('italic', {title : 'simple.italic_desc', cmd : 'Italic'}));
+			tb.add(cf.createButton('underline', {title : 'simple.underline_desc', cmd : 'Underline'}));
+			tb.add(cf.createButton('strikethrough', {title : 'simple.striketrough_desc', cmd : 'Strikethrough'}));
+			tb.add(cf.createSeparator());
+			tb.add(cf.createButton('undo', {title : 'simple.undo_desc', cmd : 'Undo'}));
+			tb.add(cf.createButton('redo', {title : 'simple.redo_desc', cmd : 'Redo'}));
+			tb.add(cf.createSeparator());
+			tb.add(cf.createButton('cleanup', {title : 'simple.cleanup_desc', cmd : 'mceCleanup'}));
+			tb.add(cf.createSeparator());
+			tb.add(cf.createButton('insertunorderedlist', {title : 'simple.bullist_desc', cmd : 'InsertUnorderedList'}));
+			tb.add(cf.createButton('insertorderedlist', {title : 'simple.numlist_desc', cmd : 'InsertOrderedList'}));
+			tb.renderTo(n);
+
+			return {
+				iframeContainer : ic,
+				editorContainer : ed.id + '_container',
+				sizeContainer : sc,
+				deltaHeight : -20
+			};
+		},
+
+		getInfo : function() {
+			return {
+				longname : 'Simple theme',
+				author : 'Moxiecode Systems AB',
+				authorurl : 'http://tinymce.moxiecode.com',
+				version : tinymce.majorVersion + "." + tinymce.minorVersion
+			}
+		}
+	});
+
+	tinymce.ThemeManager.add('simple', tinymce.themes.SimpleTheme);
+})();

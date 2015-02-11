@@ -1,2 +1,159 @@
-!function(){var a=tinymce.DOM;tinymce.create("tinymce.plugins.FullScreenPlugin",{init:function(b,c){var d,e,f=this,g={};f.editor=b,b.addCommand("mceFullScreen",function(){var h,i=a.doc.documentElement;if(b.getParam("fullscreen_is_enabled"))return void(b.getParam("fullscreen_new_window")?closeFullscreen():a.win.setTimeout(function(){tinymce.dom.Event.remove(a.win,"resize",f.resizeFunc),tinyMCE.get(b.getParam("fullscreen_editor_id")).setContent(b.getContent()),tinyMCE.remove(b),a.remove("mce_fullscreen_container"),i.style.overflow=b.getParam("fullscreen_html_overflow"),a.setStyle(a.doc.body,"overflow",b.getParam("fullscreen_overflow")),a.win.scrollTo(b.getParam("fullscreen_scrollx"),b.getParam("fullscreen_scrolly")),tinyMCE.settings=tinyMCE.oldSettings},10));if(b.getParam("fullscreen_new_window")){h=a.win.open(c+"/fullscreen.htm","mceFullScreenPopup","fullscreen=yes,menubar=no,toolbar=no,scrollbars=no,resizable=yes,left=0,top=0,width="+screen.availWidth+",height="+screen.availHeight);try{h.resizeTo(screen.availWidth,screen.availHeight)}catch(j){}}else tinyMCE.oldSettings=tinyMCE.settings,g.fullscreen_overflow=a.getStyle(a.doc.body,"overflow",1)||"auto",g.fullscreen_html_overflow=a.getStyle(i,"overflow",1),d=a.getViewPort(),g.fullscreen_scrollx=d.x,g.fullscreen_scrolly=d.y,tinymce.isOpera&&"visible"==g.fullscreen_overflow&&(g.fullscreen_overflow="auto"),tinymce.isIE&&"scroll"==g.fullscreen_overflow&&(g.fullscreen_overflow="auto"),!tinymce.isIE||"visible"!=g.fullscreen_html_overflow&&"scroll"!=g.fullscreen_html_overflow||(g.fullscreen_html_overflow="auto"),"0px"==g.fullscreen_overflow&&(g.fullscreen_overflow=""),a.setStyle(a.doc.body,"overflow","hidden"),i.style.overflow="hidden",d=a.getViewPort(),a.win.scrollTo(0,0),tinymce.isIE&&(d.h-=1),e=tinymce.isIE6||"BackCompat"==document.compatMode?"absolute;top:"+d.y:"fixed;top:0",n=a.add(a.doc.body,"div",{id:"mce_fullscreen_container",style:"position:"+e+";left:0;width:"+d.w+"px;height:"+d.h+"px;z-index:200000;"}),a.add(n,"div",{id:"mce_fullscreen"}),tinymce.each(b.settings,function(a,b){g[b]=a}),g.id="mce_fullscreen",g.width=n.clientWidth,g.height=n.clientHeight-15,g.fullscreen_is_enabled=!0,g.fullscreen_editor_id=b.id,g.theme_advanced_resizing=!1,g.save_onsavecallback=function(){b.setContent(tinyMCE.get(g.id).getContent()),b.execCommand("mceSave")},tinymce.each(b.getParam("fullscreen_settings"),function(a,b){g[b]=a}),"external"===g.theme_advanced_toolbar_location&&(g.theme_advanced_toolbar_location="top"),f.fullscreenEditor=new tinymce.Editor("mce_fullscreen",g),f.fullscreenEditor.onInit.add(function(){f.fullscreenEditor.setContent(b.getContent()),f.fullscreenEditor.focus()}),f.fullscreenEditor.render(),f.fullscreenElement=new tinymce.dom.Element("mce_fullscreen_container"),f.fullscreenElement.update(),f.resizeFunc=tinymce.dom.Event.add(a.win,"resize",function(){var a,b,c=tinymce.DOM.getViewPort(),d=f.fullscreenEditor;a=d.dom.getSize(d.getContainer().getElementsByTagName("table")[0]),b=d.dom.getSize(d.getContainer().getElementsByTagName("iframe")[0]),d.theme.resizeTo(c.w-a.w+b.w,c.h-a.h+b.h)})}),b.addButton("fullscreen",{title:"fullscreen.desc",cmd:"mceFullScreen"}),b.onNodeChange.add(function(a,b){b.setActive("fullscreen",a.getParam("fullscreen_is_enabled"))})},getInfo:function(){return{longname:"Fullscreen",author:"Moxiecode Systems AB",authorurl:"http://tinymce.moxiecode.com",infourl:"http://wiki.moxiecode.com/index.php/TinyMCE:Plugins/fullscreen",version:tinymce.majorVersion+"."+tinymce.minorVersion}}}),tinymce.PluginManager.add("fullscreen",tinymce.plugins.FullScreenPlugin)}();
-//# sourceMappingURL=editor_plugin_src.map
+/**
+ * editor_plugin_src.js
+ *
+ * Copyright 2009, Moxiecode Systems AB
+ * Released under LGPL License.
+ *
+ * License: http://tinymce.moxiecode.com/license
+ * Contributing: http://tinymce.moxiecode.com/contributing
+ */
+
+(function() {
+	var DOM = tinymce.DOM;
+
+	tinymce.create('tinymce.plugins.FullScreenPlugin', {
+		init : function(ed, url) {
+			var t = this, s = {}, vp, posCss;
+
+			t.editor = ed;
+
+			// Register commands
+			ed.addCommand('mceFullScreen', function() {
+				var win, de = DOM.doc.documentElement;
+
+				if (ed.getParam('fullscreen_is_enabled')) {
+					if (ed.getParam('fullscreen_new_window'))
+						closeFullscreen(); // Call to close in new window
+					else {
+						DOM.win.setTimeout(function() {
+							tinymce.dom.Event.remove(DOM.win, 'resize', t.resizeFunc);
+							tinyMCE.get(ed.getParam('fullscreen_editor_id')).setContent(ed.getContent());
+							tinyMCE.remove(ed);
+							DOM.remove('mce_fullscreen_container');
+							de.style.overflow = ed.getParam('fullscreen_html_overflow');
+							DOM.setStyle(DOM.doc.body, 'overflow', ed.getParam('fullscreen_overflow'));
+							DOM.win.scrollTo(ed.getParam('fullscreen_scrollx'), ed.getParam('fullscreen_scrolly'));
+							tinyMCE.settings = tinyMCE.oldSettings; // Restore old settings
+						}, 10);
+					}
+
+					return;
+				}
+
+				if (ed.getParam('fullscreen_new_window')) {
+					win = DOM.win.open(url + "/fullscreen.htm", "mceFullScreenPopup", "fullscreen=yes,menubar=no,toolbar=no,scrollbars=no,resizable=yes,left=0,top=0,width=" + screen.availWidth + ",height=" + screen.availHeight);
+					try {
+						win.resizeTo(screen.availWidth, screen.availHeight);
+					} catch (e) {
+						// Ignore
+					}
+				} else {
+					tinyMCE.oldSettings = tinyMCE.settings; // Store old settings
+					s.fullscreen_overflow = DOM.getStyle(DOM.doc.body, 'overflow', 1) || 'auto';
+					s.fullscreen_html_overflow = DOM.getStyle(de, 'overflow', 1);
+					vp = DOM.getViewPort();
+					s.fullscreen_scrollx = vp.x;
+					s.fullscreen_scrolly = vp.y;
+
+					// Fixes an Opera bug where the scrollbars doesn't reappear
+					if (tinymce.isOpera && s.fullscreen_overflow == 'visible')
+						s.fullscreen_overflow = 'auto';
+
+					// Fixes an IE bug where horizontal scrollbars would appear
+					if (tinymce.isIE && s.fullscreen_overflow == 'scroll')
+						s.fullscreen_overflow = 'auto';
+
+					// Fixes an IE bug where the scrollbars doesn't reappear
+					if (tinymce.isIE && (s.fullscreen_html_overflow == 'visible' || s.fullscreen_html_overflow == 'scroll'))
+						s.fullscreen_html_overflow = 'auto';
+
+					if (s.fullscreen_overflow == '0px')
+						s.fullscreen_overflow = '';
+
+					DOM.setStyle(DOM.doc.body, 'overflow', 'hidden');
+					de.style.overflow = 'hidden'; //Fix for IE6/7
+					vp = DOM.getViewPort();
+					DOM.win.scrollTo(0, 0);
+
+					if (tinymce.isIE)
+						vp.h -= 1;
+
+					// Use fixed position if it exists
+					if (tinymce.isIE6 || document.compatMode == 'BackCompat')
+						posCss = 'absolute;top:' + vp.y;
+					else
+						posCss = 'fixed;top:0';
+
+					n = DOM.add(DOM.doc.body, 'div', {
+						id : 'mce_fullscreen_container',
+						style : 'position:' + posCss + ';left:0;width:' + vp.w + 'px;height:' + vp.h + 'px;z-index:200000;'});
+					DOM.add(n, 'div', {id : 'mce_fullscreen'});
+
+					tinymce.each(ed.settings, function(v, n) {
+						s[n] = v;
+					});
+
+					s.id = 'mce_fullscreen';
+					s.width = n.clientWidth;
+					s.height = n.clientHeight - 15;
+					s.fullscreen_is_enabled = true;
+					s.fullscreen_editor_id = ed.id;
+					s.theme_advanced_resizing = false;
+					s.save_onsavecallback = function() {
+						ed.setContent(tinyMCE.get(s.id).getContent());
+						ed.execCommand('mceSave');
+					};
+
+					tinymce.each(ed.getParam('fullscreen_settings'), function(v, k) {
+						s[k] = v;
+					});
+
+					if (s.theme_advanced_toolbar_location === 'external')
+						s.theme_advanced_toolbar_location = 'top';
+
+					t.fullscreenEditor = new tinymce.Editor('mce_fullscreen', s);
+					t.fullscreenEditor.onInit.add(function() {
+						t.fullscreenEditor.setContent(ed.getContent());
+						t.fullscreenEditor.focus();
+					});
+
+					t.fullscreenEditor.render();
+
+					t.fullscreenElement = new tinymce.dom.Element('mce_fullscreen_container');
+					t.fullscreenElement.update();
+					//document.body.overflow = 'hidden';
+
+					t.resizeFunc = tinymce.dom.Event.add(DOM.win, 'resize', function() {
+						var vp = tinymce.DOM.getViewPort(), fed = t.fullscreenEditor, outerSize, innerSize;
+
+						// Get outer/inner size to get a delta size that can be used to calc the new iframe size
+						outerSize = fed.dom.getSize(fed.getContainer().getElementsByTagName('table')[0]);
+						innerSize = fed.dom.getSize(fed.getContainer().getElementsByTagName('iframe')[0]);
+
+						fed.theme.resizeTo(vp.w - outerSize.w + innerSize.w, vp.h - outerSize.h + innerSize.h);
+					});
+				}
+			});
+
+			// Register buttons
+			ed.addButton('fullscreen', {title : 'fullscreen.desc', cmd : 'mceFullScreen'});
+
+			ed.onNodeChange.add(function(ed, cm) {
+				cm.setActive('fullscreen', ed.getParam('fullscreen_is_enabled'));
+			});
+		},
+
+		getInfo : function() {
+			return {
+				longname : 'Fullscreen',
+				author : 'Moxiecode Systems AB',
+				authorurl : 'http://tinymce.moxiecode.com',
+				infourl : 'http://wiki.moxiecode.com/index.php/TinyMCE:Plugins/fullscreen',
+				version : tinymce.majorVersion + "." + tinymce.minorVersion
+			};
+		}
+	});
+
+	// Register plugin
+	tinymce.PluginManager.add('fullscreen', tinymce.plugins.FullScreenPlugin);
+})();

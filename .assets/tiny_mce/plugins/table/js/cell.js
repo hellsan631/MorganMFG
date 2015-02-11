@@ -1,2 +1,319 @@
-function init(){ed=tinyMCEPopup.editor,tinyMCEPopup.resizeToInnerSize(),document.getElementById("backgroundimagebrowsercontainer").innerHTML=getBrowserHTML("backgroundimagebrowser","backgroundimage","image","table"),document.getElementById("bordercolor_pickcontainer").innerHTML=getColorPickerHTML("bordercolor_pick","bordercolor"),document.getElementById("bgcolor_pickcontainer").innerHTML=getColorPickerHTML("bgcolor_pick","bgcolor");var a=ed.dom.getParent(ed.selection.getStart(),"td,th"),b=document.forms[0],c=ed.dom.parseStyle(ed.dom.getAttrib(a,"style")),d=a.nodeName.toLowerCase(),e=ed.dom.getAttrib(a,"align"),f=ed.dom.getAttrib(a,"valign"),g=trimSize(getStyle(a,"width","width")),h=trimSize(getStyle(a,"height","height")),i=convertRGBToHex(getStyle(a,"bordercolor","borderLeftColor")),j=convertRGBToHex(getStyle(a,"bgcolor","backgroundColor")),k=ed.dom.getAttrib(a,"class"),l=getStyle(a,"background","backgroundImage").replace(new RegExp("url\\(['\"]?([^'\"]*)['\"]?\\)","gi"),"$1"),m=ed.dom.getAttrib(a,"id"),n=ed.dom.getAttrib(a,"lang"),o=ed.dom.getAttrib(a,"dir"),p=ed.dom.getAttrib(a,"scope");addClassesToList("class","table_cell_styles"),TinyMCE_EditableSelects.init(),ed.dom.hasClass(a,"mceSelected")?tinyMCEPopup.dom.hide("action"):(b.bordercolor.value=i,b.bgcolor.value=j,b.backgroundimage.value=l,b.width.value=g,b.height.value=h,b.id.value=m,b.lang.value=n,b.style.value=ed.dom.serializeStyle(c),selectByValue(b,"align",e),selectByValue(b,"valign",f),selectByValue(b,"class",k,!0,!0),selectByValue(b,"celltype",d),selectByValue(b,"dir",o),selectByValue(b,"scope",p),isVisible("backgroundimagebrowser")&&(document.getElementById("backgroundimage").style.width="180px"),updateColor("bordercolor_pick","bordercolor"),updateColor("bgcolor_pick","bgcolor"))}function updateAction(){function a(a){a&&(updateCell(c),ed.addVisual(),ed.nodeChanged(),f.execCommand("mceEndUndoLevel"),tinyMCEPopup.close())}var b,c,d,e,f=ed,g=document.forms[0];if(!AutoValidator.validate(g))return tinyMCEPopup.alert(AutoValidator.getErrorMessages(g).join(". ")+"."),!1;if(tinyMCEPopup.restoreSelection(),b=ed.selection.getStart(),c=ed.dom.getParent(b,"td,th"),d=ed.dom.getParent(b,"tr"),e=ed.dom.getParent(b,"table"),ed.dom.hasClass(c,"mceSelected"))return tinymce.each(ed.dom.select("td.mceSelected,th.mceSelected"),function(a){updateCell(a)}),ed.addVisual(),ed.nodeChanged(),f.execCommand("mceEndUndoLevel"),void tinyMCEPopup.close();switch(getSelectValue(g,"action")){case"cell":var h=getSelectValue(g,"celltype"),i=getSelectValue(g,"scope");if(ed.getParam("accessibility_warnings",1))return void("th"==h&&""==i?tinyMCEPopup.confirm(ed.getLang("table_dlg.missing_scope","",!0),a):a(1));updateCell(c);break;case"row":var j=d.firstChild;"TD"!=j.nodeName&&"TH"!=j.nodeName&&(j=nextCell(j));do j=updateCell(j,!0);while(null!=(j=nextCell(j)));break;case"col":var k,l=0,j=d.firstChild,m=e.getElementsByTagName("tr");"TD"!=j.nodeName&&"TH"!=j.nodeName&&(j=nextCell(j));do{if(j==c)break;l+=j.getAttribute("colspan")?j.getAttribute("colspan"):1}while(null!=(j=nextCell(j)));for(var n=0;n<m.length;n++){j=m[n].firstChild,"TD"!=j.nodeName&&"TH"!=j.nodeName&&(j=nextCell(j)),k=0;do{if(k==l){j=updateCell(j,!0);break}k+=j.getAttribute("colspan")?j.getAttribute("colspan"):1}while(null!=(j=nextCell(j)))}break;case"all":for(var m=e.getElementsByTagName("tr"),n=0;n<m.length;n++){var j=m[n].firstChild;"TD"!=j.nodeName&&"TH"!=j.nodeName&&(j=nextCell(j));do j=updateCell(j,!0);while(null!=(j=nextCell(j)))}}ed.addVisual(),ed.nodeChanged(),f.execCommand("mceEndUndoLevel"),tinyMCEPopup.close()}function nextCell(a){for(;null!=(a=a.nextSibling);)if("TD"==a.nodeName||"TH"==a.nodeName)return a;return null}function updateCell(a,b){var c=ed,d=document.forms[0],e=a.nodeName.toLowerCase(),f=getSelectValue(d,"celltype"),g=c.getDoc(),h=ed.dom;if(b||h.setAttrib(a,"id",d.id.value),h.setAttrib(a,"align",d.align.value),h.setAttrib(a,"vAlign",d.valign.value),h.setAttrib(a,"lang",d.lang.value),h.setAttrib(a,"dir",getSelectValue(d,"dir")),h.setAttrib(a,"style",ed.dom.serializeStyle(ed.dom.parseStyle(d.style.value))),h.setAttrib(a,"scope",d.scope.value),h.setAttrib(a,"class",getSelectValue(d,"class")),ed.dom.setAttrib(a,"width",""),ed.dom.setAttrib(a,"height",""),ed.dom.setAttrib(a,"bgColor",""),ed.dom.setAttrib(a,"borderColor",""),ed.dom.setAttrib(a,"background",""),a.style.width=getCSSSize(d.width.value),a.style.height=getCSSSize(d.height.value),""!=d.bordercolor.value?(a.style.borderColor=d.bordercolor.value,a.style.borderStyle=""==a.style.borderStyle?"solid":a.style.borderStyle,a.style.borderWidth=""==a.style.borderWidth?"1px":a.style.borderWidth):a.style.borderColor="",a.style.backgroundColor=d.bgcolor.value,a.style.backgroundImage=""!=d.backgroundimage.value?"url('"+d.backgroundimage.value+"')":"",e!=f){for(var i=g.createElement(f),j=0;j<a.childNodes.length;j++)i.appendChild(a.childNodes[j].cloneNode(1));for(var k=0;k<a.attributes.length;k++)ed.dom.setAttrib(i,a.attributes[k].name,ed.dom.getAttrib(a,a.attributes[k].name));a.parentNode.replaceChild(i,a),a=i}return h.setAttrib(a,"style",h.serializeStyle(h.parseStyle(a.style.cssText))),a}function changedBackgroundImage(){var a=document.forms[0],b=ed.dom.parseStyle(a.style.value);b["background-image"]="url('"+a.backgroundimage.value+"')",a.style.value=ed.dom.serializeStyle(b)}function changedSize(){var a=document.forms[0],b=ed.dom.parseStyle(a.style.value),c=a.width.value;b.width=""!=c?getCSSSize(c):"";var d=a.height.value;b.height=""!=d?getCSSSize(d):"",a.style.value=ed.dom.serializeStyle(b)}function changedColor(){var a=document.forms[0],b=ed.dom.parseStyle(a.style.value);b["background-color"]=a.bgcolor.value,b["border-color"]=a.bordercolor.value,a.style.value=ed.dom.serializeStyle(b)}function changedStyle(){var a=document.forms[0],b=ed.dom.parseStyle(a.style.value);a.backgroundimage.value=b["background-image"]?b["background-image"].replace(new RegExp("url\\('?([^']*)'?\\)","gi"),"$1"):"",b.width&&(a.width.value=trimSize(b.width)),b.height&&(a.height.value=trimSize(b.height)),b["background-color"]&&(a.bgcolor.value=b["background-color"],updateColor("bgcolor_pick","bgcolor")),b["border-color"]&&(a.bordercolor.value=b["border-color"],updateColor("bordercolor_pick","bordercolor"))}tinyMCEPopup.requireLangPack();var ed;tinyMCEPopup.onInit.add(init);
-//# sourceMappingURL=cell.map
+tinyMCEPopup.requireLangPack();
+
+var ed;
+
+function init() {
+	ed = tinyMCEPopup.editor;
+	tinyMCEPopup.resizeToInnerSize();
+
+	document.getElementById('backgroundimagebrowsercontainer').innerHTML = getBrowserHTML('backgroundimagebrowser','backgroundimage','image','table');
+	document.getElementById('bordercolor_pickcontainer').innerHTML = getColorPickerHTML('bordercolor_pick','bordercolor');
+	document.getElementById('bgcolor_pickcontainer').innerHTML = getColorPickerHTML('bgcolor_pick','bgcolor')
+
+	var inst = ed;
+	var tdElm = ed.dom.getParent(ed.selection.getStart(), "td,th");
+	var formObj = document.forms[0];
+	var st = ed.dom.parseStyle(ed.dom.getAttrib(tdElm, "style"));
+
+	// Get table cell data
+	var celltype = tdElm.nodeName.toLowerCase();
+	var align = ed.dom.getAttrib(tdElm, 'align');
+	var valign = ed.dom.getAttrib(tdElm, 'valign');
+	var width = trimSize(getStyle(tdElm, 'width', 'width'));
+	var height = trimSize(getStyle(tdElm, 'height', 'height'));
+	var bordercolor = convertRGBToHex(getStyle(tdElm, 'bordercolor', 'borderLeftColor'));
+	var bgcolor = convertRGBToHex(getStyle(tdElm, 'bgcolor', 'backgroundColor'));
+	var className = ed.dom.getAttrib(tdElm, 'class');
+	var backgroundimage = getStyle(tdElm, 'background', 'backgroundImage').replace(new RegExp("url\\(['\"]?([^'\"]*)['\"]?\\)", 'gi'), "$1");
+	var id = ed.dom.getAttrib(tdElm, 'id');
+	var lang = ed.dom.getAttrib(tdElm, 'lang');
+	var dir = ed.dom.getAttrib(tdElm, 'dir');
+	var scope = ed.dom.getAttrib(tdElm, 'scope');
+
+	// Setup form
+	addClassesToList('class', 'table_cell_styles');
+	TinyMCE_EditableSelects.init();
+
+	if (!ed.dom.hasClass(tdElm, 'mceSelected')) {
+		formObj.bordercolor.value = bordercolor;
+		formObj.bgcolor.value = bgcolor;
+		formObj.backgroundimage.value = backgroundimage;
+		formObj.width.value = width;
+		formObj.height.value = height;
+		formObj.id.value = id;
+		formObj.lang.value = lang;
+		formObj.style.value = ed.dom.serializeStyle(st);
+		selectByValue(formObj, 'align', align);
+		selectByValue(formObj, 'valign', valign);
+		selectByValue(formObj, 'class', className, true, true);
+		selectByValue(formObj, 'celltype', celltype);
+		selectByValue(formObj, 'dir', dir);
+		selectByValue(formObj, 'scope', scope);
+
+		// Resize some elements
+		if (isVisible('backgroundimagebrowser'))
+			document.getElementById('backgroundimage').style.width = '180px';
+
+		updateColor('bordercolor_pick', 'bordercolor');
+		updateColor('bgcolor_pick', 'bgcolor');
+	} else
+		tinyMCEPopup.dom.hide('action');
+}
+
+function updateAction() {
+	var el, inst = ed, tdElm, trElm, tableElm, formObj = document.forms[0];
+
+	if (!AutoValidator.validate(formObj)) {
+		tinyMCEPopup.alert(AutoValidator.getErrorMessages(formObj).join('. ') + '.');
+		return false;
+	}
+
+	tinyMCEPopup.restoreSelection();
+	el = ed.selection.getStart();
+	tdElm = ed.dom.getParent(el, "td,th");
+	trElm = ed.dom.getParent(el, "tr");
+	tableElm = ed.dom.getParent(el, "table");
+
+	// Cell is selected
+	if (ed.dom.hasClass(tdElm, 'mceSelected')) {
+		// Update all selected sells
+		tinymce.each(ed.dom.select('td.mceSelected,th.mceSelected'), function(td) {
+			updateCell(td);
+		});
+
+		ed.addVisual();
+		ed.nodeChanged();
+		inst.execCommand('mceEndUndoLevel');
+		tinyMCEPopup.close();
+		return;
+	}
+
+	switch (getSelectValue(formObj, 'action')) {
+		case "cell":
+			var celltype = getSelectValue(formObj, 'celltype');
+			var scope = getSelectValue(formObj, 'scope');
+
+			function doUpdate(s) {
+				if (s) {
+					updateCell(tdElm);
+
+					ed.addVisual();
+					ed.nodeChanged();
+					inst.execCommand('mceEndUndoLevel');
+					tinyMCEPopup.close();
+				}
+			};
+
+			if (ed.getParam("accessibility_warnings", 1)) {
+				if (celltype == "th" && scope == "")
+					tinyMCEPopup.confirm(ed.getLang('table_dlg.missing_scope', '', true), doUpdate);
+				else
+					doUpdate(1);
+
+				return;
+			}
+
+			updateCell(tdElm);
+			break;
+
+		case "row":
+			var cell = trElm.firstChild;
+
+			if (cell.nodeName != "TD" && cell.nodeName != "TH")
+				cell = nextCell(cell);
+
+			do {
+				cell = updateCell(cell, true);
+			} while ((cell = nextCell(cell)) != null);
+
+			break;
+
+		case "col":
+			var curr, col = 0, cell = trElm.firstChild, rows = tableElm.getElementsByTagName("tr");
+
+			if (cell.nodeName != "TD" && cell.nodeName != "TH")
+				cell = nextCell(cell);
+
+			do {
+				if (cell == tdElm)
+					break;
+				col += cell.getAttribute("colspan")?cell.getAttribute("colspan"):1;
+			} while ((cell = nextCell(cell)) != null);
+
+			for (var i=0; i<rows.length; i++) {
+				cell = rows[i].firstChild;
+
+				if (cell.nodeName != "TD" && cell.nodeName != "TH")
+					cell = nextCell(cell);
+
+				curr = 0;
+				do {
+					if (curr == col) {
+						cell = updateCell(cell, true);
+						break;
+					}
+					curr += cell.getAttribute("colspan")?cell.getAttribute("colspan"):1;
+				} while ((cell = nextCell(cell)) != null);
+			}
+
+			break;
+
+		case "all":
+			var rows = tableElm.getElementsByTagName("tr");
+
+			for (var i=0; i<rows.length; i++) {
+				var cell = rows[i].firstChild;
+
+				if (cell.nodeName != "TD" && cell.nodeName != "TH")
+					cell = nextCell(cell);
+
+				do {
+					cell = updateCell(cell, true);
+				} while ((cell = nextCell(cell)) != null);
+			}
+
+			break;
+	}
+
+	ed.addVisual();
+	ed.nodeChanged();
+	inst.execCommand('mceEndUndoLevel');
+	tinyMCEPopup.close();
+}
+
+function nextCell(elm) {
+	while ((elm = elm.nextSibling) != null) {
+		if (elm.nodeName == "TD" || elm.nodeName == "TH")
+			return elm;
+	}
+
+	return null;
+}
+
+function updateCell(td, skip_id) {
+	var inst = ed;
+	var formObj = document.forms[0];
+	var curCellType = td.nodeName.toLowerCase();
+	var celltype = getSelectValue(formObj, 'celltype');
+	var doc = inst.getDoc();
+	var dom = ed.dom;
+
+	if (!skip_id)
+		dom.setAttrib(td, 'id', formObj.id.value);
+
+	dom.setAttrib(td, 'align', formObj.align.value);
+	dom.setAttrib(td, 'vAlign', formObj.valign.value);
+	dom.setAttrib(td, 'lang', formObj.lang.value);
+	dom.setAttrib(td, 'dir', getSelectValue(formObj, 'dir'));
+	dom.setAttrib(td, 'style', ed.dom.serializeStyle(ed.dom.parseStyle(formObj.style.value)));
+	dom.setAttrib(td, 'scope', formObj.scope.value);
+	dom.setAttrib(td, 'class', getSelectValue(formObj, 'class'));
+
+	// Clear deprecated attributes
+	ed.dom.setAttrib(td, 'width', '');
+	ed.dom.setAttrib(td, 'height', '');
+	ed.dom.setAttrib(td, 'bgColor', '');
+	ed.dom.setAttrib(td, 'borderColor', '');
+	ed.dom.setAttrib(td, 'background', '');
+
+	// Set styles
+	td.style.width = getCSSSize(formObj.width.value);
+	td.style.height = getCSSSize(formObj.height.value);
+	if (formObj.bordercolor.value != "") {
+		td.style.borderColor = formObj.bordercolor.value;
+		td.style.borderStyle = td.style.borderStyle == "" ? "solid" : td.style.borderStyle;
+		td.style.borderWidth = td.style.borderWidth == "" ? "1px" : td.style.borderWidth;
+	} else
+		td.style.borderColor = '';
+
+	td.style.backgroundColor = formObj.bgcolor.value;
+
+	if (formObj.backgroundimage.value != "")
+		td.style.backgroundImage = "url('" + formObj.backgroundimage.value + "')";
+	else
+		td.style.backgroundImage = '';
+
+	if (curCellType != celltype) {
+		// changing to a different node type
+		var newCell = doc.createElement(celltype);
+
+		for (var c=0; c<td.childNodes.length; c++)
+			newCell.appendChild(td.childNodes[c].cloneNode(1));
+
+		for (var a=0; a<td.attributes.length; a++)
+			ed.dom.setAttrib(newCell, td.attributes[a].name, ed.dom.getAttrib(td, td.attributes[a].name));
+
+		td.parentNode.replaceChild(newCell, td);
+		td = newCell;
+	}
+
+	dom.setAttrib(td, 'style', dom.serializeStyle(dom.parseStyle(td.style.cssText)));
+
+	return td;
+}
+
+function changedBackgroundImage() {
+	var formObj = document.forms[0];
+	var st = ed.dom.parseStyle(formObj.style.value);
+
+	st['background-image'] = "url('" + formObj.backgroundimage.value + "')";
+
+	formObj.style.value = ed.dom.serializeStyle(st);
+}
+
+function changedSize() {
+	var formObj = document.forms[0];
+	var st = ed.dom.parseStyle(formObj.style.value);
+
+	var width = formObj.width.value;
+	if (width != "")
+		st['width'] = getCSSSize(width);
+	else
+		st['width'] = "";
+
+	var height = formObj.height.value;
+	if (height != "")
+		st['height'] = getCSSSize(height);
+	else
+		st['height'] = "";
+
+	formObj.style.value = ed.dom.serializeStyle(st);
+}
+
+function changedColor() {
+	var formObj = document.forms[0];
+	var st = ed.dom.parseStyle(formObj.style.value);
+
+	st['background-color'] = formObj.bgcolor.value;
+	st['border-color'] = formObj.bordercolor.value;
+
+	formObj.style.value = ed.dom.serializeStyle(st);
+}
+
+function changedStyle() {
+	var formObj = document.forms[0];
+	var st = ed.dom.parseStyle(formObj.style.value);
+
+	if (st['background-image'])
+		formObj.backgroundimage.value = st['background-image'].replace(new RegExp("url\\('?([^']*)'?\\)", 'gi'), "$1");
+	else
+		formObj.backgroundimage.value = '';
+
+	if (st['width'])
+		formObj.width.value = trimSize(st['width']);
+
+	if (st['height'])
+		formObj.height.value = trimSize(st['height']);
+
+	if (st['background-color']) {
+		formObj.bgcolor.value = st['background-color'];
+		updateColor('bgcolor_pick','bgcolor');
+	}
+
+	if (st['border-color']) {
+		formObj.bordercolor.value = st['border-color'];
+		updateColor('bordercolor_pick','bordercolor');
+	}
+}
+
+tinyMCEPopup.onInit.add(init);

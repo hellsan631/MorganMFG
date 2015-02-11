@@ -1,2 +1,162 @@
-function MCTabs(){this.settings=[],this.onChange=tinyMCEPopup.editor.windowManager.createInstance("tinymce.util.Dispatcher")}MCTabs.prototype.init=function(a){this.settings=a},MCTabs.prototype.getParam=function(a,b){var c=null;return c="undefined"==typeof this.settings[a]?b:this.settings[a],"true"==c||"false"==c?"true"==c:c},MCTabs.prototype.showTab=function(a){a.className="current",a.setAttribute("aria-selected",!0),a.setAttribute("aria-expanded",!0),a.tabIndex=0},MCTabs.prototype.hideTab=function(a){a.className="",a.setAttribute("aria-selected",!1),a.setAttribute("aria-expanded",!1),a.tabIndex=-1},MCTabs.prototype.showPanel=function(a){a.className="current",a.setAttribute("aria-hidden",!1)},MCTabs.prototype.hidePanel=function(a){a.className="panel",a.setAttribute("aria-hidden",!0)},MCTabs.prototype.getPanelForTab=function(a){return tinyMCEPopup.dom.getAttrib(a,"aria-controls")},MCTabs.prototype.displayTab=function(a,b,c){var d,e,f,g,h,i,j,k=this;if(f=document.getElementById(a),void 0===b&&(b=k.getPanelForTab(f)),d=document.getElementById(b),e=d?d.parentNode:null,g=f?f.parentNode:null,h=k.getParam("selection_class","current"),f&&g){for(i=g.childNodes,j=0;j<i.length;j++)"LI"==i[j].nodeName&&k.hideTab(i[j]);k.showTab(f)}if(d&&e){for(i=e.childNodes,j=0;j<i.length;j++)"DIV"==i[j].nodeName&&k.hidePanel(i[j]);c||f.focus(),k.showPanel(d)}},MCTabs.prototype.getAnchor=function(){var a,b=document.location.href;return-1!=(a=b.lastIndexOf("#"))?b.substring(a+1):""};var mcTabs=new MCTabs;tinyMCEPopup.onInit.add(function(){var a=tinyMCEPopup.getWin().tinymce,b=tinyMCEPopup.dom,c=a.each;c(b.select("div.tabs"),function(d){var e;b.setAttrib(d,"role","tablist");var f=tinyMCEPopup.dom.select("li",d),g=function(a){mcTabs.displayTab(a,mcTabs.getPanelForTab(a)),mcTabs.onChange.dispatch(a)};c(f,function(a){b.setAttrib(a,"role","tab"),b.bind(a,"click",function(){g(a.id)})}),b.bind(b.getRoot(),"keydown",function(b){9===b.keyCode&&b.ctrlKey&&!b.altKey&&(e.moveFocus(b.shiftKey?-1:1),a.dom.Event.cancel(b))}),c(b.select("a",d),function(a){b.setAttrib(a,"tabindex","-1")}),e=tinyMCEPopup.editor.windowManager.createInstance("tinymce.ui.KeyboardNavigation",{root:d,items:f,onAction:g,actOnFocus:!0,enableLeftRight:!0,enableUpDown:!0},tinyMCEPopup.dom)})});
-//# sourceMappingURL=mctabs.map
+/**
+ * mctabs.js
+ *
+ * Copyright 2009, Moxiecode Systems AB
+ * Released under LGPL License.
+ *
+ * License: http://tinymce.moxiecode.com/license
+ * Contributing: http://tinymce.moxiecode.com/contributing
+ */
+
+function MCTabs() {
+	this.settings = [];
+	this.onChange = tinyMCEPopup.editor.windowManager.createInstance('tinymce.util.Dispatcher');
+};
+
+MCTabs.prototype.init = function(settings) {
+	this.settings = settings;
+};
+
+MCTabs.prototype.getParam = function(name, default_value) {
+	var value = null;
+
+	value = (typeof(this.settings[name]) == "undefined") ? default_value : this.settings[name];
+
+	// Fix bool values
+	if (value == "true" || value == "false")
+		return (value == "true");
+
+	return value;
+};
+
+MCTabs.prototype.showTab =function(tab){
+	tab.className = 'current';
+	tab.setAttribute("aria-selected", true);
+	tab.setAttribute("aria-expanded", true);
+	tab.tabIndex = 0;
+};
+
+MCTabs.prototype.hideTab =function(tab){
+	var t=this;
+
+	tab.className = '';
+	tab.setAttribute("aria-selected", false);
+	tab.setAttribute("aria-expanded", false);
+	tab.tabIndex = -1;
+};
+
+MCTabs.prototype.showPanel = function(panel) {
+	panel.className = 'current'; 
+	panel.setAttribute("aria-hidden", false);
+};
+
+MCTabs.prototype.hidePanel = function(panel) {
+	panel.className = 'panel';
+	panel.setAttribute("aria-hidden", true);
+}; 
+
+MCTabs.prototype.getPanelForTab = function(tabElm) {
+	return tinyMCEPopup.dom.getAttrib(tabElm, "aria-controls");
+};
+
+MCTabs.prototype.displayTab = function(tab_id, panel_id, avoid_focus) {
+	var panelElm, panelContainerElm, tabElm, tabContainerElm, selectionClass, nodes, i, t = this;
+
+	tabElm = document.getElementById(tab_id);
+
+	if (panel_id === undefined) {
+		panel_id = t.getPanelForTab(tabElm);
+	}
+
+	panelElm= document.getElementById(panel_id);
+	panelContainerElm = panelElm ? panelElm.parentNode : null;
+	tabContainerElm = tabElm ? tabElm.parentNode : null;
+	selectionClass = t.getParam('selection_class', 'current');
+
+	if (tabElm && tabContainerElm) {
+		nodes = tabContainerElm.childNodes;
+
+		// Hide all other tabs
+		for (i = 0; i < nodes.length; i++) {
+			if (nodes[i].nodeName == "LI") {
+				t.hideTab(nodes[i]);
+			}
+		}
+
+		// Show selected tab
+		t.showTab(tabElm);
+	}
+
+	if (panelElm && panelContainerElm) {
+		nodes = panelContainerElm.childNodes;
+
+		// Hide all other panels
+		for (i = 0; i < nodes.length; i++) {
+			if (nodes[i].nodeName == "DIV")
+				t.hidePanel(nodes[i]);
+		}
+
+		if (!avoid_focus) { 
+			tabElm.focus();
+		}
+
+		// Show selected panel
+		t.showPanel(panelElm);
+	}
+};
+
+MCTabs.prototype.getAnchor = function() {
+	var pos, url = document.location.href;
+
+	if ((pos = url.lastIndexOf('#')) != -1)
+		return url.substring(pos + 1);
+
+	return "";
+};
+
+
+//Global instance
+var mcTabs = new MCTabs();
+
+tinyMCEPopup.onInit.add(function() {
+	var tinymce = tinyMCEPopup.getWin().tinymce, dom = tinyMCEPopup.dom, each = tinymce.each;
+
+	each(dom.select('div.tabs'), function(tabContainerElm) {
+		var keyNav;
+
+		dom.setAttrib(tabContainerElm, "role", "tablist"); 
+
+		var items = tinyMCEPopup.dom.select('li', tabContainerElm);
+		var action = function(id) {
+			mcTabs.displayTab(id, mcTabs.getPanelForTab(id));
+			mcTabs.onChange.dispatch(id);
+		};
+
+		each(items, function(item) {
+			dom.setAttrib(item, 'role', 'tab');
+			dom.bind(item, 'click', function(evt) {
+				action(item.id);
+			});
+		});
+
+		dom.bind(dom.getRoot(), 'keydown', function(evt) {
+			if (evt.keyCode === 9 && evt.ctrlKey && !evt.altKey) { // Tab
+				keyNav.moveFocus(evt.shiftKey ? -1 : 1);
+				tinymce.dom.Event.cancel(evt);
+			}
+		});
+
+		each(dom.select('a', tabContainerElm), function(a) {
+			dom.setAttrib(a, 'tabindex', '-1');
+		});
+
+		keyNav = tinyMCEPopup.editor.windowManager.createInstance('tinymce.ui.KeyboardNavigation', {
+			root: tabContainerElm,
+			items: items,
+			onAction: action,
+			actOnFocus: true,
+			enableLeftRight: true,
+			enableUpDown: true
+		}, tinyMCEPopup.dom);
+	});
+});

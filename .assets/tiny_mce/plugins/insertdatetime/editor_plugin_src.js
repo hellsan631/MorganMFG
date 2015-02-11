@@ -1,2 +1,83 @@
-!function(){tinymce.create("tinymce.plugins.InsertDateTime",{init:function(a){var b=this;b.editor=a,a.addCommand("mceInsertDate",function(){var c=b._getDateTime(new Date,a.getParam("plugin_insertdate_dateFormat",a.getLang("insertdatetime.date_fmt")));a.execCommand("mceInsertContent",!1,c)}),a.addCommand("mceInsertTime",function(){var c=b._getDateTime(new Date,a.getParam("plugin_insertdate_timeFormat",a.getLang("insertdatetime.time_fmt")));a.execCommand("mceInsertContent",!1,c)}),a.addButton("insertdate",{title:"insertdatetime.insertdate_desc",cmd:"mceInsertDate"}),a.addButton("inserttime",{title:"insertdatetime.inserttime_desc",cmd:"mceInsertTime"})},getInfo:function(){return{longname:"Insert date/time",author:"Moxiecode Systems AB",authorurl:"http://tinymce.moxiecode.com",infourl:"http://wiki.moxiecode.com/index.php/TinyMCE:Plugins/insertdatetime",version:tinymce.majorVersion+"."+tinymce.minorVersion}},_getDateTime:function(a,b){function c(a,b){if(a=""+a,a.length<b)for(var c=0;c<b-a.length;c++)a="0"+a;return a}var d=this.editor;return b=b.replace("%D","%m/%d/%y"),b=b.replace("%r","%I:%M:%S %p"),b=b.replace("%Y",""+a.getFullYear()),b=b.replace("%y",""+a.getYear()),b=b.replace("%m",c(a.getMonth()+1,2)),b=b.replace("%d",c(a.getDate(),2)),b=b.replace("%H",""+c(a.getHours(),2)),b=b.replace("%M",""+c(a.getMinutes(),2)),b=b.replace("%S",""+c(a.getSeconds(),2)),b=b.replace("%I",""+((a.getHours()+11)%12+1)),b=b.replace("%p",""+(a.getHours()<12?"AM":"PM")),b=b.replace("%B",""+d.getLang("insertdatetime.months_long").split(",")[a.getMonth()]),b=b.replace("%b",""+d.getLang("insertdatetime.months_short").split(",")[a.getMonth()]),b=b.replace("%A",""+d.getLang("insertdatetime.day_long").split(",")[a.getDay()]),b=b.replace("%a",""+d.getLang("insertdatetime.day_short").split(",")[a.getDay()]),b=b.replace("%%","%")}}),tinymce.PluginManager.add("insertdatetime",tinymce.plugins.InsertDateTime)}();
-//# sourceMappingURL=editor_plugin_src.map
+/**
+ * editor_plugin_src.js
+ *
+ * Copyright 2009, Moxiecode Systems AB
+ * Released under LGPL License.
+ *
+ * License: http://tinymce.moxiecode.com/license
+ * Contributing: http://tinymce.moxiecode.com/contributing
+ */
+
+(function() {
+	tinymce.create('tinymce.plugins.InsertDateTime', {
+		init : function(ed, url) {
+			var t = this;
+
+			t.editor = ed;
+
+			ed.addCommand('mceInsertDate', function() {
+				var str = t._getDateTime(new Date(), ed.getParam("plugin_insertdate_dateFormat", ed.getLang('insertdatetime.date_fmt')));
+
+				ed.execCommand('mceInsertContent', false, str);
+			});
+
+			ed.addCommand('mceInsertTime', function() {
+				var str = t._getDateTime(new Date(), ed.getParam("plugin_insertdate_timeFormat", ed.getLang('insertdatetime.time_fmt')));
+
+				ed.execCommand('mceInsertContent', false, str);
+			});
+
+			ed.addButton('insertdate', {title : 'insertdatetime.insertdate_desc', cmd : 'mceInsertDate'});
+			ed.addButton('inserttime', {title : 'insertdatetime.inserttime_desc', cmd : 'mceInsertTime'});
+		},
+
+		getInfo : function() {
+			return {
+				longname : 'Insert date/time',
+				author : 'Moxiecode Systems AB',
+				authorurl : 'http://tinymce.moxiecode.com',
+				infourl : 'http://wiki.moxiecode.com/index.php/TinyMCE:Plugins/insertdatetime',
+				version : tinymce.majorVersion + "." + tinymce.minorVersion
+			};
+		},
+
+		// Private methods
+
+		_getDateTime : function(d, fmt) {
+			var ed = this.editor;
+
+			function addZeros(value, len) {
+				value = "" + value;
+
+				if (value.length < len) {
+					for (var i=0; i<(len-value.length); i++)
+						value = "0" + value;
+				}
+
+				return value;
+			};
+
+			fmt = fmt.replace("%D", "%m/%d/%y");
+			fmt = fmt.replace("%r", "%I:%M:%S %p");
+			fmt = fmt.replace("%Y", "" + d.getFullYear());
+			fmt = fmt.replace("%y", "" + d.getYear());
+			fmt = fmt.replace("%m", addZeros(d.getMonth()+1, 2));
+			fmt = fmt.replace("%d", addZeros(d.getDate(), 2));
+			fmt = fmt.replace("%H", "" + addZeros(d.getHours(), 2));
+			fmt = fmt.replace("%M", "" + addZeros(d.getMinutes(), 2));
+			fmt = fmt.replace("%S", "" + addZeros(d.getSeconds(), 2));
+			fmt = fmt.replace("%I", "" + ((d.getHours() + 11) % 12 + 1));
+			fmt = fmt.replace("%p", "" + (d.getHours() < 12 ? "AM" : "PM"));
+			fmt = fmt.replace("%B", "" + ed.getLang("insertdatetime.months_long").split(',')[d.getMonth()]);
+			fmt = fmt.replace("%b", "" + ed.getLang("insertdatetime.months_short").split(',')[d.getMonth()]);
+			fmt = fmt.replace("%A", "" + ed.getLang("insertdatetime.day_long").split(',')[d.getDay()]);
+			fmt = fmt.replace("%a", "" + ed.getLang("insertdatetime.day_short").split(',')[d.getDay()]);
+			fmt = fmt.replace("%%", "%");
+
+			return fmt;
+		}
+	});
+
+	// Register plugin
+	tinymce.PluginManager.add('insertdatetime', tinymce.plugins.InsertDateTime);
+})();

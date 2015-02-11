@@ -1,2 +1,3 @@
-tinyMCE.addI18n("en.example_dlg",{title:"This is just a example title"});
-//# sourceMappingURL=en_dlg.map
+tinyMCE.addI18n('en.example_dlg',{
+	title : 'This is just a example title'
+});

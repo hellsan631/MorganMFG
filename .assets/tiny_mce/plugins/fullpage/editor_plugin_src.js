@@ -1,2 +1,405 @@
-!function(){var a=tinymce.each,b=tinymce.html.Node;tinymce.create("tinymce.plugins.FullPagePlugin",{init:function(a,b){var c=this;c.editor=a,a.addCommand("mceFullPageProperties",function(){a.windowManager.open({file:b+"/fullpage.htm",width:430+parseInt(a.getLang("fullpage.delta_width",0)),height:495+parseInt(a.getLang("fullpage.delta_height",0)),inline:1},{plugin_url:b,data:c._htmlToData()})}),a.addButton("fullpage",{title:"fullpage.desc",cmd:"mceFullPageProperties"}),a.onBeforeSetContent.add(c._setContent,c),a.onGetContent.add(c._getContent,c)},getInfo:function(){return{longname:"Fullpage",author:"Moxiecode Systems AB",authorurl:"http://tinymce.moxiecode.com",infourl:"http://wiki.moxiecode.com/index.php/TinyMCE:Plugins/fullpage",version:tinymce.majorVersion+"."+tinymce.minorVersion}},_htmlToData:function(){function b(a,b){var c=a.attr(b);return c||""}var c,d,e=this._parseHeader(),f={},g=this.editor;return f.fontface=g.getParam("fullpage_default_fontface",""),f.fontsize=g.getParam("fullpage_default_fontsize",""),c=e.firstChild,7==c.type&&(f.xml_pi=!0,d=/encoding="([^"]+)"/.exec(c.value),d&&(f.docencoding=d[1])),c=e.getAll("#doctype")[0],c&&(f.doctype="<!DOCTYPE"+c.value+">"),c=e.getAll("title")[0],c&&c.firstChild&&(f.metatitle=c.firstChild.value),a(e.getAll("meta"),function(a){var b,c=a.attr("name"),d=a.attr("http-equiv");c?f["meta"+c.toLowerCase()]=a.attr("content"):"Content-Type"==d&&(b=/charset\s*=\s*(.*)\s*/gi.exec(a.attr("content")),b&&(f.docencoding=b[1]))}),c=e.getAll("html")[0],c&&(f.langcode=b(c,"lang")||b(c,"xml:lang")),c=e.getAll("link")[0],c&&"stylesheet"==c.attr("rel")&&(f.stylesheet=c.attr("href")),c=e.getAll("body")[0],c&&(f.langdir=b(c,"dir"),f.style=b(c,"style"),f.visited_color=b(c,"vlink"),f.link_color=b(c,"link"),f.active_color=b(c,"alink")),f},_dataToHtml:function(c){function d(a,b,c){a.attr(b,c?c:void 0)}function e(a){g.firstChild?g.insert(a,g.firstChild):g.append(a)}var f,g,h,i,j,k=this.editor.dom;f=this._parseHeader(),g=f.getAll("head")[0],g||(i=f.getAll("html")[0],g=new b("head",1),i.firstChild?i.insert(g,i.firstChild,!0):i.append(g)),i=f.firstChild,c.xml_pi?(j='version="1.0"',c.docencoding&&(j+=' encoding="'+c.docencoding+'"'),7!=i.type&&(i=new b("xml",7),f.insert(i,f.firstChild,!0)),i.value=j):i&&7==i.type&&i.remove(),i=f.getAll("#doctype")[0],c.doctype?(i||(i=new b("#doctype",10),c.xml_pi?f.insert(i,f.firstChild):e(i)),i.value=c.doctype.substring(9,c.doctype.length-1)):i&&i.remove(),i=f.getAll("title")[0],c.metatitle&&(i||(i=new b("title",1),i.append(new b("#text",3)).value=c.metatitle,e(i))),c.docencoding&&(i=null,a(f.getAll("meta"),function(a){"Content-Type"==a.attr("http-equiv")&&(i=a)}),i||(i=new b("meta",1),i.attr("http-equiv","Content-Type"),i.shortEnded=!0,e(i)),i.attr("content","text/html; charset="+c.docencoding)),a("keywords,description,author,copyright,robots".split(","),function(a){var d,g,h=f.getAll("meta"),j=c["meta"+a];for(d=0;d<h.length;d++)if(g=h[d],g.attr("name")==a)return void(j?g.attr("content",j):g.remove());j&&(i=new b("meta",1),i.attr("name",a),i.attr("content",j),i.shortEnded=!0,e(i))}),i=f.getAll("link")[0],i&&"stylesheet"==i.attr("rel")?c.stylesheet?i.attr("href",c.stylesheet):i.remove():c.stylesheet&&(i=new b("link",1),i.attr({rel:"stylesheet",text:"text/css",href:c.stylesheet}),i.shortEnded=!0,e(i)),i=f.getAll("body")[0],i&&(d(i,"dir",c.langdir),d(i,"style",c.style),d(i,"vlink",c.visited_color),d(i,"link",c.link_color),d(i,"alink",c.active_color),k.setAttribs(this.editor.getBody(),{style:c.style,dir:c.dir,vLink:c.visited_color,link:c.link_color,aLink:c.active_color})),i=f.getAll("html")[0],i&&(d(i,"lang",c.langcode),d(i,"xml:lang",c.langcode)),h=new tinymce.html.Serializer({validate:!1,indent:!0,apply_source_formatting:!0,indent_before:"head,html,body,meta,title,script,link,style",indent_after:"head,html,body,meta,title,script,link,style"}).serialize(f),this.head=h.substring(0,h.indexOf("</body>"))},_parseHeader:function(){return new tinymce.html.DomParser({validate:!1,root_name:"#document"}).parse(this.head)},_setContent:function(b,c){function d(a){return a.replace(/<\/?[A-Z]+/g,function(a){return a.toLowerCase()})}var e,f,g,h,i=this,j=c.content,k="",l=i.editor.dom;"raw"==c.format&&i.head||c.source_view&&b.getParam("fullpage_hide_in_source_view")||(j=j.replace(/<(\/?)BODY/gi,"<$1body"),e=j.indexOf("<body"),-1!=e?(e=j.indexOf(">",e),i.head=d(j.substring(0,e+1)),f=j.indexOf("</body",e),-1==f&&(f=j.length),c.content=j.substring(e+1,f),i.foot=d(j.substring(f))):(i.head=this._getDefaultHeader(),i.foot="\n</body>\n</html>"),g=i._parseHeader(),a(g.getAll("style"),function(a){a.firstChild&&(k+=a.firstChild.value)}),h=g.getAll("body")[0],h&&l.setAttribs(i.editor.getBody(),{style:h.attr("style")||"",dir:h.attr("dir")||"",vLink:h.attr("vlink")||"",link:h.attr("link")||"",aLink:h.attr("alink")||""}),l.remove("fullpage_styles"),k&&(l.add(i.editor.getDoc().getElementsByTagName("head")[0],"style",{id:"fullpage_styles"},k),h=l.get("fullpage_styles"),h.styleSheet&&(h.styleSheet.cssText=k)))},_getDefaultHeader:function(){var a,b="",c=this.editor,d="";return c.getParam("fullpage_default_xml_pi")&&(b+='<?xml version="1.0" encoding="'+c.getParam("fullpage_default_encoding","ISO-8859-1")+'" ?>\n'),b+=c.getParam("fullpage_default_doctype",'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">'),b+="\n<html>\n<head>\n",(a=c.getParam("fullpage_default_title"))&&(b+="<title>"+a+"</title>\n"),(a=c.getParam("fullpage_default_encoding"))&&(b+='<meta http-equiv="Content-Type" content="text/html; charset='+a+'" />\n'),(a=c.getParam("fullpage_default_font_family"))&&(d+="font-family: "+a+";"),(a=c.getParam("fullpage_default_font_size"))&&(d+="font-size: "+a+";"),(a=c.getParam("fullpage_default_text_color"))&&(d+="color: "+a+";"),b+="</head>\n<body"+(d?' style="'+d+'"':"")+">\n"},_getContent:function(a,b){var c=this;b.source_view&&a.getParam("fullpage_hide_in_source_view")||(b.content=tinymce.trim(c.head)+"\n"+tinymce.trim(b.content)+"\n"+tinymce.trim(c.foot))}}),tinymce.PluginManager.add("fullpage",tinymce.plugins.FullPagePlugin)}();
-//# sourceMappingURL=editor_plugin_src.map
+/**
+ * editor_plugin_src.js
+ *
+ * Copyright 2009, Moxiecode Systems AB
+ * Released under LGPL License.
+ *
+ * License: http://tinymce.moxiecode.com/license
+ * Contributing: http://tinymce.moxiecode.com/contributing
+ */
+
+(function() {
+	var each = tinymce.each, Node = tinymce.html.Node;
+
+	tinymce.create('tinymce.plugins.FullPagePlugin', {
+		init : function(ed, url) {
+			var t = this;
+
+			t.editor = ed;
+
+			// Register commands
+			ed.addCommand('mceFullPageProperties', function() {
+				ed.windowManager.open({
+					file : url + '/fullpage.htm',
+					width : 430 + parseInt(ed.getLang('fullpage.delta_width', 0)),
+					height : 495 + parseInt(ed.getLang('fullpage.delta_height', 0)),
+					inline : 1
+				}, {
+					plugin_url : url,
+					data : t._htmlToData()
+				});
+			});
+
+			// Register buttons
+			ed.addButton('fullpage', {title : 'fullpage.desc', cmd : 'mceFullPageProperties'});
+
+			ed.onBeforeSetContent.add(t._setContent, t);
+			ed.onGetContent.add(t._getContent, t);
+		},
+
+		getInfo : function() {
+			return {
+				longname : 'Fullpage',
+				author : 'Moxiecode Systems AB',
+				authorurl : 'http://tinymce.moxiecode.com',
+				infourl : 'http://wiki.moxiecode.com/index.php/TinyMCE:Plugins/fullpage',
+				version : tinymce.majorVersion + "." + tinymce.minorVersion
+			};
+		},
+
+		// Private plugin internal methods
+
+		_htmlToData : function() {
+			var headerFragment = this._parseHeader(), data = {}, nodes, elm, matches, editor = this.editor;
+
+			function getAttr(elm, name) {
+				var value = elm.attr(name);
+
+				return value || '';
+			};
+
+			// Default some values
+			data.fontface = editor.getParam("fullpage_default_fontface", "");
+			data.fontsize = editor.getParam("fullpage_default_fontsize", "");
+
+			// Parse XML PI
+			elm = headerFragment.firstChild;
+			if (elm.type == 7) {
+				data.xml_pi = true;
+				matches = /encoding="([^"]+)"/.exec(elm.value);
+				if (matches)
+					data.docencoding = matches[1];
+			}
+
+			// Parse doctype
+			elm = headerFragment.getAll('#doctype')[0];
+			if (elm)
+				data.doctype = '<!DOCTYPE' + elm.value + ">"; 
+
+			// Parse title element
+			elm = headerFragment.getAll('title')[0];
+			if (elm && elm.firstChild) {
+				data.metatitle = elm.firstChild.value;
+			}
+
+			// Parse meta elements
+			each(headerFragment.getAll('meta'), function(meta) {
+				var name = meta.attr('name'), httpEquiv = meta.attr('http-equiv'), matches;
+
+				if (name)
+					data['meta' + name.toLowerCase()] = meta.attr('content');
+				else if (httpEquiv == "Content-Type") {
+					matches = /charset\s*=\s*(.*)\s*/gi.exec(meta.attr('content'));
+
+					if (matches)
+						data.docencoding = matches[1];
+				}
+			});
+
+			// Parse html attribs
+			elm = headerFragment.getAll('html')[0];
+			if (elm)
+				data.langcode = getAttr(elm, 'lang') || getAttr(elm, 'xml:lang');
+	
+			// Parse stylesheet
+			elm = headerFragment.getAll('link')[0];
+			if (elm && elm.attr('rel') == 'stylesheet')
+				data.stylesheet = elm.attr('href');
+
+			// Parse body parts
+			elm = headerFragment.getAll('body')[0];
+			if (elm) {
+				data.langdir = getAttr(elm, 'dir');
+				data.style = getAttr(elm, 'style');
+				data.visited_color = getAttr(elm, 'vlink');
+				data.link_color = getAttr(elm, 'link');
+				data.active_color = getAttr(elm, 'alink');
+			}
+
+			return data;
+		},
+
+		_dataToHtml : function(data) {
+			var headerFragment, headElement, html, elm, value, dom = this.editor.dom;
+
+			function setAttr(elm, name, value) {
+				elm.attr(name, value ? value : undefined);
+			};
+
+			function addHeadNode(node) {
+				if (headElement.firstChild)
+					headElement.insert(node, headElement.firstChild);
+				else
+					headElement.append(node);
+			};
+
+			headerFragment = this._parseHeader();
+			headElement = headerFragment.getAll('head')[0];
+			if (!headElement) {
+				elm = headerFragment.getAll('html')[0];
+				headElement = new Node('head', 1);
+
+				if (elm.firstChild)
+					elm.insert(headElement, elm.firstChild, true);
+				else
+					elm.append(headElement);
+			}
+
+			// Add/update/remove XML-PI
+			elm = headerFragment.firstChild;
+			if (data.xml_pi) {
+				value = 'version="1.0"';
+
+				if (data.docencoding)
+					value += ' encoding="' + data.docencoding + '"';
+
+				if (elm.type != 7) {
+					elm = new Node('xml', 7);
+					headerFragment.insert(elm, headerFragment.firstChild, true);
+				}
+
+				elm.value = value;
+			} else if (elm && elm.type == 7)
+				elm.remove();
+
+			// Add/update/remove doctype
+			elm = headerFragment.getAll('#doctype')[0];
+			if (data.doctype) {
+				if (!elm) {
+					elm = new Node('#doctype', 10);
+
+					if (data.xml_pi)
+						headerFragment.insert(elm, headerFragment.firstChild);
+					else
+						addHeadNode(elm);
+				}
+
+				elm.value = data.doctype.substring(9, data.doctype.length - 1);
+			} else if (elm)
+				elm.remove();
+
+			// Add/update/remove title
+			elm = headerFragment.getAll('title')[0];
+			if (data.metatitle) {
+				if (!elm) {
+					elm = new Node('title', 1);
+					elm.append(new Node('#text', 3)).value = data.metatitle;
+					addHeadNode(elm);
+				}
+			}
+
+			// Add meta encoding
+			if (data.docencoding) {
+				elm = null;
+				each(headerFragment.getAll('meta'), function(meta) {
+					if (meta.attr('http-equiv') == 'Content-Type')
+						elm = meta;
+				});
+
+				if (!elm) {
+					elm = new Node('meta', 1);
+					elm.attr('http-equiv', 'Content-Type');
+					elm.shortEnded = true;
+					addHeadNode(elm);
+				}
+
+				elm.attr('content', 'text/html; charset=' + data.docencoding);
+			}
+
+			// Add/update/remove meta
+			each('keywords,description,author,copyright,robots'.split(','), function(name) {
+				var nodes = headerFragment.getAll('meta'), i, meta, value = data['meta' + name];
+
+				for (i = 0; i < nodes.length; i++) {
+					meta = nodes[i];
+
+					if (meta.attr('name') == name) {
+						if (value)
+							meta.attr('content', value);
+						else
+							meta.remove();
+
+						return;
+					}
+				}
+
+				if (value) {
+					elm = new Node('meta', 1);
+					elm.attr('name', name);
+					elm.attr('content', value);
+					elm.shortEnded = true;
+
+					addHeadNode(elm);
+				}
+			});
+
+			// Add/update/delete link
+			elm = headerFragment.getAll('link')[0];
+			if (elm && elm.attr('rel') == 'stylesheet') {
+				if (data.stylesheet)
+					elm.attr('href', data.stylesheet);
+				else
+					elm.remove();
+			} else if (data.stylesheet) {
+				elm = new Node('link', 1);
+				elm.attr({
+					rel : 'stylesheet',
+					text : 'text/css',
+					href : data.stylesheet
+				});
+				elm.shortEnded = true;
+
+				addHeadNode(elm);
+			}
+
+			// Update body attributes
+			elm = headerFragment.getAll('body')[0];
+			if (elm) {
+				setAttr(elm, 'dir', data.langdir);
+				setAttr(elm, 'style', data.style);
+				setAttr(elm, 'vlink', data.visited_color);
+				setAttr(elm, 'link', data.link_color);
+				setAttr(elm, 'alink', data.active_color);
+
+				// Update iframe body as well
+				dom.setAttribs(this.editor.getBody(), {
+					style : data.style,
+					dir : data.dir,
+					vLink : data.visited_color,
+					link : data.link_color,
+					aLink : data.active_color
+				});
+			}
+
+			// Set html attributes
+			elm = headerFragment.getAll('html')[0];
+			if (elm) {
+				setAttr(elm, 'lang', data.langcode);
+				setAttr(elm, 'xml:lang', data.langcode);
+			}
+
+			// Serialize header fragment and crop away body part
+			html = new tinymce.html.Serializer({
+				validate: false,
+				indent: true,
+				apply_source_formatting : true,
+				indent_before: 'head,html,body,meta,title,script,link,style',
+				indent_after: 'head,html,body,meta,title,script,link,style'
+			}).serialize(headerFragment);
+
+			this.head = html.substring(0, html.indexOf('</body>'));
+		},
+
+		_parseHeader : function() {
+			// Parse the contents with a DOM parser
+			return new tinymce.html.DomParser({
+				validate: false,
+				root_name: '#document'
+			}).parse(this.head);
+		},
+
+		_setContent : function(ed, o) {
+			var self = this, startPos, endPos, content = o.content, headerFragment, styles = '', dom = self.editor.dom, elm;
+
+			function low(s) {
+				return s.replace(/<\/?[A-Z]+/g, function(a) {
+					return a.toLowerCase();
+				})
+			};
+
+			// Ignore raw updated if we already have a head, this will fix issues with undo/redo keeping the head/foot separate
+			if (o.format == 'raw' && self.head)
+				return;
+
+			if (o.source_view && ed.getParam('fullpage_hide_in_source_view'))
+				return;
+
+			// Parse out head, body and footer
+			content = content.replace(/<(\/?)BODY/gi, '<$1body');
+			startPos = content.indexOf('<body');
+
+			if (startPos != -1) {
+				startPos = content.indexOf('>', startPos);
+				self.head = low(content.substring(0, startPos + 1));
+
+				endPos = content.indexOf('</body', startPos);
+				if (endPos == -1)
+					endPos = content.length;
+
+				o.content = content.substring(startPos + 1, endPos);
+				self.foot = low(content.substring(endPos));
+			} else {
+				self.head = this._getDefaultHeader();
+				self.foot = '\n</body>\n</html>';
+			}
+
+			// Parse header and update iframe
+			headerFragment = self._parseHeader();
+			each(headerFragment.getAll('style'), function(node) {
+				if (node.firstChild)
+					styles += node.firstChild.value;
+			});
+
+			elm = headerFragment.getAll('body')[0];
+			if (elm) {
+				dom.setAttribs(self.editor.getBody(), {
+					style : elm.attr('style') || '',
+					dir : elm.attr('dir') || '',
+					vLink : elm.attr('vlink') || '',
+					link : elm.attr('link') || '',
+					aLink : elm.attr('alink') || ''
+				});
+			}
+
+			dom.remove('fullpage_styles');
+
+			if (styles) {
+				dom.add(self.editor.getDoc().getElementsByTagName('head')[0], 'style', {id : 'fullpage_styles'}, styles);
+
+				// Needed for IE 6/7
+				elm = dom.get('fullpage_styles');
+				if (elm.styleSheet)
+					elm.styleSheet.cssText = styles;
+			}
+		},
+
+		_getDefaultHeader : function() {
+			var header = '', editor = this.editor, value, styles = '';
+
+			if (editor.getParam('fullpage_default_xml_pi'))
+				header += '<?xml version="1.0" encoding="' + editor.getParam('fullpage_default_encoding', 'ISO-8859-1') + '" ?>\n';
+
+			header += editor.getParam('fullpage_default_doctype', '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">');
+			header += '\n<html>\n<head>\n';
+
+			if (value = editor.getParam('fullpage_default_title'))
+				header += '<title>' + value + '</title>\n';
+
+			if (value = editor.getParam('fullpage_default_encoding'))
+				header += '<meta http-equiv="Content-Type" content="text/html; charset=' + value + '" />\n';
+
+			if (value = editor.getParam('fullpage_default_font_family'))
+				styles += 'font-family: ' + value + ';';
+
+			if (value = editor.getParam('fullpage_default_font_size'))
+				styles += 'font-size: ' + value + ';';
+
+			if (value = editor.getParam('fullpage_default_text_color'))
+				styles += 'color: ' + value + ';';
+
+			header += '</head>\n<body' + (styles ? ' style="' + styles + '"' : '') + '>\n';
+
+			return header;
+		},
+
+		_getContent : function(ed, o) {
+			var self = this;
+
+			if (!o.source_view || !ed.getParam('fullpage_hide_in_source_view'))
+				o.content = tinymce.trim(self.head) + '\n' + tinymce.trim(o.content) + '\n' + tinymce.trim(self.foot);
+		}
+	});
+
+	// Register plugin
+	tinymce.PluginManager.add('fullpage', tinymce.plugins.FullPagePlugin);
+})();

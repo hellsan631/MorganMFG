@@ -10,7 +10,7 @@
 <section id="trace" class="tofade" style="">
     <div class="inner p-70">
         <!-- <img src="<?php echo base_url() ?>assets/theme/img/ico-search.png" alt=""> -->
-        <h4>INQUIRE ABOUT <br> US OR YOUR EVENTS</h4>
+        <h4 class="inquire_heading">INQUIRE ABOUT <br> US OR YOUR EVENTS</h4>
         <p></p>
     
         <form class="tracking-form" id="event_form" onsubmit="return false;">
@@ -25,8 +25,8 @@
                                          <div id="success_msg" class="alert alert-success" style="display:none;"></div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-sm-3 ">
+                                <div class="row inquiry_form">
+                                    <div class="col-sm-3">
                                         <input type="text" class="form-control light"  name="event_first_name"  placeholder="First"    />
                                     </div>
                                     <div class="col-sm-3 ">
@@ -40,7 +40,7 @@
                                     </div>
                                 </div>
                                 &nbsp;
-                                <div class="row">
+                                <div class="row inquiry_message_box">
                                     <div class="col-sm-12">
                                        <textarea  class="form-control light" style="text-align:left" name="event_message" id="event_message" placeholder="message" value="" ></textarea>
                                     </div>
@@ -82,7 +82,7 @@
 
             <div class="prima p-30 <?php if(isset($footspaces)){ echo "home_footer0"; } ?>">
                 <!-- <img src="<?php echo base_url() ?>assets/theme/img/ico-newsletter.png" alt=""> -->
-                <h4 class="newh4">SUBSCRIBE TO <br> OUR NEWSLETTER</h4>
+                <h4 class="newh4 inquire_heading">SUBSCRIBE TO <br> OUR NEWSLETTER</h4>
                 <p class="spacer"></p>
                 <div class="container">
                     <div class="row">
@@ -108,9 +108,9 @@
                             <?php /* $logo = getlogo(); if($logo){ ?>
                                     <div style="float:left; width:110px"><img src="<?php echo base_url() ?>assets/uploads/home/<?php echo $logo; ?>" alt="Morgan" class="limg" style="width:100px"></div>
                                 <?php }*/ ?>
-                                    <div style="float:left; width:110px"><img src="<?php echo base_url() ?>assets/theme/img/mlogo0.png" alt="Morgan" class="limg" style="width:100px"></div>
+                                    <div style="float:left;" class="w110"><img src="<?php echo base_url() ?>assets/theme/img/mlogo0.png" alt="Morgan" class="limg" style="width:100px"></div>
                                 
-                            <div style="float:left; width:80%"><!-- Site Content starts -->
+                            <div style="float:left;" class="w80p"><!-- Site Content starts -->
                             <?php $site_content_phone = ''; ?>
                             <?php $site_content = get_row('site_content',array('slug'=>'site_content')); ?>
                             <?php if(!empty($site_content)): ?>             
@@ -254,7 +254,7 @@ function newsletter_form_submit()
      if(email=="")
     {
         $('#n_success_msg').fadeOut();
-        $('#n_error_msg').html('Email fields are Required');
+        $('#n_error_msg').html('Email is Required');
         $('#n_error_msg').fadeOut();
         $('#n_error_msg').fadeIn();
         return false;
@@ -284,6 +284,135 @@ function newsletter_form_submit()
     });
 }
 </script>
+<style type="text/css">
+    .w110{
+        width:110px;
+    }
+
+    .w80p{
+        width: 80%;
+    }
+
+    @media(min-width: 320px) and (max-width: 480px){
+        .w110{
+            width:100%;
+        }        
+
+        .w80p{
+            width: 100%;
+        }
+
+        .p10m{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .navbar-mobile #main-nav #mhome{
+            display: block !important;
+        }
+
+        .abtpg-heading{
+            height: auto;
+            background-repeat: repeat;
+            background-size: contain;
+        }
+        .abtpg-heading h3.page-title{
+            font-size: 35px;
+        }
+
+        /*#uno1 .tofade{
+            opacity: 1;
+        }*/
+
+        .blckcontent p{
+            color:#000;
+        }
+
+        .services .serv-bl{
+            width: 100%;
+        }
+
+        #team-detail .gall .carousel-control, #team-detail a.back{
+            margin-top: 20px;
+        }
+
+        .content_right{
+            float: none;
+        }
+
+        #team-detail .carousel-control{
+            font-size: 14px;
+            padding: 6px 20px;
+        }
+        #team-detail .gall .carousel-control, #team-detail a.back {
+            font-size: 14px;
+        }
+
+        .gallery-slider{
+            height: 220px;
+            min-height: 200px;
+        }
+
+        .dynamic_image_heading{
+            margin-top: 33px !important;
+        }
+        .inquiry_form .col-sm-3{
+        	margin-bottom: 5% !important;
+        }
+        .inquire_heading{
+             font-size: 22px !important;
+        }
+        .inquiry_message_box{
+             margin-top: -25px !important;
+        }
+    }
+
+    @media(min-width: 360px) and (max-width: 640px){
+        .inquiry_form .col-sm-3{
+        	margin-bottom: 5% !important;
+        }
+        .inquire_heading{
+             font-size: 22px !important;
+        }
+        .inquiry_message_box{
+             margin-top: -25px !important;
+        }
+	}
+
+    @media (max-width: 767px){
+        #team-detail .gall .carousel-control, #team-detail a.back {
+        padding:6px 20px;
+        }
+    }
+
+    @media(min-width: 768px){
+       #team-detail .gall .carousel-control, #team-detail a.back{
+            margin-top: 20px;
+        }
+    }
+   
+    @media(max-width: 768px){
+		.padding_adjust{
+            padding-top: 50px !important;
+        }
+		.margin_adjust{
+            margin-top: 50px !important;
+        }
+/*        .blog-list ul{
+            margin-top: 50px !important;
+        }
+*/    }
+
+    .navbar-mobile #main-nav #mhome{
+            display: block !important;
+    }
+
+
+
+       
+
+
+</style>
 
 </body>
 </html>

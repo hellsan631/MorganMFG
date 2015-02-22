@@ -1,5 +1,5 @@
-<section class="blog-list">
-            <ul>
+<section class=" blog-list">
+            <ul class="margin_adjust">
               <?php if ($posts): foreach($posts as $row): ?>                
                 <li class="row tofade">
                     <div class="col-sm-6">

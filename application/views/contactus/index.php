@@ -17,7 +17,7 @@
             </div>
         </div>
 
- <section class="white-bg p-50">
+ <section  class="white-bg p-50">
             <div class="container">            
                 <div class="row ">
                   <?php alert(); ?>
@@ -89,7 +89,7 @@
         <section class="row-1 padder-cont">
             <div class="row">
                <?php foreach($sections as $row): ?>
-                    <div class="col-sm-6">
+                    <div class="col-md-6">
                         <div  style="background: url('<?php echo base_url() ?>assets/uploads/sections/image/<?php echo $row->image ?>') no-repeat center center ;background-size:cover" class="half-block tofade bg_image">
                             <div class="inner p-90">
                                 <h3  class="call-to-action-heading page-title"  ><?php echo $row->heading ?></h3>

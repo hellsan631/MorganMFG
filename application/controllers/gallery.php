@@ -13,7 +13,7 @@ class Gallery extends CI_Controller
 		$data['menuactive'] = '';
 		$data['pagetitle'] = 'Gallery';
 		
-		$this->db->order_by('id', 'asc');
+		$this->db->order_by('order', 'asc');
 		$data['gallery'] = $this->admin_model->get_result('gallery');
 		$data['template'] = 'gallery/index';
 		$this->load->view('templates/home_template', $data);
@@ -83,11 +83,15 @@ class Gallery extends CI_Controller
 		 if(admin_login_in()===FALSE)
 			redirect('login');
 
+        $this->form_validation->set_rules('name','Name','trim');
+        $this->form_validation->set_rules('order','Order','trim|required|numeric');
+        $this->form_validation->set_rules('image','Image','trim|callback_file_validation['.@$_FILES['image']['name'].';required;png,jpeg,gif,jpg]');
 
-		if ($_POST)
-		{			
+		if($this->form_validation->run() == TRUE)
+		{
 			$data=array(
 				'name'=>$this->input->post('name'),
+				'order'=>$this->input->post('order'),
 				'slug' => create_slug('gallery', $this->input->post('name')),
 				'created' => date('Y-m-d')		
 			);			
@@ -132,15 +136,22 @@ class Gallery extends CI_Controller
 
 		$data['gallery'] = $this->admin_model->get_row('gallery', array('slug'=>$slug));
 
+
+
 		if(empty($data['gallery']))
 		{
 			redirect('gallery/all');
 		}
 
-		if ($_POST)
-		{			
+        $this->form_validation->set_rules('name','Name','trim');
+        $this->form_validation->set_rules('order','Order','trim|required|numeric');
+        $this->form_validation->set_rules('image','Image','trim|callback_file_validation['.@$_FILES['image']['name'].';;png,jpeg,gif,jpg]');
+
+		if($this->form_validation->run() == TRUE)
+		{
 			$update_data=array(
 				'name'=>$this->input->post('name'),
+				'order'=>$this->input->post('order'),
 				'slug' => create_slug_for_update('gallery', $this->input->post('name')),
 				'updated' => date('Y-m-d')		
 			);			
@@ -367,6 +378,66 @@ class Gallery extends CI_Controller
 		$this->session->set_flashdata('success_msg',"Gallery Image has been deleted successfully.");
 		redirect('gallery/all_images/'.$gallery_row->slug);
 	}
+
+
+	public function file_validation($post='0',$parameter)
+	{
+		list($image,$required,$types) = explode(';',$parameter);
+		$image_array = explode('.',$image);
+		$format = $image_array[count($image_array)-1];
+		$format = strtolower($format);
+		$types_array = explode(',',$types);
+
+		if($required == '' && $types == ''){
+			return true;
+		}
+
+		if($required != '' && $types == ''){
+			if($image==''){
+				$this->form_validation->set_message('file_validation','Please select an file to upload.');
+				return false;
+			}else{
+				return true;
+			}
+		}
+
+		if($required == '' && $types != ''){
+			if($image==''){
+ 				return true;
+			}else{
+				if(in_array($format,$types_array)){
+					return true;
+				}else{
+					$this->form_validation->set_message('file_validation','File format not allowed.');
+					return false;
+				}
+			}
+		}
+
+		if($required != '' && $types != ''){
+			if($image==''){
+				$this->form_validation->set_message('file_validation','Please select an file to upload.');
+				return false;
+			}else{
+				if(in_array($format,$types_array)){
+					return true;
+				}else{
+					$this->form_validation->set_message('file_validation','File format not allowed.');
+					return false;
+				}
+			}
+		}
+	}
+
+
+	// public function test(){
+	// 	$gallery = $this->admin_model->get_result('gallery');
+ //       $i=1;
+ //        foreach ($gallery as $key => $value) {
+	// 		$this->admin_model->update('gallery',array('order'=>$i),array('id'=>$value->id));
+ //             $i++;
+ //        }
+	// } 
 
 
 

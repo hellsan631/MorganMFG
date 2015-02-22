@@ -37,7 +37,8 @@
         <li><a href="<?php echo base_url() ?>fonts/call_to_action">Call to Action</a></li>        
         <li><a href="<?php echo base_url() ?>fonts/navigation">Navigation Bar</a></li>        
         <li><a href="<?php echo base_url() ?>fonts/home_slider">Home Slider</a></li>        
-        <li><a href="<?php echo base_url() ?>fonts/section">Section Fonts</a></li>        
+        <li><a href="<?php echo base_url() ?>fonts/home_news">Home News</a></li>             
+        <!-- <li><a href="<?php //echo base_url() ?>fonts/section">Section Fonts</a></li>        it replaced by call to action  -->
         <li><a href="<?php echo base_url() ?>fonts/space">Space Fonts</a></li>        
         <li><a href="<?php echo base_url() ?>fonts/space_detail">Space Detail Fonts</a></li>        
         <li><a href="<?php echo base_url() ?>fonts/catering">Catering Fonts</a></li>        
@@ -48,7 +49,7 @@
         <li><a href="<?php echo base_url() ?>fonts/gallery">Gallery</a></li>        
         <li><a href="<?php echo base_url() ?>fonts/footer_inquire">Footer Inquire Form</a></li>        
         <li><a href="<?php echo base_url() ?>fonts/footer_connect_container">Footer Connect</a></li>        
-        <li><a href="<?php echo base_url() ?>fonts/footer">Footer</a></li>        
+        <li><a href="<?php echo base_url() ?>fonts/footer">Footer</a></li>   
       </ul>
     </li>
     <hr> 

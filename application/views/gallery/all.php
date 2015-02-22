@@ -26,6 +26,7 @@ a:hover{
             <table class="table table-striped">
               <thead>
                 <tr>                  
+                  <th>Caption</th>
                   <th>Name</th>
                   <th>Image</th>
                   <!-- <th>Images</th> -->
@@ -37,6 +38,7 @@ a:hover{
                 <?php if ($gallery): foreach ($gallery as $row): ?>
                 <tr>
                   <td><?php echo $row->name ?></td>
+                  <td><?php echo $row->image ?></td>
                   <td><img style="width:100px;height:100px;" src="<?php echo base_url() ?>assets/uploads/gallery/thumbs/<?php echo $row->image ?>"></td>
                   <?php /* 
                   <td>

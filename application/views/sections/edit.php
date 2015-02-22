@@ -99,11 +99,11 @@
 
 
 
-                  <div class="form-group">
+<!--                   <div class="form-group">
 
                     <label for="exampleInputFile">Icon 
-<!--                      <span style="font-weight:lighter">(size:60x60)</span >
- -->                     </label>
+                     <span style="font-weight:lighter">(size:60x60)</span >
+                     </label>
 
                     <input type="file" name="icon" id="exampleInputFile">
 
@@ -114,7 +114,7 @@
                     <img class="img_img" src="<?php echo base_url() ?>assets/uploads/sections/icon/thumbs/<?php echo $sections->icon ?>">
 
                   </div>
-
+ -->
 
 
                   <div class="form-group">

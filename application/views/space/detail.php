@@ -66,13 +66,22 @@
 $(window).resize(function(){
     // contentslideheight();
     // window.location.reload();
-    alignleftright();
+    var w = $(window).width();
+    if(w > 769){
+        alignleftright();        
+    }else{
+        $('.content_right').css('float','none');
+    }
+
 });
 
 
 $(window).load(function(){
+    var w = $(window).width();
+    if(w > 769){
     contentslideheight();
     alignleftright();
+    }
 });
 
 function contentslideheight(){

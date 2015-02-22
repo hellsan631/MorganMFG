@@ -542,7 +542,7 @@ if ( ! function_exists('get_slug_for_update')) {
 
 
 
-function create_thumb($file = '', $path = './assets/uploads/' ){
+function create_thumb($file = '', $path = './assets/uploads/',$width=200 , $height=200){
 
 	$thumbpath = $path.'thumbs/';
 
@@ -568,11 +568,11 @@ function create_thumb($file = '', $path = './assets/uploads/' ){
 
 	$config['quality'] = '100%';
 
-	$config['maintain_ratio'] = TRUE;
+	$config['maintain_ratio'] = FALSE;
 
-	$config['width'] = 200;
+	$config['width'] = $width;
 
-	$config['height'] = 200;				
+	$config['height'] = $height;				
 
 	$CI->image_lib->initialize($config);
 
@@ -1374,6 +1374,7 @@ if(!function_exists('add_dynamic_css')){
     $css = '';
     $css .= '<link rel="stylesheet" type="text/css" href="'.base_url().'assets/dynamic_css/navigation.css">';
     $css .= '<link rel="stylesheet" type="text/css" href="'.base_url().'assets/dynamic_css/home_slider.css">';
+    $css .= '<link rel="stylesheet" type="text/css" href="'.base_url().'assets/dynamic_css/home_news.css">';
     $css .= '<link rel="stylesheet" type="text/css" href="'.base_url().'assets/dynamic_css/footer_inquire.css">';
     $css .= '<link rel="stylesheet" type="text/css" href="'.base_url().'assets/dynamic_css/footer_connect_container.css">';
     $css .= '<link rel="stylesheet" type="text/css" href="'.base_url().'assets/dynamic_css/section.css">';

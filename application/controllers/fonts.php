@@ -212,6 +212,10 @@ class Fonts extends CI_Controller {
 		$this->common(18, 'gallery');
 	}
 
+	public function home_news(){
+		$this->common(19, 'home_news');
+	}
+
 	public function get_font_weights($id){
 		if($id != ''){
 			$fontvar = get_font_var($id);
@@ -348,6 +352,12 @@ class Fonts extends CI_Controller {
 				@unlink('./assets/dynamic_css/gallery.css');
 				$url = base_url().'fonts/gallery';
 				write_file('./assets/dynamic_css/gallery.css', ' /* NO CSS */ ');
+				break;
+
+			case '19':
+				@unlink('./assets/dynamic_css/home_news.css');
+				$url = base_url().'fonts/home_news';
+				write_file('./assets/dynamic_css/home_news.css', ' /* NO CSS */ ');
 				break;
 			
 			default:

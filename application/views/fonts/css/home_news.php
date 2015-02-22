@@ -1,10 +1,10 @@
 <?php
 
 $classes = array(
-	'f' => '.dynamic_image_headings',
-	's' => '.dynamic_image_button_text',
-	't' => '.page_heading_text',
-	'fo' => '.page_button_text p',
+	'f' => '.news-heading',
+	's' => '.prod-bl p.news-date',
+	't' => '.news-button-text',
+	'fo' => FALSE,
 	'fi' => FALSE
 );
 

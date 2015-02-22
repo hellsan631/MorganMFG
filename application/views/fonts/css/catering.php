@@ -3,8 +3,8 @@
 $classes = array(
 	'f' => '.team-list .half-block .inner h1 a',
 	's' => '.team-list .half-block .inner p',
-	't' => FALSE,
-	'fo' => FALSE,
+	't' => '.cateringhead h3',
+	'fo' => '.cateringhead p',
 	'fi' => FALSE
 );
 

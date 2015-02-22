@@ -64,27 +64,27 @@ class Sections extends CI_Controller {
 			            	);
 
 
-			if($_FILES['icon']['name']!='')
-			{
-				$config['upload_path'] = './assets/uploads/sections/icon/';
-				$config['allowed_types'] = 'gif|jpg|png';
-				// $config['max_size']	= '';
-				// $config['max_width']  = '80';
-				// $config['max_height']  = '80';
-				$this->load->library('upload', $config);
+			// if($_FILES['icon']['name']!='')
+			// {
+			// 	$config['upload_path'] = './assets/uploads/sections/icon/';
+			// 	$config['allowed_types'] = 'gif|jpg|png';
+			// 	// $config['max_size']	= '';
+			// 	// $config['max_width']  = '80';
+			// 	// $config['max_height']  = '80';
+			// 	$this->load->library('upload', $config);
 
-				if (! $this->upload->do_upload('icon'))
-				{
-					$this->session->set_flashdata('error_msg', $this->upload->display_errors());
-					redirect('sections/add');
-				}
-				else
-				{
-					$upload_data = $this->upload->data();			
-					$post_data['icon']=$upload_data['file_name'];
-					create_thumb($post_data['icon'], './assets/uploads/sections/icon/');
-				}
-			}
+			// 	if (! $this->upload->do_upload('icon'))
+			// 	{
+			// 		$this->session->set_flashdata('error_msg', $this->upload->display_errors());
+			// 		redirect('sections/add');
+			// 	}
+			// 	else
+			// 	{
+			// 		$upload_data = $this->upload->data();			
+			// 		$post_data['icon']=$upload_data['file_name'];
+			// 		create_thumb($post_data['icon'], './assets/uploads/sections/icon/');
+			// 	}
+			// }
 
 			if($_FILES['image']['name']!='')
 			{
@@ -143,28 +143,28 @@ class Sections extends CI_Controller {
 			        		'button_link'=>$_POST['button_link'],
 			            	);
 
-			if($_FILES['icon']['name']!='')
-			{
-				$config['upload_path'] = './assets/uploads/sections/icon/';
-				$config['allowed_types'] = 'gif|jpg|png';
-				// $config['max_size']	= '';
-				$config['max_width']  = '60';
-				$config['max_height']  = '60';
-				$this->load->library('upload', $config);
+			// if($_FILES['icon']['name']!='')
+			// {
+			// 	$config['upload_path'] = './assets/uploads/sections/icon/';
+			// 	$config['allowed_types'] = 'gif|jpg|png';
+			// 	// $config['max_size']	= '';
+			// 	$config['max_width']  = '60';
+			// 	$config['max_height']  = '60';
+			// 	$this->load->library('upload', $config);
 
-				if (! $this->upload->do_upload('icon'))
-				{
-					$this->session->set_flashdata('error_msg', $this->upload->display_errors());
-					redirect('sections/edit/'.$slug);
-				}
-				else
-				{
-					$upload_data = $this->upload->data();			
-					$post_data['icon']=$upload_data['file_name'];
-					create_thumb($post_data['icon'], './assets/uploads/sections/icon/');
-				    delete_image($data['sections']->icon,'./assets/uploads/sections/icon/');
-				}
-			}
+			// 	if (! $this->upload->do_upload('icon'))
+			// 	{
+			// 		$this->session->set_flashdata('error_msg', $this->upload->display_errors());
+			// 		redirect('sections/edit/'.$slug);
+			// 	}
+			// 	else
+			// 	{
+			// 		$upload_data = $this->upload->data();			
+			// 		$post_data['icon']=$upload_data['file_name'];
+			// 		create_thumb($post_data['icon'], './assets/uploads/sections/icon/');
+			// 	    delete_image($data['sections']->icon,'./assets/uploads/sections/icon/');
+			// 	}
+			// }
 
 			if($_FILES['image']['name']!='')
 			{

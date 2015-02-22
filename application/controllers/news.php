@@ -193,7 +193,7 @@ class News extends CI_Controller {
 
 				   $data['image']=$upload_data['file_name'];
 
-				   create_thumb($data['image'], './assets/uploads/news/');
+				   create_thumb($data['image'], './assets/uploads/news/',313,400);
 
 				}
 
@@ -285,7 +285,7 @@ class News extends CI_Controller {
 				   $upload_data = $this->upload->data();			
 				   // print_r($upload_data); die();
 				   $updatedata['image'] = $upload_data['file_name'];
-				   create_thumb($updatedata['image'], './assets/uploads/news/');
+				   create_thumb($updatedata['image'], './assets/uploads/news/',313,400);
 				}
 			}
 

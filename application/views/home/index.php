@@ -1,8 +1,4 @@
-<style>
-#trace{
-	margin-top:-70px !important; 
-}
-</style>
+
         <div class="carousel slide home-slider carousel-overlay tofade" id="carousel" data-ride="carousel">
             <?php  if ($slider): ?>
             <ol class="carousel-indicators">
@@ -87,12 +83,12 @@
         <div class="row prod-bl padder-cont " id="uno3">
             <div class="col-lg-8 col-lg-offset-2 tofade animated fadeInUp" style="opacity: 0;">
                 <div class="inner">
-                    <h3 class="page-title blackheading">
+                    <h3 class="page-title blackheading intro_heading">
 						<?php echo $intro_content->headline; ?>	                    	
                     </h3>
-                    <p><span>
+                    <span class="intro_sub_heading">
                 		<?php echo $intro_content->description; ?>    	
-                    </span></p>                    
+                    </span>                    
                 </div>
             </div>
         </div>
@@ -102,7 +98,7 @@
         <section class="row-1 padder-cont">
             <div class="row">
                <?php foreach($sections as $row): ?>
-                    <div class="col-sm-6">
+                    <div class="col-md-6">
                         <div  style="background: url('<?php echo base_url() ?>assets/uploads/sections/image/<?php echo $row->image ?>') no-repeat center center ;background-size:cover" class="half-block tofade bg_image">
                             <div class="inner p-90">
                                 <h3  class="call-to-action-heading page-title"  ><?php echo $row->heading ?></h3>
@@ -121,7 +117,7 @@
             <div class="row">
                 <div class="tofade animated fadeInUp" style="opacity: 0;">
                 <div class="inner">
-                    <h3 class="page-title blackheading">Find us on <br> social media</h3>
+                    <h3 class="social_heading page-title blackheading p10m">Find us on <br> social media</h3>
                     <?php  $social_links = get_row('social_links',array('id'=>1)); ?>
                 <ul class="socialmenu">
                     <li class="facebook">
@@ -142,12 +138,12 @@
             <div class="row">
                 <div class="col-lg-12 postsection">              
                 <?php if ($post): foreach ($post as $row) { ?>
-                    <div class="col-lg-3 col-md-3" style="background:url(<?php echo base_url() ?>assets/uploads/news/<?php echo $row->image; ?>); background-repeat:no-repeat; background-size:cover; background-position:center; " >
+                    <div class="col-lg-3 col-md-3" style="background:url(<?php echo base_url() ?>assets/uploads/news/thumbs/<?php echo $row->image; ?>); background-repeat:no-repeat; background-size:cover; background-position:center; " >
                     <div class="opdiv"></div>
-                    <p class="datep"><?php echo date('F d', strtotime($row->created)); ?></p>
-                    <h3 class="posth3"><?php echo word_limiter($row->title,3); ?></h3>
+                    <p class="datep news-date"><?php echo date('F d', strtotime($row->created)); ?></p>
+                    <h3 class="posth3 news-heading"><?php echo word_limiter($row->title,2); ?></h3>
                     <br>
-                    <a href="<?php echo base_url() ?>news/detail/<?php echo $row->slug; ?>" class="btn new-btn btn-light">VIEW POST</a>
+                    <a href="<?php echo base_url() ?>news/detail/<?php echo $row->slug; ?>" class="news-button-text btn new-btn btn-light">VIEW POST</a>
                     </div>                
                 <?php } endif;  ?>
             </div>
@@ -155,11 +151,7 @@
         </div>
 
 <style>
-.socialmenu{
-	margin: 0 auto !important; 
-	display:table !important;
-	padding-left: 0px !important;
-}
+
 @media(min-width:361px){
 	.socialmenu li:first-child a .icondiv{
 		margin-left: 0px !important;
@@ -268,38 +260,8 @@
 
     
 
-    @media(min-width: 320px) and (max-width: 480px){
-        .postsection .col-lg-3{
-            width: auto;
-            margin-left: 0px
-        }
 
-        .socialmenu li a .icondiv{
-            width: 40px;
-            height: 40px;
-            margin-top: 10px;
-        }
-    }
 
-    @media(min-width: 360px) and (max-width: 480px){
-        .postsection .col-lg-3{
-            width: auto;
-            margin-left: 0px;
-        }
-
-        .socialmenu li a .icondiv{
-            width: 40px;
-            height: 40px;
-            margin-top: 10px;
-        }
-    }
-
-    @media(min-width: 768px) and (max-width: 1024px){
-        .postsection .col-lg-3{
-            width: auto;
-            margin-left: 0px;
-        }
-    }
 
 
     .carousel-inner .item h3{
@@ -330,4 +292,84 @@
 .home-slider .carousel-caption h2{
     margin-top: 20px;
 }
+.socialmenu{
+	margin: 0 auto !important; 
+	display:table !important;
+	padding-left: 0px !important;
+}
+
 </style>
+
+<style type="text/css">
+    @media(min-width: 320px) and (max-width: 480px){
+        .postsection .col-lg-3{
+            width: auto;
+            margin-left: 0px
+        }
+        .socialmenu{
+        	padding-left:9px !important;
+        }
+        .social_heading{
+        	font-size: 30px !important;
+        }
+
+        .socialmenu li a .icondiv{
+            width: 58px;
+            height: 58px;
+            margin-top: 30px;
+        }
+        .intro_heading{
+        	font-size:25px !important;
+        }
+        .intro_sub_heading{
+        	font-size:15px !important;
+        }
+    }
+
+    @media(min-width: 360px) and (max-width: 640px){
+        .postsection .col-lg-3{
+            width: auto;
+            margin-left: 0px;
+        }
+
+        .socialmenu li a .icondiv{
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+        }
+        .intro_heading{
+        	font-size:25px !important;
+        }
+        .intro_sub_heading p span{
+        	font-size:15px !important;
+        }
+    }
+
+    @media(min-width: 768px) and (max-width: 1023px){
+        .postsection .col-lg-3{
+            width: auto;
+            margin-left: 0px;
+        }
+        .home-slider-subheading p span{
+        	font-size: 36px !important;
+        }
+    }
+
+    @media(min-width: 1024px){
+        .postsection .col-lg-3{
+            margin-top: 2%;
+        }
+        #trace{
+			margin-top:-80px !important; 
+		}
+    }
+
+    @media(max-width: 800px){
+        #trace{
+            margin-top: -100px !important;
+        }
+    }
+
+</style>
+
+

@@ -12,7 +12,7 @@
 			<?php echo alert(); ?>          
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h3>Catering Fonts <a href="<?php echo base_url() ?>fonts/reset/<?php echo $id ?>" class="btn btn-primary pull-right" onclick="return confirm('Are you sure?');"> Reset to default </a> </h3>
+					<h3>Change Home News Section Fonts <a href="<?php echo base_url() ?>fonts/reset/<?php echo $id ?>" class="btn btn-primary pull-right" onclick="return confirm('Are you sure?');"> Reset to default </a> </h3>
 						
 				</div>
 				<div class="row">              
@@ -22,7 +22,7 @@
 							<!-- First Start -->
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Heading font name</label>
+									<label for="">Heading font name</label>
 									<select name="f_body_id" class="form-control">
 										<option value="">Default</option>
 										<?php foreach ($google_fonts as $var) { ?>
@@ -34,7 +34,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Heading font size on web</label>
+									<label for="">Heading font size on web</label>
 									<select name="f_w_size" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -46,7 +46,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Heading font size on mobile</label>
+									<label for="">Heading font size on mobile</label>
 									<select name="f_m_size" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -58,7 +58,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Heading font size on tablet</label>
+									<label for="">Heading font size on tablet</label>
 									<select name="f_t_size" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -69,13 +69,13 @@
 							</div>
 
 							<div class="form-group">
-								<label for="">Partner Heading font color</label>
+								<label for="">Heading font color</label>
 								<input type="text" class="form-control color" name="f_color" value="<?php echo $row->f_color; ?>">
 							</div>
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Heading font weight</label>
+									<label for="">Heading font weight</label>
 									<select name="f_weight" class="form-control">
 										<option value="">Default</option>
 										<option value="<?php echo $row->f_weight ?>" selected="selected"><?php echo $row->f_weight ?></option>
@@ -85,7 +85,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Heading font line height</label>
+									<label for="">Heading font line height</label>
 									<select name="f_line_height" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -97,7 +97,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Heading font word spacing</label>
+									<label for="">Heading font word spacing</label>
 									<select name="f_word_spacing" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -109,7 +109,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Heading font letter spacing</label>
+									<label for="">Heading font letter spacing</label>
 									<select name="f_letter_spacing" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -148,7 +148,7 @@
 							<!-- Second Start -->
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Sub-heading font name</label>
+									<label for="">Date font name</label>
 									<select name="s_body_id" class="form-control">
 										<option value="">Default</option>
 										<?php foreach ($google_fonts as $var) { ?>
@@ -160,7 +160,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Sub-heading font size on web</label>
+									<label for="">Date font size on web</label>
 									<select name="s_w_size" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -172,7 +172,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Sub-heading font size on mobile</label>
+									<label for="">Date font size on mobile</label>
 									<select name="s_m_size" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -184,7 +184,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Sub-heading font size on tablet</label>
+									<label for="">Date font size on tablet</label>
 									<select name="s_t_size" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -195,13 +195,13 @@
 							</div>
 
 							<div class="form-group">
-								<label for="">Partner Sub-heading font color</label>
+								<label for="">Date font color</label>
 								<input type="text" class="form-control color" name="s_color" value="<?php echo $row->s_color; ?>">
 							</div>
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Sub-heading font weight</label>
+									<label for="">Date font weight</label>
 									<select name="s_weight" class="form-control">
 										<option value="">Default</option>
 										<option value="<?php echo $row->s_weight ?>" selected="selected"><?php echo $row->s_weight ?></option>
@@ -211,7 +211,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Sub-heading font line height</label>
+									<label for="">Date font line height</label>
 									<select name="s_line_height" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -223,7 +223,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Sub-heading font word spacing</label>
+									<label for="">Date font word spacing</label>
 									<select name="s_word_spacing" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -235,7 +235,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Partner Sub-heading font letter spacing</label>
+									<label for="">Date font letter spacing</label>
 									<select name="s_letter_spacing" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -269,10 +269,10 @@
 
 							<!-- Second End -->
 
-							<!-- Third Start -->
+							<!-- Button text Start -->
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header heading font name</label>
+									<label for="">Button text font name</label>
 									<select name="t_body_id" class="form-control">
 										<option value="">Default</option>
 										<?php foreach ($google_fonts as $var) { ?>
@@ -284,7 +284,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header heading font size on web</label>
+									<label for="">Button text font size on web</label>
 									<select name="t_w_size" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -296,7 +296,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header heading font size on mobile</label>
+									<label for="">Button text font size on mobile</label>
 									<select name="t_m_size" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -308,7 +308,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header heading font size on tablet</label>
+									<label for="">Button text font size on tablet</label>
 									<select name="t_t_size" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -319,13 +319,13 @@
 							</div>
 
 							<div class="form-group">
-								<label for="">Header heading font color</label>
+								<label for="">Button text font color</label>
 								<input type="text" class="form-control color" name="t_color" value="<?php echo $row->t_color; ?>">
 							</div>
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header heading font weight</label>
+									<label for="">Button text font weight</label>
 									<select name="t_weight" class="form-control">
 										<option value="">Default</option>
 										<option value="<?php echo $row->t_weight ?>" selected="selected"><?php echo $row->t_weight ?></option>
@@ -335,7 +335,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header heading font line height</label>
+									<label for="">Button text font line height</label>
 									<select name="t_line_height" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -347,7 +347,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header heading font word spacing</label>
+									<label for="">Button text font word spacing</label>
 									<select name="t_word_spacing" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -359,7 +359,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header heading font letter spacing</label>
+									<label for="">Button text font letter spacing</label>
 									<select name="t_letter_spacing" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -391,13 +391,15 @@
 								});
 							</script>
 
-							<!-- Third End -->
+							<!-- Button text End -->
 
-							
-							<!-- Fourth Start -->
+
+							<?php /*
+
+							<!-- Button text Start -->
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header Sub-heading font name</label>
+									<label for="">Button text font name</label>
 									<select name="fo_body_id" class="form-control">
 										<option value="">Default</option>
 										<?php foreach ($google_fonts as $var) { ?>
@@ -409,7 +411,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header Sub-heading font size on web</label>
+									<label for="">Button text font size on web</label>
 									<select name="fo_w_size" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -421,7 +423,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header Sub-heading font size on mobile</label>
+									<label for="">Button text font size on mobile</label>
 									<select name="fo_m_size" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -433,7 +435,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header Sub-heading font size on tablet</label>
+									<label for="">Button text font size on tablet</label>
 									<select name="fo_t_size" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -444,13 +446,13 @@
 							</div>
 
 							<div class="form-group">
-								<label for="">Header Sub-heading font color</label>
+								<label for="">Button text font color</label>
 								<input type="text" class="form-control color" name="fo_color" value="<?php echo $row->fo_color; ?>">
 							</div>
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header Sub-heading font weight</label>
+									<label for="">Button text font weight</label>
 									<select name="fo_weight" class="form-control">
 										<option value="">Default</option>
 										<option value="<?php echo $row->fo_weight ?>" selected="selected"><?php echo $row->fo_weight ?></option>
@@ -460,7 +462,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header Sub-heading font line height</label>
+									<label for="">Button text font line height</label>
 									<select name="fo_line_height" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -472,7 +474,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header Sub-heading font word spacing</label>
+									<label for="">Button text font word spacing</label>
 									<select name="fo_word_spacing" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -484,7 +486,7 @@
 
 							<div class="form-group">
 								<div class="selectbox">
-									<label for="">Header Sub-heading font letter spacing</label>
+									<label for="">Button text font letter spacing</label>
 									<select name="fo_letter_spacing" class="form-control">
 										<option value="">Default</option>
 										<?php for($i=1;$i<=200;$i++) { ?>
@@ -516,9 +518,9 @@
 								});
 							</script>
 
-							<!-- Fourth End -->
 
-							<?php /* // NO USE
+							<!-- Button text End -->
+
 
 							<!-- Fifth Start -->
 							<div class="form-group">

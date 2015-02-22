@@ -92,7 +92,7 @@
                   </div>
 
                   <!-- Only For Team Page -->
-                  <?php if($header_content->slug=="team" || $header_content->slug=="catering_partners" ||$header_content->slug=="catering"): ?>
+                  <?php if($header_content->slug=="team" || $header_content->slug=="catering_partners" ): ?>
                       <div class="form-group">
 
                           <label for="">Mid Section Heading</label>

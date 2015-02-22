@@ -257,7 +257,8 @@ h3.call-to-action-heading{
                     </button>
 			    </div>
 			    <div  class="navbar-collapse collapse" id="navbar">
-                    <ul id="main-nav" class="nav navbar-nav">
+                    <ul id="main-nav" class="nav navbar-nav">                        
+                        <li id="mhome" style="display:none"><a href="<?php echo base_url(); ?>"><span >Home</span></a></li>
                         <li ><a href="<?php echo base_url(); ?>about"><span >About</span></a></li>
                         <li ><a href="<?php echo base_url(); ?>space"><span >Space</span></a></li>
                         <li ><a href="<?php echo base_url(); ?>downloadfloorplan"><span >Floor Plans</span></a></li>

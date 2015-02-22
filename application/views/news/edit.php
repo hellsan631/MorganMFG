@@ -119,7 +119,7 @@
 
                     <?php if (!empty($news->image)): ?><br>
 
-                        <img src="<?php echo base_url() ?>assets/uploads/news/<?php echo $news->image; ?>" width='100'>
+                        <img src="<?php echo base_url() ?>assets/uploads/news/thumbs/<?php echo $news->image; ?>" width='100'>
 
                     <?php endif ?>
 

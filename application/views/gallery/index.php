@@ -19,7 +19,7 @@
 
         <?php */ ?>
 
-          <div class="carousel slide home-slider carousel-overlay tofade" id="carousel" data-ride="carousel">
+          <div class="carousel slide home-slider gallery-slider carousel-overlay tofade gall" id="carousel" data-ride="carousel">
             <?php  if ($gallery): ?>
             <!-- <ol class="carousel-indicators">
             <?php $i=0; foreach ($gallery as $key): if($i==0){ ?>
@@ -34,7 +34,7 @@
             <?php $j = 0; foreach ($gallery as $row): ?>            
                         <div class="item <?php if($j==0){ echo 'active'; } ?> slide<?php echo $j; ?> " style="background:url('<?php echo base_url() ?>assets/uploads/gallery/<?php echo $row->image ?>') no-repeat center center ;background-size:cover">                        
                             <div class="carousel-caption">
-                                <h2 class="dynamic_image_heading" style="margin-top:0"><?php echo $row->name; ?></h2>
+                                <h2 class="dynamic_image_headings" style="margin-top:0"><?php echo $row->name; ?></h2>
                                 <?php  $gallery_images = get_gallery_images($row->id); ?>
                                 <?php $i=1; if ($gallery_images): foreach($gallery_images as $gimage){ ?>     
                                <?php /* 
@@ -49,7 +49,7 @@
                                     
                                 <?php $i++; } endif;  ?>
                             </div>                        
-                        </div>    
+                        </div>  
             <?php $j++; endforeach; //die(); ?>
                 </div>
             <?php endif;  ?>
@@ -149,6 +149,7 @@
 
     .carousel-control.right, .carousel-control.left{
         background-image: none;
+        text-align: inherit;
     }
 </style>
 <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/fresco/css/fresco.css" />
@@ -160,4 +161,61 @@
             $("canvas").css('bottom', '-100px');
         },10);
     });
+</script>
+
+<style type="text/css">
+
+	@media screen and (min-width:768px) and (max-width:1024px){
+
+		.dynamic_image_headings{
+			font-size: 45px !important;
+		}
+
+
+	}
+
+	@media screen and (min-width:320px) and (max-width:480px){
+
+		.dynamic_image_headings{
+			font-size: 24px !important;
+		}
+
+
+	}
+
+/*	.home-slider .carousel-caption{
+		top:0;
+	}*/
+
+
+
+
+</style>
+
+<script type="text/javascript">
+ $(window).load(function(){
+   headingbottomalign();
+ });
+
+ $(window).resize(function(){
+    headingbottomalign();
+ });
+
+ function headingbottomalign(){
+ 	var width = $(window).width();
+	if(width>769){
+		nav_height = 90;
+	}else{
+		nav_height = 50;
+	}
+
+	var full_height = $('.gall').height()-nav_height;
+   
+   var margin_top = (full_height*0.89);
+   // var remain_top = (full_height*1)/4;
+   // var text_height = $('.dynamic_image_headings').height();
+   var position_top = margin_top; 
+   $('.carousel-caption').css('top',position_top);
+    // alert(margin_top);
+  }
 </script>

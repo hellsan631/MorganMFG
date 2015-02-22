@@ -2,7 +2,7 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>assets/theme/service/newstyle.css" media="screen, projection">-->
     
     
-    <section class="white-bg services">
+    <section  class="white-bg services padding_adjust">
         <?php if ($space): $i = 1; ?>
             <div class="row">
                 <?php foreach ($space as $row): ?>

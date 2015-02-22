@@ -15,7 +15,7 @@
                
                   <div class="form-group">
                     <label for="exampleInputEmail1">Name</label> 
-                    <input required type="text" class="form-control" name="name" id="" value="<?php echo $gallery->name ?>" placeholder="Enter Gallery name">
+                    <input  type="text" class="form-control" name="name" id="" value="<?php echo $gallery->name ?>" placeholder="">
                     <span class="error"><?php echo form_error('name'); ?></span>
                   </div>                 
 
@@ -23,11 +23,24 @@
                     <label for="exampleInputEmail1">Image</label> 
                     <br><small>* Required Size : 640 x 412</small> 
                     <input  type="file" name="image" id="">
-                    <span class="error"><?php //echo form_error('name'); ?></span>
-                    <br>
-                  <img style="width:100px;height:100px" src="<?php echo base_url() ?>assets/uploads/gallery/<?php echo $gallery->image ?>">
+                    <span class="error"><?php echo form_error('image'); ?></span>
+                    <?php if($gallery->image): ?>
+					<br>
+					<img style="width:100px;height:100px" src="<?php echo base_url() ?>assets/uploads/gallery/<?php echo $gallery->image ?>">
+					<br> 
+					<br> 
+					<?php echo $gallery->image ?>
+					<br>
+                    <?php endif; ?>
+                    
+                  </div> 
+
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Order</label> 
+                    <input type="text" class="form-control" name="order" id="" value="<?php echo $gallery->order ?>" placeholder="">
+                    <span class="error"><?php echo form_error('order'); ?></span>
                   </div>                 
-          
+
                   
                   <br>
                   <input type="submit" class="btn btn-primary" value="Edit">

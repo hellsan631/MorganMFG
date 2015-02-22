@@ -154,6 +154,11 @@ class Catering extends CI_Controller {
 			echo "No File Found. it may be removed.";
 			return false;
 		}
+
+		if(!file_exists($path='./assets/download/'.$file)){
+			redirect('home');
+		}
+
 		downloadFile($file, $path='./assets/download/', "MorganMFGfloorplan.pdf");
     }
 

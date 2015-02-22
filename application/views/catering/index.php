@@ -1,12 +1,24 @@
           <?php $header_profile = get_row('header_content',array('slug'=>'catering')); ?>
        <?php if(!empty($header_profile->image)): ?>
-         <div class="page-heading tofade parallax" style="background-image: url('<?php echo base_url() ?>assets/uploads/header/<?php echo $header_profile->image ?>'); ">
+         <div class="page-heading abtpg-heading tofade parallax" style="background-image: url('<?php echo base_url() ?>assets/uploads/header/<?php echo $header_profile->image ?>'); ">
        <?php else: ?>
-        <div class="page-heading tofade parallax" style="background-image: url('<?php echo base_url() ?>assets/theme/img/header-1.jpg'); ">
+        <div class="page-heading abtpg-heading tofade parallax" style="background-image: url('<?php echo base_url() ?>assets/theme/img/header-1.jpg'); ">
      <?php endif; ?>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-lg-12 text-center cateringhead">
+                   
+                        <h3 class="page-title">
+                            <?php if(!empty($header_profile->heading)){ ?>
+                            <?php echo $header_profile->heading; ?>
+                            <?php } ?>
+                        </h3>
+                        
+                        <?php if(!empty($header_profile->content)): ?>
+                          <p class="headp"> <?php echo $header_profile->content ?></p>
+                        <?php endif; ?>
+
+                      <?php /*
                         <h2>
                             <?php if(!empty($header_profile->heading)){ ?>
                             <small><?php echo $header_profile->heading;?></small>
@@ -15,6 +27,9 @@
                            <?php echo strtoupper($header_profile->content) ?>
                         <?php endif; ?>
                         </h2>
+                        */
+                         ?>
+
                     </div>
                 </div>
             </div>
@@ -22,6 +37,8 @@
 
         
                 
+
+                <?php /* 
                 <div class="row prod-bl padder-cont hero" id="uno1">
                     <div class="col-lg-8 col-lg-offset-2 tofade animated flipInY" style="opacity: 0;">
                         <div class="inner">
@@ -51,6 +68,11 @@
                     </div>
                 </div>
 
+                */ ?> 
+
+
+
+
                 <style type="text/css">
                     a.incididunta {
                         background: #fff;
@@ -70,6 +92,15 @@
                     	margin: 0px -4px;
                         background-size: initial;
                     }
+				    .cateringhead{
+				        padding-left: 10%;
+				        padding-right: 10%;
+				    }    
+
+				    .cateringhead h3{
+				        padding-top: 133px !important;
+				    }    
+
                 </style>
 
                 

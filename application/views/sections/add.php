@@ -99,17 +99,17 @@
 
 
 
-                  <div class="form-group">
+                 <!--  <div class="form-group">
 
                     <label for="exampleInputFile">Icon 
-<!--                     <span style="font-weight:lighter">(size:60x60)</span >
- -->                    </label>
+                    <span style="font-weight:lighter">(size:60x60)</span >
+                    </label>
 
                     <input type="file" name="icon" id="exampleInputFile">
 
                    <span class="error"><?php echo form_error('icon'); ?></span>
 
-                  </div>
+                  </div> -->
 
 
                   <div class="form-group">

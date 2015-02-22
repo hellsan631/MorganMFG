@@ -48,7 +48,6 @@ class Newsletter extends CI_Controller {
 				                'FNAME'=>$first, 
 				                'LNAME'=>$last
 				                    ); */
-				// $email = 'awais@acapellaglobal.com';				
 				$this->load->library('MCAPI', $config, 'mail_chimp');
 				$res = $this->mail_chimp->listSubscribe($list_id, $email);
 			}
@@ -74,7 +73,6 @@ class Newsletter extends CI_Controller {
 				                'FNAME'=>$first, 
 				                'LNAME'=>$last
 				                    ); */
-				// $email = 'awais@acapellaglobal.com';				
 				$this->load->library('MCAPI', $config, 'mail_chimp');
 				$res = $this->mail_chimp->listSubscribe($list_id, $email);
 

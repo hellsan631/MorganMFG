@@ -1,8 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
 .team-list .half-block .inner h1 a {
+	font-family: 'Josefin Sans' !important;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+.team-list .half-block .inner p {
+	font-family: 'Josefin Sans' !important;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+.cateringhead h3 {
+	font-family: 'Josefin Sans' !important;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+.cateringhead p {
+	font-family: 'Josefin Sans' !important;
+}
+
+.team-list .half-block .inner h1 a {
+	font-size:27px !important;
 	color:#FFFFFF !important;
+	font-weight:700 !important;
+	line-height:27px !important;
 }
 
 .team-list .half-block .inner p {
+	font-size:22px !important;
 	color:#FFFFFF !important;
+	font-weight:normal !important;
+	line-height:27px !important;
 }
+
+.cateringhead h3 {
+	font-size:48px !important;
+	color:#FFFFFF !important;
+	font-weight:normal !important;
+	line-height:36px !important;
+}
+
+@media(min-width:320px) and (max-width:480px){
+.cateringhead h3{
+	font-size:24px !important;
+}}
+
+@media(min-device-width:768px) and (max-device-width:1024px){
+.cateringhead h3{
+	font-size:36px !important;
+}}
+
+.cateringhead p {
+	font-size:18px !important;
+	color:#FFFFFF !important;
+	font-weight:normal !important;
+}
+
+@media(min-width:320px) and (max-width:480px){
+.cateringhead p{
+	font-size:16px !important;
+}}
+
+@media(min-device-width:768px) and (max-device-width:1024px){
+.cateringhead p{
+	font-size:24px !important;
+}}
 

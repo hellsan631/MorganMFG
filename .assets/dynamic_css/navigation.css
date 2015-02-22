@@ -1,5 +1,1 @@
-.navbar-statica, .navbar-statica .navbar-nav li a, .navbar-scroll .navbar-nav li a {
-	font-size:13px !important;
-	color:#FFFFFF !important;
-}
-
+.navbar-scroll .navbar-nav li a,.navbar-statica,.navbar-statica .navbar-nav li a{font-size:13px!important;color:#FFF!important}

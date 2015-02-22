@@ -1,16 +1,17 @@
 .home-slider-heading {
-	color:#FFFFFF;
+	color:#FFFFFF !important;
 }
 
 .home-slider-subheading {
-	color:#FFFFFF;
+	color:#FFFFFF !important;
 }
 
 .home-slider-content {
-	color:#FFFFFF;
+	font-size:18px !important;
+	color:#FFFFFF !important;
 }
 
 .home-slider-button {
-	color:#FFFFFF;
+	color:#FFFFFF !important;
 }
 

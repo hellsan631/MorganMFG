@@ -11,7 +11,7 @@
             {
               expand: true,
               cwd: '.assets/',
-              src: ['**/*.{png,jpg,gif}', '**/**/*.{png,jpg,gif}', '**/**/**/*.{png,jpg,gif}'],
+              src: ['**/*.{png,jpg,gif}', '**/**/*.{png,jpg,gif}', '**/**/**/*.{png,jpg,gif}', '**/**/**/**/*.{png,jpg,gif}', '**/**/**/**/**/*.{png,jpg,gif}'],
               dest: 'assets/'
             }
           ]
@@ -29,7 +29,7 @@
             {
               expand: true,
               cwd: '.assets/',
-              src: ['*.js', '!*.min.js', '**/*.js', '!**/*.min.js', '**/**/*.js', '!**/**/*.min.js', '**/**/**/*.js', '!**/**/**/*.min.js'],
+              src: ['*.js', '!*.min.js', '**/*.js', '!**/*.min.js', '**/**/*.js', '!**/**/*.min.js', '**/**/**/*.js', '!**/**/**/*.min.js', '**/**/**/**/*.js', '!**/**/**/**/*.min.js', '**/**/**/**/**/*.js', '!**/**/**/**/**/*.min.js'],
               dest: 'assets/'
             }
           ]
@@ -47,7 +47,7 @@
             {
               expand: true,
               cwd: '.assets/',
-              src: ['*.css', '!*.min.css', '**/*.css', '!**/*.min.css', '**/**/*.css', '!**/**/*.min.css', '**/**/**/*.css', '!**/**/**/*.min.css'],
+              src: ['*.css', '!*.min.css', '**/*.css', '!**/*.min.css', '**/**/*.css', '!**/**/*.min.css', '**/**/**/*.css', '!**/**/**/*.min.css', '**/**/**/**/*.css', '!**/**/**/**/*.min.css', '**/**/**/**/**/*.css', '!**/**/**/**/**/*.min.css'],
               dest: 'assets/'
             }
           ]

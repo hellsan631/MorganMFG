@@ -2,19 +2,19 @@
 
 @import 'social_sprite.css';
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,900);
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
 
 @font-face {
 	font-family: 'Josefin Sans', sans-serif;
-	src:url('../fonts/brandon-grotesque/brandon_bld.otf');
+	/*src:url('../fonts/brandon-grotesque/brandon_bld.otf');*/
 	font-weight:normal;
 	font-style:normal
 }
 
 @font-face {
 	font-family:'brandon_grotesqueblack';
-	src:url('../fonts/brandon-grotesque/brandon_bld.otf');
+	/*src:url('../fonts/brandon-grotesque/brandon_bld.otf');*/
 	font-weight:normal;
 	font-style:normal
 }
@@ -44,6 +44,8 @@
     font-style: normal;
 
 }
+
+
 
 .pace {
 	-webkit-pointer-events:none;
@@ -260,10 +262,10 @@ strong {
 }
 
 a {
-    -webkit-transition: all 0.15s ease-in-out;
-    -moz-transition: all 0.15s ease-in-out;
-    -o-transition: all 0.15s ease-in-out);
-    transition: all 0.15s ease-in-out;
+	transition-property:color;
+	transition-duration:.1s;
+	-webkit-transition-property:color;
+	-webkit-transition-duration:.1s;
 	color:#9e6335;
 	outline:none
 }
@@ -378,7 +380,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	color: #5f3827;
 	font-size: 45px;
 	font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto' sans-serif;
 	border-bottom: 1px solid #5f3827;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
@@ -388,15 +390,15 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 #team-detail h3 {
 	color: #5f3827;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto' sans-serif;
 	margin-top: 0;
 	font-size: 26px;
 }
 
 #team-detail p {
 	color: #5f3827;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+	font-family: 'Roboto' sans-serif;
+	font-size: 20px;	
 	margin-bottom: 20px;
 	line-height: 35px;
 	text-align: left;
@@ -409,7 +411,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	border: 2px solid #5f3827;
 	border-radius: 2px;
 	color: #5f3827;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto' sans-serif;
 	font-weight: 700;
 	text-shadow:none;
 	font-size: 16px;
@@ -422,15 +424,11 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 #team-detail .carousel-control:hover {
 	color: #fff;
 	background: #5f3827;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition:  all 0.25s ease-in-out;
-    -o-transition:  all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;
 }
 
 #team-detail a.back {
 	font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto' sans-serif;
 	font-weight: 700;
 	text-decoration: none;
 	padding: 8px 27px;
@@ -443,11 +441,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 #team-detail a.back:hover {
 	background: #fff;
-	color: #5f3827;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition:  all 0.25s ease-in-out;
-    -o-transition:  all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;
+	color: #5f3827;	
 }
 
 #team-detail .carousel-inner {
@@ -455,13 +449,13 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 #team-detail .item p + a {
-	padding: 8px 27px;
+	padding: 8px 27px;	
 	background: #5f3827;
 	color: #fff;
 	border-radius: 2px;
 	display: inline-block;
 	font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto' sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -485,13 +479,13 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .incididunt h1 {
 	margin-top: 0;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto' sans-serif;
 	font-size: 36px;
 	color: #fff;
 }
 
 .incididunt h2 {
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto' sans-serif;
 	font-size: 26px;
 	color: #fff;
 }
@@ -503,7 +497,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	border-radius: 2px;
 	display: inline-block;
 	padding: 10px 0;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto' sans-serif;
 	font-size: 16px;
 	margin-top: 15px;
 	text-transform: uppercase;
@@ -528,13 +522,13 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	bottom: 0;
 	background: rgba(66,53,61,.9);
 	opacity: 0;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition:  all 0.25s ease-in-out;
-    -o-transition:  all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
 }
 
-.team-list .half-block:hover .inner {opacity: 1}
+.team-list .half-block:hover .inner {opacity: 1} 
 
 #team1.half-block {background-image: url(../img/tean-l1.jpg);}
 
@@ -562,7 +556,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .team-list .half-block .inner h1 {
 	color: #fff;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto' sans-serif;
 	font-weight: 300;
 	font-size: 28px;
 }
@@ -577,7 +571,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	color: #fff;
 	margin-top: 10px;
 	padding: 0;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto' sans-serif;
 	font-weight: normal;
 }
 
@@ -616,7 +610,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .btn-light:hover,.btn-light:focus,.btn-light:active,.btn-light .active {
-	color:#555;
+	color:#555 !important;
 	background-color:#fff;
 	border-color:#fff
 }
@@ -646,7 +640,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	font-weight:normal;
 	letter-spacing:2px;
 	line-height:1;
-	border-bottom:2px solid #744430;
+	/*border-bottom:2px solid #744430;*/
 	background:#1b171c
 }
 
@@ -751,28 +745,16 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .navbar-scroll .navbar-nav .active a,.navbar-scroll .navbar-nav .active a:hover,.navbar-scroll .navbar-nav .active a:focus {
 	background:transparent;
-	color:#fff;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition:  all 0.25s ease-in-out;
-    -o-transition:  all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;
+	color:#fff
 }
 
 .navbar-scroll .navbar-nav .active a .line,.navbar-scroll .navbar-nav .active a:hover .line,.navbar-scroll .navbar-nav .active a:focus .line {
-	border-bottom:2px solid #fff;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition:  all 0.25s ease-in-out;
-    -o-transition:  all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;
+	border-bottom:2px solid #fff
 }
 
 .navbar-scroll .navbar-nav .open > a,.navbar-scroll .navbar-nav .open > a:hover,.navbar-scroll .navbar-nav .open > a:focus {
 	background-color:transparent;
-	color:#fff;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition:  all 0.25s ease-in-out;
-    -o-transition:  all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;
+	color:#fff
 }
 
 .navbar-scroll .navbar-brand {
@@ -797,11 +779,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .navbar-scroll .dropdown .dropdown-menu li.active a .line {
-	border-bottom:2px solid #fff;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition:  all 0.25s ease-in-out;
-    -o-transition:  all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;
+	border-bottom:2px solid #fff
 }
 
 .navbar-scroll .dropdown.open .dropdown-menu,.navbar-scroll .dropdown:hover .dropdown-menu,.navbar-scroll .dropdown:focus .dropdown-menu {
@@ -814,7 +792,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	-webkit-box-shadow:none;
 	box-shadow:none;
 	border:2px solid #fff;
-	padding:15px;
+	padding:15px
 }
 
 .navbar-scroll .dropdown.open .dropdown-menu a,.navbar-scroll .dropdown:hover .dropdown-menu a,.navbar-scroll .dropdown:focus .dropdown-menu a {
@@ -851,7 +829,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	z-index:100;
 	border:0;
 	background:transparent;
-
+	
 	height:220px;
 	border-radius: 0;
 	border-bottom: solid 1px #FFF;
@@ -1055,7 +1033,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .page-heading h2 {
-    font-family: 'Roboto', sans-serif;
+	font-family:'Roboto' sans-serif;
 	font-weight:normal;
 	color:#fff;
 	text-transform:uppercase;
@@ -1120,12 +1098,12 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .blog-list ul li .info span {
 	color: #744430;
-	ffont-family: 'Roboto', sans-serif;
+	font-family: 'Roboto';
 	font-size: 19px;
 }
 
 .blog-list ul li .info h1, .blog-detail h1 {
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto';
 	font-weight: 300;
 	color: #1b171c;
 	font-size: 35px;
@@ -1142,7 +1120,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .blog-list ul li .info p {
 	color: #744430;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto';
 	font-weight: 300;
 	font-size: 20px;
 	line-height: 26px;
@@ -1150,7 +1128,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .blog-detail h2 {
 	color: #1b171c;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto';
 	font-weight: 300;
 	font-size: 25px;
 	line-height: 30px;
@@ -1158,11 +1136,11 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 
 .blog-detail p {
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto';
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 26px;
-	color: #1b171c;
+	color: #1b171c;	
 	margin-bottom: 35px;
 }
 
@@ -1177,7 +1155,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	color: #744430;
 	text-decoration: none;
 	text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto';
 	font-weight: 700;
 	font-size: 14px;
 	padding: 15px 40px;
@@ -1201,7 +1179,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	border-bottom: 1px solid #744430;
 	color: #744430;
 	display: block;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto';
 	font-weight: 300;
 	font-size: 20px;
 	padding: 10px 0;
@@ -1219,7 +1197,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
 .autor span {
 	color: #744430;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto';
 	font-size: 14px;
 	margin-bottom: 25px;
 	display: inline-block;
@@ -1236,7 +1214,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 .autor a {
 	text-decoration: none;
 	color: #1b171c;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto';
 	font-weight: 300;
 	font-size: 18px;
 }
@@ -1299,7 +1277,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 	transition-property:all;
 	transition-duration:.2s;
 	-webkit-transition-property:all;
-	-webkit-transition-duration:.2s;
+	-webkit-transition-duration:.2s
 }
 
 .home-slider .carousel-indicators li.active {
@@ -1888,7 +1866,7 @@ footer#footer .qtrans_language_chooser .active {
 		padding:30px 0
 	}
 
-	#team-detail .carousel-control, #team-detail a.back {
+	#team-detail .gall .carousel-control, #team-detail a.back {
 		padding: 8px 21px;
 	}
 
@@ -1952,7 +1930,7 @@ footer#footer .qtrans_language_chooser .active {
 }
 
 .services {padding-top: 140px;}
-
+ 
 .services .serv-bl {
     width: 33%;
     float: left;
@@ -1961,13 +1939,13 @@ footer#footer .qtrans_language_chooser .active {
     -o-transition: all 0.15s ease-out;
     transition: all 0.15s ease-out;
 }
-
+ 
 .services .row:hover .serv-bl {width: 30%;}
-
+ 
 .services .row:hover .serv-bl:hover {width: 40%;}
-
+ 
 .services .half-block {margin: 0;}
-
+ 
 .services .serv-bl .text {
     display: table-cell;
     font-size: 30px;
@@ -1984,27 +1962,27 @@ footer#footer .qtrans_language_chooser .active {
     /*font-family: 'brandon_grotesquebold';*/
     font-family: 'Josefin Sans', sans-serif;
 }
-
+ 
 .services .inner {
     display: table;
     width: 100%;
 }
-
+ 
 .services .half-block .inner:hover {background: transparent;}
-
+ 
 .services .serv-bl {text-decoration: none;}
-
+ 
 .serv-page .navbar-statica {
     background: #1b171c;
     border-bottom: solid 2px #744430;
     height: 140px !important;
 }
-
+ 
 .serv-page .navbar-statica .navbar-brand {
     margin-top: 0;
     padding-top: 10px;
 }
-
+ 
 .serv-page .navbar-statica .navbar-nav {margin-top: 75px;}
 
 .navbar-nav > li > a{
@@ -2057,10 +2035,7 @@ nav#block-navigation{
 }
 
 #tour_btn button{
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 7px;
-    padding-bottom: 6px;
+    padding: 7px 12px
 }
 
 .blog-list ul{
@@ -2121,3 +2096,113 @@ nav#block-navigation{
 }
 
 /*Written for brown overlay */
+
+
+/******************************responsive*********************************/
+
+.dynamic_image_heading{
+   margin-top: 57px !important;
+}
+
+@media screen and (min-width:1024px) and (max-width:1300px) {
+
+		.dynamic_image_heading{
+           margin-top: 115px !important;
+		}
+}
+
+@media screen and (min-width:851px) and (max-width:1024px) {
+		.gall .carousel-control.left img ,.gall .carousel-control.right img {
+			width:20px !important;
+			height:33px !important;
+		
+		}
+		.dynamic_image_heading{
+           margin-top: 187px !important;
+		}
+}
+
+@media screen and (min-width:769px ) and (max-width:850px ) {
+		.gall .carousel-control.left img ,.gall .carousel-control.right img {
+			width:20px !important;
+			height:33px !important;
+		
+		}
+		.dynamic_image_heading{
+           margin-top: 188px !important;
+		}
+
+}
+@media screen and (min-width:600px ) and (max-width:768px ) {
+		.gall .carousel-control.left img ,.gall .carousel-control.right img {
+			width:20px !important;
+			height:33px !important;
+		
+		}
+		.dynamic_image_heading{
+           margin-top: 145px !important;
+		}
+
+}
+
+
+@media screen and (min-width:460px) and (max-width:659px){
+
+		.home-slider .item, .home-slider .item.active{
+			background-repeat:repeat !important;
+			background-size:contain !important;
+			background-position:unset !important;
+		}
+		.gall .carousel-control.left img ,.gall .carousel-control.right img {
+			width:15px !important;
+			height:25px !important;
+		}
+		.dynamic_image_heading{
+			font-size: 40px !important;
+           margin-top: 117px !important;
+		}
+
+
+}
+
+@media screen and (max-width:459px){
+
+		.home-slider .item, .home-slider .item.active{
+			background-repeat:repeat !important;
+			background-size:contain !important;
+			background-position:unset !important;
+		}
+		.gall .carousel-control.left img ,.gall .carousel-control.right img {
+			width:15px !important;
+			height:25px !important;
+		}
+		.dynamic_image_heading{
+           margin-top: 135px !important;
+		}
+
+}
+
+.gall .carousel-control.left{
+    left:6%;
+}
+.gall .carousel-control.right{
+    right:-6%;
+}
+
+@media (max-width:1024px) {
+
+	#navbar li a {
+		font-size:12px !important;
+	}
+
+	.navbar-nav > li > a{
+		 padding: 5px 10px !important;
+	}
+
+@media (max-width:800px) {
+
+	#navbar li a {
+		font-size:10px !important;
+	}
+
+

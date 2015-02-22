@@ -2,7 +2,17 @@ h3.call-to-action-heading {
 	color:#FFFFFF !important;
 }
 
+@media(min-width:320px) and (max-width:480px){
+h3.call-to-action-heading{
+	font-size:20px !important;
+}}
+
 .call-to-action-subheading {
 	color:#FFFFFF !important;
 }
+
+@media(min-width:320px) and (max-width:480px){
+.call-to-action-subheading{
+	font-size:13px !important;
+}}
 

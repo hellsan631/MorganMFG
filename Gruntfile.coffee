@@ -17,6 +17,8 @@ module.exports = (grunt)->
             '**/*.{png,jpg,gif}',
             '**/**/*.{png,jpg,gif}',
             '**/**/**/*.{png,jpg,gif}'
+            '**/**/**/**/*.{png,jpg,gif}'
+            '**/**/**/**/**/*.{png,jpg,gif}'
           ]
           dest: 'assets/'
         ]
@@ -35,6 +37,8 @@ module.exports = (grunt)->
             '**/*.js', '!**/*.min.js',
             '**/**/*.js', '!**/**/*.min.js',
             '**/**/**/*.js', '!**/**/**/*.min.js'
+            '**/**/**/**/*.js', '!**/**/**/**/*.min.js'
+            '**/**/**/**/**/*.js', '!**/**/**/**/**/*.min.js'
           ]
           dest: 'assets/'
         ]
@@ -54,6 +58,8 @@ module.exports = (grunt)->
                 '**/*.css', '!**/*.min.css',
                 '**/**/*.css', '!**/**/*.min.css',
                 '**/**/**/*.css', '!**/**/**/*.min.css'
+                '**/**/**/**/*.css', '!**/**/**/**/*.min.css'
+                '**/**/**/**/**/*.css', '!**/**/**/**/**/*.min.css'
               ]
               dest: 'assets/'
             ]
